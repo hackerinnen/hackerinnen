@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<section class="hero is-primary is-medium is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-size-1">
+        {{ i18n "teaser" }}
+      </h1>
+      <h2 class="subtitle">
+        {{ i18n "teaser-sub" }}
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section">
+    <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>
+    <ul>
+    {{ range first 2 .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        </li>
+    {{ end }}
+    </ul>
+</section>
+{{ end }}

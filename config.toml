@@ -1,0 +1,21 @@
+baseURL = "https://www.hackerinnen.space/"
+languageCode = "en-us"
+title = "hackerinnen.space"
+
+DefaultContentLanguage = "de"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    description = "Female hackers of all places, show yourselves! - An encouraging project."
+
+[params]
+  description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
+  twitter_handle = "HackerinnenSpace"
+
+[taxonomies]
+  tag = "spaces"

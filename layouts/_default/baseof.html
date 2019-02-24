@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        
+        {{- block "main" . }}{{- end }}
+       
+        {{- partial "footer.html" . -}}
+    <script type="text/javascript" src="/js/hackerinnen.js"></script>
+    </body>
+</html>

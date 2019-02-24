@@ -1,0 +1,27 @@
+<header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">hackerinnen.space</a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/hackerinnen">{{ i18n "hackerinnen" }}</a>
+          <a class="navbar-item" href="/spaces">Spaces</a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item">{{ i18n "zeigdich" }}</a>
+          {{ if .IsTranslated }}
+            {{ range .Translations }}
+                <a class="navbar-item langSwitch"href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end}}
+          {{ end }}
+        </div>
+      </div>
+    </nav>
+</header>
