@@ -18,4 +18,4 @@ DefaultContentLanguage = "de"
   twitter_handle = "HackerinnenSpace"
 
 [taxonomies]
-  tag = "spaces"
+  tag = "tags"
