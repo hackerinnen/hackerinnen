@@ -15,7 +15,7 @@
           <a class="navbar-item" href={{ "spaces/" | relLangURL }}>Spaces</a>
         </div>
         <div class="navbar-end">
-          <a class="navbar-item">{{ i18n "zeigdich" }}</a>
+          <a class="navbar-item" href={{ "zeigdich/" | relLangURL }}>{{ i18n "zeigdich" }}</a>
           {{ if .IsTranslated }}
             {{ range .Translations }}
                 <a class="navbar-item langSwitch"href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
