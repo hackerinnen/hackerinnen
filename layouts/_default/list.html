@@ -1,14 +1,11 @@
 {{ define "main" }}
-
     <section class="section">
         <h1 class="title">{{.Title}}</h1>
-        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
         {{.Content}}
         <ul>
-        <!-- Ranges through content/posts/*.md -->
         {{ range .Pages }}
             <li>
-                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+                <a href="{{.Permalink}}">{{.Title}}</a>
             </li>
         {{ end }}
         </ul>
