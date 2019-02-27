@@ -15,7 +15,7 @@
 <section class="section">
     <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>
     <ul>
-    {{ range first 2 .Pages }}
+    {{ range first 3 (where .Pages "Section" "hackerinnen") }}
         <li>
             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
         </li>
