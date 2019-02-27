@@ -1,19 +1,8 @@
 {{ define "main" }}
-<section id="main">
-  <h1 id="title">{{ .Title }}</h1>
+<section class="section">
+  <h1 class="title">{{ .Title }}</h1>
   <div>
-      <article id="content">
-        {{ .Content }}
-      </article>
+     {{ .Content }}
   </div>
-  <div>
-      <h2>Mehr Hackerinnen aus {{ .Parent.Title }}</h2>
-      {{ with .PrevInSection }}
-        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-      {{ end }}
-      {{ with .NextInSection }}
-        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-      {{ end }}
-    </div>
 </section>
 {{ end }}
