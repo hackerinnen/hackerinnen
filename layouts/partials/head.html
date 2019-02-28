@@ -1,9 +1,9 @@
 <meta name="description" content="{{ .Param "description" }}">
 <meta name="twitter:site" content="{{ .Param "twitter_handle" }}">
 {{ if .IsTranslated }}
-    {{ range .AllTranslations }}
+  {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-    {{ end }}
+  {{ end }}
 {{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/bulma.min.css">

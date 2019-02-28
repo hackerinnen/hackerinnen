@@ -14,12 +14,13 @@
 </section>
 <section class="section">
     <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>
-    <ul>
+
     {{ range first 3 (where .Pages "Section" "spaces") }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-        </li>
+      {{ range .Resources.Match "**.jpg" }}
+        {{ $scaled := .Fill "300x400" }}
+          <img src="{{ $scaled.Permalink }}">
+      {{ end }}
+      <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
     {{ end }}
-    </ul>
 </section>
 {{ end }}

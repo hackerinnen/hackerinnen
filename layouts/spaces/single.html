@@ -3,16 +3,22 @@
   {{- partial "breadcrumb.html" . -}}
   <h1 class="title">{{ .Title }}</h1>
   <div>
-      {{ .Content }}
+    {{ range $.Page.Resources.Match "**.jpg" }}
+      {{ $scaled := .Fill "300x400" }}
+      <img src="{{ $scaled.Permalink }}">
+    {{ end }}
   </div>
   <div>
-      <h2 class="is-size-4">Mehr Hackerinnen aus {{ .Parent.Title }}</h2>
-      {{ with .PrevInSection }}
-        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-      {{ end }}
-      {{ with .NextInSection }}
-        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-      {{ end }}
+    {{ .Content }}
+  </div>
+  <div>
+    <h2 class="is-size-4">Mehr Hackerinnen aus {{ .Parent.Title }}</h2>
+    {{ with .PrevInSection }}
+      <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+    {{ end }}
   </div>
 </section>
 {{ end }}

@@ -1,26 +1,26 @@
 {{ define "main" }}
-    <section class="section">
-        {{- partial "breadcrumb.html" . -}}
-        <h1 class="title">{{.Title}}</h1>
-        {{.Content}}
+  <section class="section">
+    {{- partial "breadcrumb.html" . -}}
+    <h1 class="title">{{.Title}}</h1>
+    {{.Content}}
 
-        {{ if (eq $.CurrentSection.Title "Spaces") }}
-            <ul>
-            {{ range .Sections }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                </li>
-            {{ end }}
-            </ul>
-        {{ else }}
-            <ul>
-            {{ range .Pages }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                </li>
-            {{ end }}
-            </ul>
+    {{ if (eq $.CurrentSection.Title "Spaces") }}
+      <ul>
+        {{ range .Sections }}
+          <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+          </li>
         {{ end }}
+      </ul>
+      {{ else }}
+        {{ range .Pages }}
+          {{ range .Resources.Match "**.jpg" }}
+            {{ $scaled := .Fill "300x400" }}
+            <img src="{{ $scaled.Permalink }}">
+          {{ end }}
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        {{ end }}
+      {{ end }}
     </section>
 {{ end }}
 

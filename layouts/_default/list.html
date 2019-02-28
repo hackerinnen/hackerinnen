@@ -1,14 +1,14 @@
 {{ define "main" }}
-    <section class="section">
-        <h1 class="title">{{.Title}}</h1>
-        {{.Content}}
-        <ul>
-        {{ range .Pages }}
-            <li>
-                <a href="{{.Permalink}}">{{.Title}}</a>
-            </li>
-        {{ end }}
-        </ul>
-    </section>
+  <section class="section">
+    <h1 class="title">{{.Title}}</h1>
+    {{.Content}}
+    {{ range .Pages }}
+      {{ range .Resources.Match "**.jpg" }}
+        {{ $scaled := .Fill "300x400" }}
+        <img src="{{ $scaled.Permalink }}">
+      {{ end }}
+      <a href="{{.Permalink}}">{{.Title}}</a>
+    {{ end }}
+  </section>
 {{ end }}
 
