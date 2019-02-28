@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="section">
+  {{- partial "breadcrumb.html" . -}}
   <h1 class="title">{{ .Title }}</h1>
   <div>
       {{ .Content }}
