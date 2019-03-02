@@ -1,6 +1,12 @@
 [datenschutz]
 other = "privacy"
 
+[from]
+other = "from"
+
+[go-home]
+other = "Let's go home"
+
 [hackerinnen]
 other = "Female hackers"
 
@@ -8,7 +14,10 @@ other = "Female hackers"
 other = "imprint"
 
 [latest-hacker]
-other = "New on hackerinnen.space:"
+other = "New on hackerinnen.space"
+
+[profile-image]
+other = "Profile image of the female hacker"
 
 [teaser]
 other = "Female hackers of all places, show yourselves!"
@@ -18,6 +27,3 @@ other = "Female hackers of all places, show yourselves!"
 
 [zeigdich]
 other = "Show yourself!"
-
-[go-home]
-other = "Let's go home"
