@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-  <section class="hero hero-bg is-medium is-bold">
+  <section class="hero has-background-white-ter is-medium">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title is-size-1 has-text-white-ter">
+        <h1 class="title is-size-1 headline">
           {{ i18n "teaser" }}
         </h1>
-        <h2 class="subtitle has-text-white-ter">
+        <h2 class="subtitle is-size-5">
           {{ i18n "teaser-sub" }}
         </h2>
       </div>
@@ -25,7 +25,7 @@
                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
               {{ end }}
               <figcaption class="is-overlay img-overlay">
-                <span class="tag is-primary is-large is-radiusless is-pulled-right">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
+                <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
               </figcaption>
             </div>
           </figure>
@@ -34,11 +34,16 @@
       </div>
     </div>
   </section>
-  <section class="section accent-bg-green">
-    <div class="container">
+  <section class="section">
+    <div class="container accent-bg-blue add-padd">
     <h1 class="title is-size-3">Mach mit!</h1>
     <p>Liquorice wafer jelly beans muffin candy carrot cake. Fruitcake chupa chups gummies bonbon. Danish ice cream croissant fruitcake jelly beans caramels dessert. Brownie pie wafer gummies wafer jelly beans. Soufflé bear claw chocolate cheesecake toffee cupcake oat cake liquorice tart. Tootsie roll jelly cake jelly gingerbread. Macaroon lollipop pastry muffin tootsie roll bear claw cupcake. Jujubes candy candy pudding chocolate cake jelly-o cheesecake jelly beans halvah. Cheesecake brownie sugar plum ice cream donut tiramisu wafer. Sugar plum chocolate croissant brownie jelly sweet roll ice cream. Chocolate cake fruitcake chocolate bar halvah fruitcake jelly lollipop. Caramels tart sweet roll. Sugar plum chocolate lemon drops marzipan. Marshmallow soufflé muffin.</p>
   </div>
+ 
+    <div class="container accent-bg-green add-padd">
+      <h1 class="title is-size-3">Follow us</h1>
+      <p>Liquorice wafer jelly beans muffin candy carrot cake. Fruitcake chupa chups gummies bonbon. Danish ice cream croissant fruitcake jelly beans caramels dessert. Brownie pie wafer gummies wafer jelly beans. </p>
+    </div>
   </section>
 
 {{ end }}

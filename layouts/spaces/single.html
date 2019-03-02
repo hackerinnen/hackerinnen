@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="section">
   {{- partial "breadcrumb.html" . -}}
+   <div class="container">
   <h1 class="title">{{ .Title }}</h1>
   <div>
     {{ range $.Page.Resources.Match "**.jpg" }}
@@ -8,6 +9,10 @@
       <img src="{{ $scaled.Permalink }}">
     {{ end }}
   </div>
+  <div>Twitter: {{ .Params.twitter }}</div>
+  <div>Instagram: {{ .Params.instagram }}</div>
+  <div>Web: <a href src="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></div>
+  <div>Meet me at: {{ .Params.meetme }}</div>
   <div>
     {{ .Content }}
   </div>
@@ -20,5 +25,6 @@
       <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
     {{ end }}
   </div>
+</div>
 </section>
 {{ end }}

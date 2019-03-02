@@ -1,14 +1,26 @@
 {{ define "main" }}
   <section class="section">
-    <h1 class="title">{{.Title}}</h1>
-    {{.Content}}
-    {{ range .Pages }}
-      {{ range .Resources.Match "**.jpg" }}
-        {{ $scaled := .Fill "300x400" }}
-        <img src="{{ $scaled.Permalink }}">
+    <div class="container">
+      <h1 class="title">{{.Title}}</h1>
+      {{.Content}}
+      <div class="columns is-desktop is-multiline">
+      {{ range .Pages }}
+         <a href="{{.Permalink}}">
+            <figure class="column">
+              <div class="image">
+                {{ range .Resources.Match "**.jpg" }}
+                  {{ $scaled := .Fill "350x250" }}
+                   <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ end }}
+                <figcaption class="is-overlay img-overlay">
+                  <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
+                </figcaption>
+              </div>
+            </figure>
+          </a>
       {{ end }}
-      <a href="{{.Permalink}}">{{.Title}}</a>
-    {{ end }}
+      </div>
+    </div>
   </section>
 {{ end }}
 
