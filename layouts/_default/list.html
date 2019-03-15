@@ -8,9 +8,11 @@
          <a href="{{.Permalink}}">
             <figure class="column">
               <div class="image">
-                {{ range .Resources.Match "**.jpg" }}
-                  {{ $scaled := .Fill "350x250" }}
-                   <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ with .Resources.Match "**.jpg" }}
+                  {{ range . }}
+                    {{ $scaled := .Fill "350x250" }}
+                    <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                  {{ end }}
                 {{ end }}
                 <figcaption class="is-overlay img-overlay">
                   <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
