@@ -9,3 +9,7 @@ If you are a female hacker, please join and show yourself!
 ## How to show yourself
 
 ## Report a bug
+
+## Technologies used to build this project
+* [Hugo Framework](https://gohugo.io/)
+* [Bulma CSS Framework](https://bulma.io/)
