@@ -21,5 +21,7 @@ If you are a female hacker, please join and show yourself!
 Run the following commands in the terminal:
 
 `git clone git@github.com:normade/hackerinnen.git`
+
 `cd hackerinnen`
+
 `hugo server -D`
