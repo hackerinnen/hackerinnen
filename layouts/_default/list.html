@@ -4,8 +4,8 @@
       <h1 class="title">{{.Title}}</h1>
       {{.Content}}
       <div class="columns is-desktop is-multiline">
-      {{ range .Pages }}
-         <a href="{{.Permalink}}">
+        {{ range .Pages }}
+          <a href="{{.Permalink}}">
             <figure class="column">
               <div class="image">
                 {{ with .Resources.Match "**.jpg" }}
@@ -15,14 +15,19 @@
                   {{ end }}
                 {{ end }}
                 <figcaption class="is-overlay img-overlay">
-                  <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
+                  <span class="img-tag">
+                    {{ .Title }}
+                    {{ i18n "from" }}
+                    {{ if .Parent }}
+                      {{ .Parent.Title }}
+                    {{ end }}
+                  </span>
                 </figcaption>
               </div>
             </figure>
           </a>
-      {{ end }}
+       {{ end }}
       </div>
     </div>
   </section>
 {{ end }}
-
