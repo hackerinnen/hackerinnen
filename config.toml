@@ -1,4 +1,4 @@
-baseURL = "https://www.hackerinnen.space/"
+baseURL = ""
 languageCode = "en-us"
 title = "hackerinnen.space"
 
@@ -16,3 +16,6 @@ DefaultContentLanguage = "de"
 [params]
   description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
   twitter_handle = "HackerinnenSpace"
+
+[taxonomies]
+  tag = "tags"
