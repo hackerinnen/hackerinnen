@@ -1,0 +1,10 @@
+@import "./colors";
+
+.footer {
+  padding: 1rem;
+  background-color: white;
+
+  a, a:hover {
+    color: $blue;
+  }
+}

@@ -1,10 +1,16 @@
-<meta name="description" content="{{ .Param "description" }}">
-<meta name="twitter:site" content="{{ .Param "twitter_handle" }}">
+<meta name="description" content="{{ .Param "description" }}"> <meta
+name="twitter:site" content="{{ .Param "twitter_handle" }}">
 {{ if .IsTranslated }}
-  {{ range .AllTranslations }}
-    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-  {{ end }}
+{{ range.AllTranslations }}
+<link
+  rel="alternate"
+  hreflang="{{ .Language.Lang }}"
+  href="{{ .Permalink }}"
+  title="{{ .Language.LanguageName }}"
+/>
 {{ end }}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/bulma.min.css">
-<link rel="stylesheet" href="/css/hackerinnen.css">
+{{ end }}
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/css/bulma.min.css" />
+{{ $styles := resources.Get "scss/main.scss" | toCSS }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen" />

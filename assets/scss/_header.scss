@@ -1,0 +1,29 @@
+@import "./colors";
+
+nav {
+  &.hero-bg {
+    background-image: linear-gradient(200deg, $green 30%, $blue 100%);
+    background-size: 100% 52px;
+  }
+
+  a, a.navbar-item {
+    color: white;
+  }
+
+  a:hover, a.navbar-item:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+  .navbar-menu.is-active {
+    a, a.navbar-item {
+      color: $text-color;
+    }
+
+    a:hover, a.navbar-item:hover {
+      background-color: transparent;
+      color: darken($text-color, 10%);
+    }
+  }
+}
+
