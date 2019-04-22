@@ -1,0 +1,11 @@
+{{ if or (.PrevInSection) (.NextInSection) }}
+  <div class="arrow-nav">
+    {{ with.PrevInSection }}
+      <a class="arrow arrow-prev" href="{{.Permalink}}" title="{{.Title}}"></a>
+    {{ end }}
+
+    {{ with.NextInSection }}
+      <a class="arrow arrow-next" href="{{.Permalink}}" title="{{.Title}}"></a>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,6 +1,8 @@
 {{ define "main" }}
+{{- partial "arrownav.html" . -}}
 <section class="section profile">
   {{- partial "breadcrumb.html" . -}}
+
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
     <div class="image">
@@ -28,12 +30,21 @@
       {{ .Content }}
     </div>
     <div class="footer">
-      Mehr Hackerinnen aus {{ .Parent.Title }}
-      {{ with.PrevInSection }}
-      <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ if or (.PrevInSection) (.NextInSection) }}
+        {{ i18n "more-hackerinnen-from"}} {{ .Parent.Title }}
+        </br>
       {{ end }}
+
+      {{ with.PrevInSection }}
+        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ end }}
+
+      {{ if and (.PrevInSection) (.NextInSection) }}
+      < >
+      {{ end }}
+
       {{ with.NextInSection }}
-      <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
       {{ end }}
     </div>
   </div>

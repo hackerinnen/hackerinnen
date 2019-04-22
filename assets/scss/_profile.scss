@@ -92,6 +92,7 @@
     .contact {
       font-size: 0.89rem;
       color: rgba(45, 45, 45, 0.7);
+      min-height: 90px;
 
       b {
         text-transform: uppercase;
@@ -138,7 +139,7 @@
 
     .footer {
       text-align: center;
-      font-size: 0.89rem;
+      font-size: 0.75rem;
     }
   }
 }
