@@ -1,30 +1,52 @@
 {{ define "main" }}
-<section class="section">
+{{- partial "arrownav.html" . -}}
+<section class="section profile">
   {{- partial "breadcrumb.html" . -}}
-   <div class="container">
-  <h1 class="title">{{ .Title }}</h1>
-  <div>
-    {{ range $.Page.Resources.Match "**.jpg" }}
+
+  <div class="container">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="image">
+      {{ range $.Page.Resources.Match "**.jpg" }}
       {{ $scaled := .Fill "300x400" }}
-      <img src="{{ $scaled.Permalink }}">
-    {{ end }}
+      <img src="{{ $scaled.Permalink }}" />
+      {{ end }}
+    </div>
+    <div class="contact">
+      {{ if isset .Params "twitter" }}<div><b>Twitter:</b> {{ .Params.twitter }}</div>{{ end }}
+      {{ if isset .Params "instagram" }}<div><b>Instagram:</b> {{ .Params.instagram }}</div>{{ end }}
+      {{ if isset .Params "website" }}<div>
+        <b>Web:</b>
+        <a
+          href
+          src="{{ .Params.website }}"
+          target="_blank"
+          >{{ .Params.website }}</a
+        >
+      </div>
+      {{ end }}
+      {{ if isset .Params "meetme" }}<div><b>{{ i18n "meet-me" }}:</b> {{ .Params.meetme }}</div>{{ end }}
+    </div>
+    <div class="content">
+      {{ .Content }}
+    </div>
+    <div class="footer">
+      {{ if or (.PrevInSection) (.NextInSection) }}
+        {{ i18n "more-hackerinnen-from"}} {{ .Parent.Title }}
+        </br>
+      {{ end }}
+
+      {{ with.PrevInSection }}
+        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ end }}
+
+      {{ if and (.PrevInSection) (.NextInSection) }}
+      < >
+      {{ end }}
+
+      {{ with.NextInSection }}
+        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ end }}
+    </div>
   </div>
-  <div>Twitter: {{ .Params.twitter }}</div>
-  <div>Instagram: {{ .Params.instagram }}</div>
-  <div>Web: <a href src="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></div>
-  <div>Meet me at: {{ .Params.meetme }}</div>
-  <div>
-    {{ .Content }}
-  </div>
-  <div>
-    <h2 class="is-size-4">Mehr Hackerinnen aus {{ .Parent.Title }}</h2>
-    {{ with .PrevInSection }}
-      <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-    {{ end }}
-    {{ with .NextInSection }}
-      <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-    {{ end }}
-  </div>
-</div>
 </section>
 {{ end }}

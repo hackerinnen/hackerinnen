@@ -1,0 +1,36 @@
+.arrow-nav {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+  z-index: 10;
+
+  .arrow {
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    color: transparent;
+    cursor: pointer;
+
+    &:hover {
+      border-color: gray;
+      border-width: 4px;
+    }
+
+    &.arrow-prev {
+      transform: rotate(-45deg);
+      left: 30px;
+    }
+
+    &.arrow-next {
+      transform: rotate(135deg);
+      right: 30px;
+    }
+  }
+}

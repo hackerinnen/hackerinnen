@@ -1,6 +1,9 @@
+@import "./colors";
+@import "./arrows";
 @import "./header";
 @import "./footer";
-@import "./colors";
+@import "./profile";
+
 
 .site-content {
   .title {
@@ -12,7 +15,7 @@
   }
 
   a:hover, .breadcrumb a:hover {
-    color: darken($blue, 10%);
+    color: darken($blue, 5%);
   }
 
   .headline {
