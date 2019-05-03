@@ -31,5 +31,11 @@ other = "Show yourself!"
 [meet-me]
 other = "Meet me at"
 
+[skills]
+other = "Skills"
+
+[website]
+other = "Website"
+
 [more-hackerinnen-from]
 other = "More Hackerinnen from"
