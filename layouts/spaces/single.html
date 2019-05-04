@@ -1,9 +1,11 @@
 {{ define "main" }}
-{{- partial "arrownav.html" . -}}
 <section class="section profile">
-  {{- partial "breadcrumb.html" . -}}
-
   <div class="container">
+      {{- partial "breadcrumb.html" . -}}
+      {{- partial "arrownav.html" . -}}
+  </div>
+
+  <article class="container ">
     <h1 class="title">{{ .Title }}</h1>
     <div class="image">
       {{ range $.Page.Resources.Match "**.jpg" }}
@@ -11,25 +13,25 @@
       <img src="{{ $scaled.Permalink }}" />
       {{ end }}
     </div>
-    <div class="contact">
-      {{ if isset .Params "twitter" }}<div><b>Twitter:</b> {{ .Params.twitter }}</div>{{ end }}
-      {{ if isset .Params "instagram" }}<div><b>Instagram:</b> {{ .Params.instagram }}</div>{{ end }}
-      {{ if isset .Params "website" }}<div>
-        <b>Web:</b>
-        <a
-          href
-          src="{{ .Params.website }}"
-          target="_blank"
-          >{{ .Params.website }}</a
-        >
-      </div>
+    <div class="factsheet">
+      {{ if isset .Params "intro" }}<div><i>{{ .Params.intro }}</i></div><br/>{{ end }}
+      {{ if isset .Params "skills" }}<div><b>{{ i18n "skills" }}:</b> {{ .Params.skills }}</div>{{ end }}
+      {{ if isset .Params "meetmelink" }}
+        <div><b>{{ i18n "meet-me" }}:</b> <a href="{{ .Params.meetmelink }}">{{ .Params.meetme }}</a></div>
+      {{ else if isset .Params "meetme"}}
+        <div><b>{{ i18n "meet-me" }}:</b> {{ .Params.meetme }}</div>
       {{ end }}
-      {{ if isset .Params "meetme" }}<div><b>{{ i18n "meet-me" }}:</b> {{ .Params.meetme }}</div>{{ end }}
     </div>
     <div class="content">
       {{ .Content }}
     </div>
-    <div class="footer">
+    <div class="contact">
+      {{ if isset .Params "website" }} <a href="{{ .Params.website }}" target="_blank">{{ i18n "website" }}</a> {{ end }}
+      {{ if isset .Params "github" }} <a href="https://www.github.com/{{ .Params.github }}" target="_blank">@{{ .Params.github }}</a> {{ end }}
+      {{ if isset .Params "twitter" }} <a href="https://www.twitter.com/{{ .Params.twitter }}" target="_blank">@{{ .Params.twitter }}</a> {{ end }}
+      {{ if isset .Params "instagram" }} <a href="https://www.instagram.com/{{ .Params.instagram }}" target="_blank">@{{ .Params.instagram }}</a> {{ end }}
+    </div>
+    <div class="footer-nav">
       {{ if or (.PrevInSection) (.NextInSection) }}
         {{ i18n "more-hackerinnen-from"}} {{ .Parent.Title }}
         </br>
@@ -48,5 +50,6 @@
       {{ end }}
     </div>
   </div>
+  </article>
 </section>
 {{ end }}

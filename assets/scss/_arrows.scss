@@ -19,18 +19,24 @@
     cursor: pointer;
 
     &:hover {
-      border-color: gray;
+      border-color: $green;
       border-width: 4px;
     }
 
     &.arrow-prev {
       transform: rotate(-45deg);
-      left: 30px;
+      left: -60px;
     }
 
     &.arrow-next {
       transform: rotate(135deg);
-      right: 30px;
+      right: -60px;
     }
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .arrow-nav {
+    display: none;
   }
 }

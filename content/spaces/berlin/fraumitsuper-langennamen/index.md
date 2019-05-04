@@ -3,10 +3,14 @@ title: "Fraumitsuper Langennamen"
 date: 2019-02-28T22:15:23+01:00
 draft: true
 tags: [hackerinnen]
-twitter: "@langenamen"
-instagram: "@fraumitsuper"
-website: "https://www.langenamen.de"
-meetme: "OpenTechSchool Leipzig"
+intro: Cat lover and color nerd.
+twitter: langenamen
+instagram: fraumitsuper
+website: https://www.langenamen.de
+github: langenamen
+meetme: OpenTechSchool Leipzig
+meetmelink: https://www.meetme.de
+skills: "HTML, CSS, JS"
 ---
 
 # Frage 1: Was machst du?
