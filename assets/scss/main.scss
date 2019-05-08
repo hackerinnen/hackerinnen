@@ -65,4 +65,13 @@
     padding-left: 0.75em;
     padding-right: 0.75em;
   }
+
+  section.logo {
+    padding: 50px 0;
+    svg {
+      fill: $green;
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }
