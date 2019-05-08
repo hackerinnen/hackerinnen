@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import "./variables";
 @import "./arrows";
 @import "./header";
@@ -6,6 +7,11 @@
 @import "./spaces";
 
 .site-content {
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+
   .title {
     color: $text-color;
   }
