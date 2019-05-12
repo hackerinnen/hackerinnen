@@ -4,4 +4,7 @@ date: 2019-02-18T23:03:17+01:00
 draft: true
 ---
 
-Welcome to the Hugo forums and thanks for using Hugo! A few friendly tips on getting help in this forum.
+Finde heraus, welche Hackerinnen es in deiner Stadt gibt.
+
+<small>Deine Stadt ist nicht dabei? <a href="/machmit">Hilf uns</a> Hackerinnen aus Deiner Stadt sichtbar zu machen.
+</small>

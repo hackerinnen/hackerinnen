@@ -1,40 +1,42 @@
 {{ define "main" }}
-  <section class="section">
+  <section class="section spaces">
     {{- partial "breadcrumb.html" . -}}
     <div class="container">
-    <h1 class="title">{{.Title}}</h1>
-    <article>
-      {{.Content}}
-    </article>
-    {{ if (eq $.CurrentSection.Title "Spaces") }}
-      <ul>
-        {{ range .Sections }}
-          <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-          </li>
-        {{ end }}
-      </ul>
+      <h1 class="title">{{.Title}}</h1>
+      <article>
+        {{.Content}}
+      </article>
+      {{ if (eq $.CurrentSection.Title "Spaces") }}
+        <div class="spaces-list columns is-desktop is-multiline">
+          {{ range .Sections }}
+            <div class="column">
+              <a href="{{.Permalink}}">
+                {{.Title}}
+              </a>
+            </div>
+          {{ end }}
+        </div>
       {{ else }}
         <div class="columns is-desktop is-multiline">
           {{ range .Pages }}
             <a href="{{.Permalink}}">
-          <figure class="column">
-            <div class="image">
-              {{ with .Resources.Match "**.jpg" }}
-                {{ range . }}
-                  {{ $scaled := .Fill "350x250" }}
-                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                {{ end }}
-              {{ end }}
-              <figcaption class="is-overlay img-overlay">
-                <span class="img-tag">{{ .Title }}</span>
-              </figcaption>
-            </div>
-          </figure>
-        </a>
+              <figure class="column">
+                <div class="image">
+                  {{ with .Resources.Match "**.jpg" }}
+                    {{ range . }}
+                      {{ $scaled := .Fill "350x250" }}
+                      <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                    {{ end }}
+                  {{ end }}
+                  <figcaption class="is-overlay img-overlay">
+                    <span class="img-tag">{{ .Title }}</span>
+                  </figcaption>
+                </div>
+              </figure>
+            </a>
           {{ end }}
         </div>
       {{ end }}
     </div>
-    </section>
+  </section>
 {{ end }}

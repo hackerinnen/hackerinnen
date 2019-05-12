@@ -1,0 +1,63 @@
+/**
+* Shared across all screen sizes
+* See individual styles for mobile/tablet/desktop below
+*/
+.section.spaces {
+  font-size: 1.2rem;
+
+  article {
+    margin: 50px 0 80px 0;
+
+    p {
+      margin: 20px 0 20px 0;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: darken($text-color, 20%);
+    }
+  }
+
+  .columns.spaces-list {
+    .column {
+      a {
+        font-size: 6rem;
+        color: #ffffff;
+        background-color: $green;
+        width: 100%;
+        display: inline-block;
+        padding: 50px 20px;
+        text-align: center;
+        border-radius: 5px;
+      }
+    }
+
+    a:hover {
+      background-color: lighten($green, 2%);
+    }
+  }
+}
+
+/**
+* mobile screens
+*/
+@media only screen and (max-width: $mobile-breakpoint) {
+  .section.spaces {
+    font-size: 1rem;
+
+    article {
+      margin: 40px 0 40px 0;
+    }
+
+    .columns.spaces-list {
+      .column {
+        a {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

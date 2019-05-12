@@ -1,20 +1,26 @@
-@import "./colors";
+@import "./variables";
 @import "./arrows";
 @import "./header";
 @import "./footer";
 @import "./profile";
-
+@import "./spaces";
 
 .site-content {
   .title {
     color: $text-color;
   }
 
-  a, .breadcrumb a {
-    color: $blue;
+  a,
+  a:hover {
+    color: $text-color;
   }
 
-  a:hover, .breadcrumb a:hover {
+  .breadcrumb a {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
     color: darken($blue, 5%);
   }
 
@@ -33,7 +39,7 @@
   }
 
   .add-padd {
-    padding:1rem;
+    padding: 1rem;
   }
 
   .img-overlay {
@@ -50,7 +56,7 @@
     width: 100%;
     justify-content: center;
     line-height: 1;
-    padding-left: .75em;
-    padding-right: .75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
   }
 }
