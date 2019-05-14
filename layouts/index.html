@@ -17,7 +17,7 @@
           <figure class="column">
             <div class="image">
               {{ range .Resources.Match "**.jpg" }}
-                {{ $scaled := .Fill "800x600" }}
+                {{ $scaled := .Fill "800x600 Top" }}
                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
               {{ end }}
               <figcaption class="is-overlay img-overlay">
