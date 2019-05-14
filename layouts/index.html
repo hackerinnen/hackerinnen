@@ -1,17 +1,13 @@
 {{ define "main" }}
 
-  <section class="hero has-background-white-ter is-medium">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title is-size-1 headline">
-          {{ i18n "teaser" }}
-        </h1>
-        <h2 class="subtitle is-size-5">
-          {{ i18n "teaser-sub" }}
-        </h2>
-      </div>
-    </div>
+  <section class="logo">
+    {{ readFile "static/images/logo-complete-nofill.svg" | safeHTML }}
+
+    <h1 class="title is-4">
+      {{ i18n "teaser" }}
+    </h1>
   </section>
+
   <section class="section">
     <div class="container">
       <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>

@@ -30,12 +30,6 @@
     color: darken($blue, 5%);
   }
 
-  .headline {
-    background: linear-gradient(200deg, $green 30%, $blue 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   .accent-bg-green {
     background-color: rgba(0, 209, 178, 0.1);
   }
@@ -64,5 +58,15 @@
     line-height: 1;
     padding-left: 0.75em;
     padding-right: 0.75em;
+  }
+
+  section.logo {
+    padding: 80px 0 150px 0;
+    svg {
+      fill: $green;
+      margin: 0 auto 90px auto;
+      display: block;
+    }
+    text-align: center;
   }
 }
