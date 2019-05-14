@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import "./fonts";
 @import "./variables";
 @import "./arrows";
 @import "./header";
@@ -9,7 +9,7 @@
 .site-content {
   h1 {
     font-family: "Quicksand", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .title {
