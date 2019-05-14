@@ -10,7 +10,7 @@
               <div class="image">
                 {{ with .Resources.Match "**.jpg" }}
                   {{ range . }}
-                    {{ $scaled := .Fill "350x250" }}
+                    {{ $scaled := .Fill "350x250 Top" }}
                     <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
                   {{ end }}
                 {{ end }}
