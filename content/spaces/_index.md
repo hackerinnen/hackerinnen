@@ -6,5 +6,5 @@ draft: true
 
 Finde heraus, welche Hackerinnen es in deiner Stadt gibt.
 
-<small>Deine Stadt ist nicht dabei? <a href="/machmit">Hilf uns</a> Hackerinnen aus Deiner Stadt sichtbar zu machen.
+<small>Deine Stadt ist nicht dabei? <a href="/zeigdich">Hilf uns</a>, Hackerinnen aus Deiner Stadt sichtbar zu machen.
 </small>

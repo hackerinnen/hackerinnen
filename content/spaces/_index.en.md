@@ -6,5 +6,5 @@ draft: true
 
 Explore the Hackerinnen in your city.
 
-<small>Your city is missing? <a href="/machmit">Help us</a> to make Hackerinnen from you city visible.
+<small>Your city is missing? <a href="/zeigdich">Help us</a> to make Hackerinnen from you city visible.
 </small>
