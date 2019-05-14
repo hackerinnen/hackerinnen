@@ -1,9 +1,14 @@
 ---
 title: "Imprint"
-date: 2019-02-24T20:58:27+01:00
-draft: true
 ---
 
-Macaroon ice cream jelly beans powder fruitcake wafer candy. Cake halvah chocolate cake halvah. Toffee cake candy. Lemon drops candy fruitcake chocolate jelly icing marshmallow carrot cake. Pastry jujubes tiramisu tootsie roll pie cake gummi bears powder lemon drops. Gummies chocolate cake pie. Marshmallow cheesecake cake apple pie candy canes.
+hackerinnen.space is a community project and is currently driven forward with much love by:
+Kristin Fritsch, Elisa Haubert, Alexa Steinbrück, Norma Driske und all Hackerinnen on this page :-)
 
-Soufflé gummi bears jelly beans marshmallow. Tiramisu gingerbread cake jelly beans chocolate cake cake toffee cupcake jujubes. Caramels candy canes cookie jujubes. Cheesecake pudding danish. Bonbon dessert gummi bears liquorice donut ice cream candy. Lemon drops chocolate bear claw bonbon marzipan sweet cheesecake.
+Norma Driske
+Kutschbachweg 3
+04177 Leipzig
+Deutschland
+
+Email: hello at hackerinnen.space
+GitHub: [https://github.com/normade/hackerinnen/](https://github.com/normade/hackerinnen/)
