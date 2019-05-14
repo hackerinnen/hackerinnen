@@ -15,7 +15,7 @@ DefaultContentLanguage = "de"
 
 [params]
   description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
-  twitter_handle = "HackerinnenSpace"
+  twitter_handle = "@hackerinnen"
 
 [taxonomies]
   tag = "tags"
