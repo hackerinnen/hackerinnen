@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div id="generated-bg"></div>
 <section class="section profile">
   <div class="container">
       {{- partial "breadcrumb.html" . -}}
@@ -52,4 +53,8 @@
   </div>
   </article>
 </section>
+
+  <script>window.inputString = "{{ .Title }}"</script>
+  {{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+  <script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 {{ end }}
