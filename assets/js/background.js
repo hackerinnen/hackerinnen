@@ -3,7 +3,7 @@
   var backgroundWidth = 60; //if height is same
   var circleWidth = 40; // if height is the same
   var offSet = (backgroundWidth - circleWidth) / 2;
-  var count = 25;
+  var count = 20;
   var body;
   var maxWidth;
   var maxHeight;
@@ -65,16 +65,16 @@
    * Init function
    */
 
-  function generateCode(string) {
-    var inputString = string;
+  function generateCode(_string) {
+    var inputString = _string;
     var newInput;
-    var i = 0;
 
+    var i = 0;
     while (i < count) {
       var string = newInput || inputString;
       var hashArray = splitIntoPairsOf3(hashString(string));
       createHorizontalElement(hashArray[0], hashArray[2]);
-      newInput = hashArray[1] + i;
+      newInput = i + hashArray[1] + i + _string;
       i++;
     }
 
@@ -83,7 +83,7 @@
       var string = newInput || inputString;
       var hashArray = splitIntoPairsOf3(hashString(string));
       createVerticalElement(hashArray[0], hashArray[2]);
-      newInput = j + hashArray[1];
+      newInput = j + _string + j + hashArray[1];
       j++;
     }
   }
