@@ -1,6 +1,7 @@
 @import "./fonts";
 @import "./variables";
 @import "./arrows";
+@import "./background";
 @import "./header";
 @import "./footer";
 @import "./profile";
@@ -61,7 +62,7 @@
   }
 
   section.logo {
-    padding: 80px 0 150px 0;
+    padding: 60px 0 50px 0;
     svg {
       fill: $green;
       margin: 0 auto 90px auto;

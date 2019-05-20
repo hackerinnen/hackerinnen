@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+  <div id="generated-bg"></div>
+
   <section class="logo">
     {{ readFile "static/images/logo-complete-nofill.svg" | safeHTML }}
 
@@ -42,4 +44,7 @@
     </div>
   </section>
 
+  <script>window.inputString = "Hackerinnen"</script>
+  {{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+  <script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 {{ end }}
