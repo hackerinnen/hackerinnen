@@ -7,8 +7,8 @@ other = "from"
 [go-home]
 other = "Let's go home"
 
-[hackerinnen]
-other = "Female hackers"
+[hackerinnen-explained]
+other = "On this page, Hackerinnen refers to all people who identify themselves as not male."
 
 [impressum]
 other = "imprint"
@@ -16,11 +16,14 @@ other = "imprint"
 [latest-hacker]
 other = "New on hackerinnen.space"
 
+[more-hackerinnen-from]
+other = "More Hackerinnen from"
+
 [profile-image]
 other = "Profile image of the female hacker"
 
 [teaser]
-other = "Female hackers of all places, show yourselves!"
+other = "Hackerinnen* of all places, show yourselves!"
 
 [zeigdich]
 other = "Show yourself!"
@@ -33,6 +36,3 @@ other = "Skills"
 
 [website]
 other = "Website"
-
-[more-hackerinnen-from]
-other = "More Hackerinnen from"

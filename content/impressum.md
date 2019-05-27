@@ -10,5 +10,5 @@ Kutschbachweg 3\
 Deutschland<br><br>
 Email: hello ät hackerinnen.space<br><br>
 
-Dieses Projekt wird mit [HUGO](https://gohugo.io/) und [BULMA](https://bulma.io/) gebaut.\
+Dieses Projekt wird auf Basis von [HUGO](https://gohugo.io/) und [BULMA](https://bulma.io/) gebaut.\
 GitHub: [https://github.com/normade/hackerinnen/](https://github.com/normade/hackerinnen/)
