@@ -6,8 +6,8 @@
       {{- partial "arrownav.html" . -}}
   </div>
 
-  <article class="container ">
-    <h1 class="title">{{ .Title }}</h1>
+  <article class="container">
+    <h1 class="title teaser">{{ .Title }}</h1>
     <div class="image">
       {{ range $.Page.Resources.Match "**.jpg" }}
       {{ $scaled := .Fill "300x400 Top" }}

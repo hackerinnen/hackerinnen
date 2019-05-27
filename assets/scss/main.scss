@@ -17,6 +17,12 @@
     color: $text-color;
   }
 
+  .teaser {
+    background: linear-gradient(100deg, #00d1b2 30%, #009efd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   a,
   a:hover {
     color: $text-color;
