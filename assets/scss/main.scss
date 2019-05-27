@@ -42,11 +42,15 @@
   }
 
   .accent-bg-blue {
-    background-color: rgba(0, 166, 241, 0.1);
+    background: linear-gradient(100deg, rgba(0, 209, 178, 0.4) 30%, rgba(0, 158, 253, 0.8) 100%);
   }
 
-  .add-padd {
-    padding: 1rem;
+  .add-padd-top-1 {
+    padding-top: 1rem;
+  }
+
+  .add-padd-3 {
+    padding: 3rem;
   }
 
   .img-overlay {
@@ -55,16 +59,24 @@
 
   .img-tag {
     align-items: center;
-    background-color: rgba(0, 166, 241, 0.5);
+    background: linear-gradient(100deg, rgba(0, 158, 253, 0.4) 30%, rgba(0, 209, 178, 0.8) 100%);
     color: #fff;
     display: inline-flex;
     font-size: 1.6rem;
-    height: 3.2em;
+    height: 3.1em;
     width: 100%;
     justify-content: center;
     line-height: 1;
     padding-left: 0.75em;
     padding-right: 0.75em;
+  }
+
+  .social-media {
+    padding-top: 3rem;
+  }
+
+  .social-icon {
+    padding-right: 2rem;
   }
 
   section.logo {

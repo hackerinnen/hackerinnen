@@ -4,18 +4,14 @@ date: 2019-02-18T22:56:50+01:00
 draft: true
 ---
 
-<p>hackerinnen.space ist ein Sichtbarkeits- und Mutmach-Projekt.</p><br>
-
-<p>Es entstand aus unserer persönlichen Erfahrung, dass es für nicht-männliche, IT-liebende Menschen, derzeit viel schwieriger ist, andere nicht-männliche, IT-liebende Menschen ausfindig zu machen. Manchmal möchte man sogar meinen, es gibt sie gar nicht in der eigenen Stadt! Aber das stimmt nicht, wir sind da :)</p>
-<br>
-
-<p>Wir teilen auf dieser Seite unsere persönlichen Geschichten und möchten Menschen Mut machen, sich bei der Gestaltung von Software, dem Internet und zugehörigen Technologien zu beteiligen, gemeinsam zu hacken, kreativ zu sein, zu lernen und sich auszutauschen. Auch wenn es manchmal anders scheint: Programmierer sind nicht nur männlich. Diese Initiative bedeutet nicht, dass wir Männer nicht mögen oder mit ihnen nichts zu tun haben möchten. Im Gegenteil, wir alle kennen viele Männer, die IT und Coden genauso lieben wie wir, und wir schätzen sie sehr! Übrigens wünschen sich auch viele von ihnen mehr Diversität im Tech-Bereich. Denn die IT-Welt ist bunt und hat kein Geschlecht. In diesem Sinne - mach bunt :) - zeig dich!</p>
-<br>
+<p>Wir freuen uns, wenn du dabei bist!</p><br>
 
 # Dein Profil online stellen
+...
 <br>
 
 # Mithelfen
+...
 <br>
 
 # Sind Hackerinnen illegal?
