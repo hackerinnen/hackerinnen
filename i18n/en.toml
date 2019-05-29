@@ -28,23 +28,26 @@ other = ""
 [latest-hacker]
 other = "New on hackerinnen.space"
 
+[meet-me]
+other = "Meet me at"
+
 [more-hackerinnen-from]
 other = "More Hackerinnen from"
 
 [profile-image]
 other = "Profile image of the female hacker"
 
-[teaser]
-other = "Hackerinnen* of all places, show yourselves!"
-
-[zeigdich]
-other = "Show yourself!"
-
-[meet-me]
-other = "Meet me at"
+[recruiter]
+other = "recruiter info"
 
 [skills]
 other = "Skills"
 
+[teaser]
+other = "Hackerinnen* of all places, show yourselves!"
+
 [website]
 other = "Website"
+
+[zeigdich]
+other = "Show yourself!"
