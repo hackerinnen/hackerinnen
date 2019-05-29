@@ -23,9 +23,11 @@
     -webkit-text-fill-color: transparent;
   }
 
-  a,
+  a {
+    color: $blue;
+  }
   a:hover {
-    color: $text-color;
+    color: darken($blue, 10%);
   }
 
   .breadcrumb a {
@@ -34,7 +36,7 @@
   }
 
   .breadcrumb a:hover {
-    color: darken($blue, 5%);
+    color: darken($blue, 10%);
   }
 
   .accent-bg-green {

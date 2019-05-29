@@ -11,15 +11,15 @@
     height: 40px;
     background: transparent;
     text-indent: -9999px;
-    border-top: 1px solid #bfbfbf;
-    border-left: 1px solid #bfbfbf;
+    border-top: 2px solid $blue;
+    border-left: 2px solid $blue;
     transition: all 250ms ease-in-out;
     text-decoration: none;
     color: transparent;
     cursor: pointer;
 
     &:hover {
-      border-color: $green;
+      border-color: darken($blue, 10%);
       border-width: 4px;
     }
 

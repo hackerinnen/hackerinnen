@@ -1,8 +1,9 @@
 .footer {
   background-color: inherit;
-
-  a,
-  a:hover {
+  a {
     color: $blue;
+  }
+  a:hover {
+    color: darken($blue, 10%);
   }
 }
