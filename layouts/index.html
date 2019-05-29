@@ -13,7 +13,7 @@
   <section class="section">
     <div class="container">
       <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>
-      <div class="columns is-desktop">
+      <div class="columns">
       {{ range first 3 (where .Pages "Section" "spaces") }}
         <a href="{{.Permalink}}">
           <figure class="column">

@@ -7,7 +7,7 @@
         {{.Content}}
       </article>
       {{ if (eq $.CurrentSection.Title "Spaces") }}
-        <div class="spaces-list columns is-desktop is-multiline">
+        <div class="spaces-list columns is-multiline">
           {{ range .Sections }}
             <div class="column">
               <a href="{{.Permalink}}">
@@ -17,7 +17,7 @@
           {{ end }}
         </div>
       {{ else }}
-        <div class="columns is-desktop is-multiline">
+        <div class="columns is-multiline">
           {{ range .Pages }}
             <a href="{{.Permalink}}">
               <figure class="column">
