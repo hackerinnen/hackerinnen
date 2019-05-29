@@ -16,9 +16,10 @@ draft: true
 
 <h1>Sind Hackerinnen illegal?</h1>
 
-<p>Der Begriff _Hacken_ steht in vielen Medien und im Umgangssprachgebrauch oft dafür, den Computer zu illegalen Zwecken einzusetzen, zum Beispiel in fremde Rechner und Netzwerke einzudringen, um dort Schaden anzurichten. 
-Doch die ursprüngliche Bedeutung ist eine andere! In den 50er Jahren entstanden, beschreibt er die Hingabe im Umgang mit Technik und einem besonderen Sinn für Kreativität und Originalität. Die pfiffigen Bastler nannten sich zu dieser Zeit erstmals _Hacker_. Damals entstand auch der Begriff _hack_, der noch heute für die kreative Lösung eines technischen Problems steht.
-Wir nutzen das Wort _Hackerinnen_ in seiner ursprünglichen Bedeutung und verwenden es hier für Menschen, die mit Leidenschaft und Kreativität den Computer nutzen, um Probleme zu lösen und Ideen zu verwirklichen. Illegales Handeln mit Hilfe des Computers verachten wir und wir vertreten keinerlei diesbezügliche Methoden oder Standpunkte.</p>
+<p>Der Begriff <i>Hacken</i> steht in vielen Medien und im Umgangssprachgebrauch oft dafür, den Computer zu illegalen Zwecken einzusetzen, zum Beispiel in fremde Rechner und Netzwerke einzudringen, um dort Schaden anzurichten. 
+Doch die ursprüngliche Bedeutung ist eine andere! In den 50er Jahren entstanden, beschreibt er die Hingabe im Umgang mit Technik und einem besonderen Sinn für Kreativität und Originalität. Die pfiffigen Bastler nannten sich zu dieser Zeit erstmals <i>Hacker</i>. Damals entstand auch der Begriff <i>hack</i>, der noch heute für die kreative Lösung eines technischen Problems steht.</p>
+<br>
+<p>Wir nutzen das Wort <i>Hackerinnen</i> in seiner ursprünglichen Bedeutung und verwenden es hier für Menschen, die mit Leidenschaft und Kreativität den Computer nutzen, um Probleme zu lösen und Ideen zu verwirklichen. Illegales Handeln mit Hilfe des Computers verachten wir und wir vertreten keinerlei diesbezügliche Methoden oder Standpunkte.</p>
 <br>
 
 <h1>Recruiter Info</h1>
