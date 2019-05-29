@@ -47,6 +47,6 @@ Jelly bear claw cake caramels jelly-o brownie. Jelly bear claw sweet roll ice cr
 
 Jelly bear claw cake caramels jelly-o brownie. Jelly bear claw sweet roll ice cream dessert tart gingerbread fruitcake. Carrot cake cupcake sugar plum jujubes chocolate cake pudding cake. Pie candy sweet roll liquorice gingerbread bear claw liquorice cake. Bear claw fruitcake soufflé.
 
-# Hast du eine Buch/Podcast/Tutorial/Film/Event-Empfehlung?
+# Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
 Jelly bear claw cake caramels jelly-o brownie. Jelly bear claw sweet roll ice cream dessert tart gingerbread fruitcake. Carrot cake cupcake sugar plum jujubes chocolate cake pudding cake. Pie candy sweet roll liquorice gingerbread bear claw liquorice cake. Bear claw fruitcake soufflé.
