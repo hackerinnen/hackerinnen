@@ -12,7 +12,7 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title is-size-3">{{ i18n "latest-hacker" }}</h1>
+      <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
       <div class="columns">
       {{ range first 3 (where .Pages "Section" "spaces") }}
         <a href="{{.Permalink}}">
