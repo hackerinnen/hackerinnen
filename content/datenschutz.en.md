@@ -1,7 +1,6 @@
 ---
 title: "Privacy"
 date: 2019-02-24T20:58:17+01:00
-draft: true
 ---
 
 # Privacy Policy
@@ -17,7 +16,7 @@ Our privacy policy is structured as follows:
 - I. Information about us as controllers of your data\
 - II. The rights of users and data subjects\
 - III. Information about the data processing\
-<br>
+  <br>
 
 # I. Information about us as controllers of your data
 
@@ -37,6 +36,7 @@ The controller's data protection officer is: Norma Driske
 
 With regard to the data processing to be described in more detail below, users and data subjects have the right
 <br><br>
+
 <ul>
 <li>to confirmation of whether data concerning them is being processed, information about the data being processed, further information about the nature of the data processing, and copies of the data (cf. also Art. 15 GDPR);</li>
 <li>to correct or complete incorrect or incomplete data (cf. also Art. 16 GDPR);</li>
