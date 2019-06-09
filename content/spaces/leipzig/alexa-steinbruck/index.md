@@ -5,7 +5,7 @@ tags: [hackerinnen]
 intro: Frontend Entwicklerin & Creative Technologist
 twitter: alexabruck
 website: https://www.alexasteinbruck.com
-github: https://github.com/alexabruck
+github: alexabruck
 meetme: OpenTechSchool Leipzig
 skills: JS, React.js, Dataviz
 meetmelink: https://www.meetup.com/members/32405292/
