@@ -44,7 +44,11 @@
   }
 
   .accent-bg-blue {
-    background: linear-gradient(30deg, rgba(0, 209, 178, 0.4) 30%, rgba(0, 158, 253, 0.8) 100%);
+    background: linear-gradient(
+      30deg,
+      rgba(0, 209, 178, 0.4) 30%,
+      rgba(0, 158, 253, 0.8) 100%
+    );
   }
 
   .add-padd-top-1 {
@@ -61,7 +65,11 @@
 
   .img-tag {
     align-items: center;
-    background: linear-gradient(30deg, rgba(0, 158, 253, 0.4) 30%, rgba(0, 209, 178, 0.8) 100%);
+    background: linear-gradient(
+      30deg,
+      rgba(0, 158, 253, 0.4) 30%,
+      rgba(0, 209, 178, 0.8) 100%
+    );
     color: #fff;
     display: inline-flex;
     font-size: 1.6rem;
@@ -71,6 +79,22 @@
     line-height: 1;
     padding-left: 0.75em;
     padding-right: 0.75em;
+  }
+
+  .missing-img {
+    width: 350px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    font-size: 210px;
+    overflow: hidden;
+    background-color: $green;
+    color: #ffffff;
+
+    i {
+      vertical-align: top;
+      padding-top: 20px;
+    }
   }
 
   section.logo {
