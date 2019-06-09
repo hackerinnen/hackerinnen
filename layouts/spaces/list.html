@@ -27,6 +27,10 @@
                       {{ $scaled := .Fill "350x250 Top" }}
                       <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
                     {{ end }}
+                  {{ else }}
+                    <span class="missing-img">
+                      <i class="fas fa-user-astronaut"></i>
+                    </span>
                   {{ end }}
                   <figcaption class="is-overlay img-overlay">
                     <span class="img-tag">{{ .Title }}</span>
