@@ -1,7 +1,6 @@
 ---
 title: "Alexa Steinbrück"
 date: 2019-02-24T22:15:23+01:00
-draft: true
 tags: [hackerinnen]
 intro: Frontend Entwicklerin & Creative Technologist
 twitter: alexabruck
@@ -70,7 +69,7 @@ Diese beiden Themen haben vor geraumer Zeit tatsächlich ziemlich stark an mir g
 Ich habe tatsächlich einen Ordner auf meinem Computer wo ich coole Frauen sammle aus der Tech Welt! Und das sind schon echt viele geworden. Wie viel Platz ist hier? :-) Hier kommen die ersten zehn:
 
 <a href="https://www.youtube.com/watch?v=uXV7KwRubwM" target="_blank">**Ire Aderinokun**</a> -
-Finde ich mega, sie ist Frontend-Entwicklerin und UI Designerin aus Nigeria und macht extrem gut recherchierte  
+Finde ich mega, sie ist Frontend-Entwicklerin und UI Designerin aus Nigeria und macht extrem gut recherchierte
 <a href="https://bitsofco.de/" target="_blank">Artikel</a> und Youtube Videos zu verschiedensten Themen aus dem Bereich Frontend-Entwicklung
 
 <a href="https://sarah.dev/" target="_blank">**Sarah Drasner** </a> - Queen of (SVG) web animation!
