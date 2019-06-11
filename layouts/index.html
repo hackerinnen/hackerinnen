@@ -20,7 +20,11 @@
             <div class="image">
               {{ range .Resources.Match "**.jpg" }}
                 {{ $scaled := .Fill "800x600 Top" }}
-                 <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+              {{ else }}
+                <span class="image-placeholder">
+                  <img src="/images/astronaut.png">
+                </span>
               {{ end }}
               <figcaption class="is-overlay img-overlay">
                 <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>

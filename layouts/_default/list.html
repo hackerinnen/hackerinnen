@@ -3,20 +3,18 @@
     <div class="container">
       <h1 class="title teaser">{{.Title}}</h1>
       {{.Content}}
-      <div class="columns is-desktop is-multiline">
+      <div class="columns">
         {{ range .Pages }}
           <a href="{{.Permalink}}">
             <figure class="column">
               <div class="image">
-                {{ with .Resources.Match "**.jpg" }}
-                  {{ range . }}
-                    {{ $scaled := .Fill "350x250 Top" }}
-                    <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                  {{ end }}
-                  {{ else }}
-                    <span class="missing-img">
-                      <i class="fas fa-user-astronaut"></i>
-                    </span>
+                {{ range .Resources.Match "**.jpg" }}
+                  {{ $scaled := .Fill "800x600 Top" }}
+                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ else }}
+                  <span class="image-placeholder">
+                    <img src="/images/astronaut.png">
+                  </span>
                 {{ end }}
                 <figcaption class="is-overlay img-overlay">
                   <span class="img-tag">
