@@ -5,7 +5,7 @@ tags: [hackerinnen]
 intro: tech-lover, maker, frontend dev and convinced cyclist
 skills: JS, HTML+CSS, web technologies
 twitter: twissi
-website: https://www.kristin-fritsch.de
+website: https://kristin-fritsch.de
 github: twissi
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.meetup.com/OpenTechSchool-Leipzig/
