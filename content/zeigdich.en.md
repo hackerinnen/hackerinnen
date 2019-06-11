@@ -12,7 +12,7 @@ date: 2019-02-18T22:56:50+01:00
 
 <h1 class="is-size-4">How to support us</h1>
 <p>If you know people who should definitely show themselves, please let them know about the project and invite them to add their profile!</p>
-<p>You can also help to spread the idea by reporting about us through your social media channels and linking or tagging us. We can be found on Instagram and Twitter.</p>
+<p>You can also help to spread the idea by referring us through your social media channels for example by linking or tagging us. We can be found on <a href="https://instagram.com/hackerinnen.space" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://twitter.com/hackerinnen" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
 <br>
 
 <h1 class="is-size-4">Isn't hacking illegal?</h1>

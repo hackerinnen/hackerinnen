@@ -14,7 +14,7 @@ date: 2019-02-18T22:56:50+01:00
 
 <h1 class="is-size-4">Mithelfen</h1>
 <p>Wenn du Menschen kennst, die sich auch zeigen sollten, erzähl ihnen unbedingt von diesem Projekt und lad sie ein, sich ein eigenes Profil zu erstellen!</p>
-<p>Du kannst auch helfen, das Projekt bekannter zu machen, indem du auf deinen Social-Media-Kanälen über uns berichtest, uns verlinkst und tagst. Wir sind auf Instagram und Twitter zu finden.</p>
+<p>Du kannst auch helfen, das Projekt bekannter zu machen, indem du auf deinen Social-Media-Kanälen über uns berichtest, uns verlinkst und tagst. Wir sind auf <a href="https://instagram.com/hackerinnen.space" target="_blank" rel="noopener noreferrer">Instagram</a> und <a href="https://twitter.com/hackerinnen" target="_blank" rel="noopener noreferrer">Twitter</a> zu finden.</p>
 <br>
 
 <h1 class="is-size-4">Sind Hackerinnen illegal?</h1>
