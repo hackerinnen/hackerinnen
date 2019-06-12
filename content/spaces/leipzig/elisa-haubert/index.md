@@ -1,7 +1,6 @@
 ---
 title: "Elisa Haubert"
 date: 2019-02-28T22:15:23+01:00
-draft: true
 tags: [hackerinnen]
 intro: In einer Dreiecksbeziehung zusammen mit Design und Code.
 meetme: OpenTechSchool Leipzig
