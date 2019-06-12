@@ -2,10 +2,10 @@
 title: "Kristin Fritsch"
 date: 2019-06-09T10:00:00+00:00
 tags: [hackerinnen]
-intro: Tech-lover, Maker, Frontend Entwicklerin und überzeugter Radfahrerin
+intro: Tech-lover, Maker, Frontend Entwicklerin und überzeugte Radfahrerin
 skills: JS, HTML+CSS, Webtechnologien
 twitter: twissi
-website: https://www.kristin-fritsch.de
+website: https://kristin-fritsch.de
 github: twissi
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.meetup.com/OpenTechSchool-Leipzig/
