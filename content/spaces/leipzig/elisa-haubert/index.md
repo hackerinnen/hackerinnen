@@ -9,7 +9,7 @@ meetmelink: https://www.opentechschool.org/leipzig/
 skills: "HTML, CSS, JS, P5, Processing, UX/UI, Design"
 website: https://www.hau-rock.de/elisa
 github: JaneDoe774
-instagram: @janedoe_fts
+instagram: janedoe_fts
 ---
 
 # Ein paar Worte zu dir, wer bist du?
