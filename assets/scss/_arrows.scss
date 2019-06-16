@@ -1,42 +1,66 @@
+.arrow {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  text-indent: -9999px;
+  border-top: 2px solid $blue;
+  border-left: 2px solid $blue;
+  transition: all 250ms ease-in-out;
+  text-decoration: none;
+  color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    border-color: darken($blue, 10%);
+    border-width: 4px;
+  }
+
+  &.arrow-prev {
+    transform: rotate(-45deg);
+  }
+
+  &.arrow-next {
+    transform: rotate(135deg);
+  }
+
+  &.arrow-down {
+    transform: rotate(-135deg);
+  }
+}
+
+.logo {
+  .arrow.arrow-down {
+    bottom: 100px;
+  }
+}
+
 .arrow-nav {
   width: 100%;
   position: absolute;
   top: 50vh;
   z-index: 10;
 
-  .arrow {
-    display: inline-block;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    text-indent: -9999px;
-    border-top: 2px solid $blue;
-    border-left: 2px solid $blue;
-    transition: all 250ms ease-in-out;
-    text-decoration: none;
-    color: transparent;
-    cursor: pointer;
+  arrow.arrow-prev {
+    left: -60px;
+  }
 
-    &:hover {
-      border-color: darken($blue, 10%);
-      border-width: 4px;
-    }
-
-    &.arrow-prev {
-      transform: rotate(-45deg);
-      left: -60px;
-    }
-
-    &.arrow-next {
-      transform: rotate(135deg);
-      right: -60px;
-    }
+  arrow.arrow-next {
+    right: -60px;
   }
 }
 
 @media only screen and (max-width: 1125px) {
   .arrow-nav {
     display: none;
+  }
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+  .logo {
+    .arrow.arrow-down {
+      display: none;
+    }
   }
 }

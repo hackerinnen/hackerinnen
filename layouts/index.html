@@ -11,11 +11,11 @@
 
   </section>
 
-  <section class="section">
+  <section id="latest" class="section">
     <div class="container">
       <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
-      <div id="latest" class="columns is-multiline">
-      {{ range first 9 (where .Pages "Section" "spaces") }}
+      <div class="columns is-multiline">
+      {{ range first 6 (where .Pages "Section" "spaces") }}
         <figure class="column is-one-third">
           <a href="{{.Permalink}}">
             <div class="image">
@@ -35,10 +35,11 @@
         </figure>
       {{ end }}
       </div>
+      <a href={{ "/tags/hackerinnen/" }}><b>{{ i18n "more-hacker" }}</b></a>
     </div>
   </section>
   <section class="section">
-    <div class="container accent-bg-blue add-padd-3">
+    <div class="container">
       <h1 class="title is-size-3">{{ i18n "index-hackerinnen-heading" }}</h1>
       <p>{{ i18n "index-hackerinnen-text-1" }}</p>
       <p class="add-padd-top-1">{{ i18n "index-hackerinnen-text-2" }}</p>
