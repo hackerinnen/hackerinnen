@@ -8,15 +8,16 @@
     <h1 class="title teaser is-2">
       {{ i18n "teaser" }}
     </h1>
+
   </section>
 
   <section class="section">
     <div class="container">
       <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
-      <div class="columns">
-      {{ range first 3 (where .Pages "Section" "spaces") }}
-        <a href="{{.Permalink}}">
-          <figure class="column">
+      <div id="latest" class="columns is-multiline">
+      {{ range first 9 (where .Pages "Section" "spaces") }}
+        <figure class="column is-one-third">
+          <a href="{{.Permalink}}">
             <div class="image">
               {{ range .Resources.Match "**.jpg" }}
                 {{ $scaled := .Fill "800x600 Top" }}
@@ -30,8 +31,8 @@
                 <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
               </figcaption>
             </div>
-          </figure>
-        </a>
+          </a>
+        </figure>
       {{ end }}
       </div>
     </div>
