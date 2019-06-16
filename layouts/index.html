@@ -11,13 +11,13 @@
 
   </section>
 
-  <section id="latest" class="section">
-    <div class="container">
+  <section class="section">
+    <div id="latest" class="container">
       <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
-      <div class="columns is-multiline">
-      {{ range first 6 (where .Pages "Section" "spaces") }}
-        <figure class="column is-one-third">
-          <a href="{{.Permalink}}">
+      <div class="columns">
+      {{ range first 3 (where .Pages "Section" "spaces") }}
+        <a href="{{.Permalink}}">
+          <figure class="column">
             <div class="image">
               {{ range .Resources.Match "**.jpg" }}
                 {{ $scaled := .Fill "800x600 Top" }}
