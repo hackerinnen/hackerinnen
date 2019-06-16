@@ -1,9 +1,13 @@
 {{ define "main" }}
 <section class="section">
     <div class="container">
-      <h1 class="title teaser">{{ .Title }}</h1>
-      <div>
-         {{ .Content }}
+      <div class="columns">
+        <div class="column is-four-fifths-widescreen">
+          <h1 class="title teaser">{{ .Title }}</h1>
+          <div>
+            {{ .Content }}
+          </div>
+        </div>
       </div>
     </div>
 </section>
