@@ -43,6 +43,9 @@ other = ""
 [latest-hacker]
 other = "New on hackerinnen.space"
 
+[more-hacker]
+other = "Show me more hackerinnen"
+
 [meet-me]
 other = "Meet me at"
 

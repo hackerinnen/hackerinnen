@@ -17,12 +17,6 @@
     color: $text-color;
   }
 
-  .teaser {
-    background: linear-gradient(30deg, #00d1b2 30%, #009efd 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   a {
     color: $blue;
   }
@@ -97,13 +91,39 @@
     }
   }
 
+  .columns > figure:nth-child(3n) > a > .image > .image-placeholder {
+    background-color: $blue;
+  }
+
   section.logo {
-    padding: 60px 0 50px 0;
+    padding: 20vh 20px 0 20px;
+    height: calc(100vh - 52px);
+    text-align: center;
+
     svg {
       fill: $green;
-      margin: 0 auto 40px auto;
+      margin: 0 auto 140px auto;
       display: block;
+      transform: scale(1.5);
     }
-    text-align: center;
+
+    .teaser {
+      background: linear-gradient(30deg, #00d1b2 30%, #009efd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 34px;
+    }
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      padding: 20vh 20px 0 20px;
+      svg {
+        transform: scale(0.9);
+        margin: 0 auto 50px auto;
+      }
+
+      .teaser {
+        font-size: 25px;
+      }
+    }
   }
 }
