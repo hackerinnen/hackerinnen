@@ -3,10 +3,10 @@
     <div class="container">
       <h1 class="title teaser">{{.Title}}</h1>
       {{.Content}}
-      <div class="columns">
+      <div class="columns is-multiline">
         {{ range .Pages }}
-          <a href="{{.Permalink}}">
-            <figure class="column">
+          <figure class="column is-one-third">
+            <a href="{{.Permalink}}">
               <div class="image">
                 {{ range .Resources.Match "**.jpg" }}
                   {{ $scaled := .Fill "800x600 Top" }}
@@ -17,18 +17,18 @@
                   </span>
                 {{ end }}
                 <figcaption class="is-overlay img-overlay">
-                  <span class="img-tag">
-                    {{ .Title }}
-                    {{ i18n "from" }}
-                    {{ if .Parent }}
-                      {{ .Parent.Title }}
-                    {{ end }}
-                  </span>
+                    <span class="img-tag">
+                        {{ .Title }}
+                        {{ i18n "from" }}
+                        {{ if .Parent }}
+                          {{ .Parent.Title }}
+                        {{ end }}
+                      </span>
                 </figcaption>
               </div>
-            </figure>
-          </a>
-       {{ end }}
+            </a>
+          </figure>
+        {{ end }}
       </div>
     </div>
   </section>

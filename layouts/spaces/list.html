@@ -9,7 +9,7 @@
       {{ if (eq $.CurrentSection.Title "Spaces") }}
         <div class="spaces-list columns is-multiline">
           {{ range .Sections }}
-            <div class="column">
+            <div class="column is-one-third">
               <a href="{{.Permalink}}">
                 {{.Title}}
               </a>
@@ -17,25 +17,25 @@
           {{ end }}
         </div>
       {{ else }}
-        <div class="columns">
+        <div class="columns is-multiline">
           {{ range .Pages }}
+          <figure class="column is-one-third">
             <a href="{{.Permalink}}">
-              <figure class="column">
-                <div class="image">
-                  {{ range .Resources.Match "**.jpg" }}
-                    {{ $scaled := .Fill "800x600 Top" }}
-                    <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                  {{ else }}
-                    <span class="image-placeholder">
-                      <img src="/images/astronaut.png">
-                    </span>
-                  {{ end }}
-                  <figcaption class="is-overlay img-overlay">
-                    <span class="img-tag">{{ .Title }}</span>
-                  </figcaption>
-                </div>
-              </figure>
+              <div class="image">
+                {{ range .Resources.Match "**.jpg" }}
+                  {{ $scaled := .Fill "800x600 Top" }}
+                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ else }}
+                  <span class="image-placeholder">
+                    <img src="/images/astronaut.png">
+                  </span>
+                {{ end }}
+                <figcaption class="is-overlay img-overlay">
+                  <span class="img-tag">{{ .Title }}</span>
+                </figcaption>
+              </div>
             </a>
+          </figure>
           {{ end }}
         </div>
       {{ end }}
