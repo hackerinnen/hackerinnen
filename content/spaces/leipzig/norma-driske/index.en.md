@@ -16,7 +16,7 @@ twitter: allerleiPzig
 Hi, I'm Norma. I once studied Indology (that with India, not with America) and there were two other Normas in the course. That was pretty crazy and the first time I ever met someone named like me. But for much, much longer I didn't meet anyone who was in love with the internet and the web just as immediately as I was after I had plugged a 56-k modem into my analog telephone jack for the first time. And that's why I'm so happy now that there is this page, where you can meet many internet lovers :-)
 <br>
 
-I currently enjoy working four days a week as a full-stack developer at EntwicklerHeld in Dresden, partly remotely and partly on-site. My creative phases like to start after 8 pm, but I'm almost useless early in the morning. Some people accuse me of a certain addiction to caffeinated cold and warm drinks, occasionally also to Katjes Fred Ferkel and nachos, but I don't listen to rumors ;-) Oh and, I like cats and Bosnia-Hercegovina.
+I currently enjoy working four days a week as a full-stack developer at EntwicklerHeld in Dresden, partly remotely and partly on-site. My creative phases like to start after 8 pm, but I'm almost useless early in the morning. Some people accuse me of a certain addiction to caffeinated cold and warm drinks, occasionally also to Katjes Fred Ferkel and nachos, but I don't listen to rumors ;-) Oh and, I like cats, Alf and Bosnia-Hercegovina.
 
 # When and how did you get interested in coding?
 

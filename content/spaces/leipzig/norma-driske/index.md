@@ -16,7 +16,7 @@ twitter: allerleiPzig
 Hi, ich bin Norma. Ich hab mal Indologie (das mit den Indern, nicht mit Indianern) studiert und in dem Studiengang gab es noch zwei andere Normas. Das war ziemlich verrückt und das einzige Mal, dass ich bisher jemanden getroffen habe, der so heißt wie ich. Aber noch viel, viel länger hab ich niemanden getroffen, der genauso sehr ins Internet und das Web verliebt war, wie ich damals, als ich mit einem Freund ein 56k-Modem an den analogen WG-Telefonanschluss gefummelt hatte. Und deswegen freu ich mich jetzt so, dass es diese Seite gibt, wo man viele Internetverliebte antreffen kann :-)
 <br>
 
-Ansonsten: Ich arbeite derzeit sehr gerne vier Tage die Woche als Full-Stack-Entwicklerin bei EntwicklerHeld in Dresden, teils remote und teils vor Ort. Meine kreativen Phasen beginnen gerne mal nach 20 Uhr, dafür bin ich früh morgens zu fast nix zu gebrauchen. Einige Leute unterstellen mir eine gewisse Abhängigkeit von koffeinhaltigen Kalt- und Warmgetränken, gelegentlich auch von Katjes Fred Ferkel und Nachos, aber ich geb nix auf Gerüchte ;-) Ach und, ich mag Katzen und Bosnien-Herzegowina.
+Ansonsten: Ich arbeite derzeit sehr gerne vier Tage die Woche als Full-Stack-Entwicklerin bei EntwicklerHeld in Dresden, teils remote und teils vor Ort. Meine kreativen Phasen beginnen gerne mal nach 20 Uhr, dafür bin ich früh morgens zu fast nix zu gebrauchen. Einige Leute unterstellen mir eine gewisse Abhängigkeit von koffeinhaltigen Kalt- und Warmgetränken, gelegentlich auch von Katjes Fred Ferkel und Nachos, aber ich geb nix auf Gerüchte ;-) Ach und, ich mag Katzen, Alf und Bosnien-Herzegowina.
 
 
 # Wie und wann hast du mit dem Programmieren begonnen?
