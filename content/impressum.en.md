@@ -3,7 +3,8 @@ title: "Imprint"
 ---
 
 hackerinnen.space is a community project and is currently driven forward with much love by:\
-Kristin Fritsch, Elisa Haubert, Alexa Steinbrück, Norma Driske und all Hackerinnen on this page :-)<br><br>
+[Kristin Fritsch](/en/spaces/leipzig/kristin-fritsch/), [Elisa Haubert](/en/spaces/leipzig/elisa-haubert/), [Alexa Steinbrück](/en/spaces/leipzig/alexa-steinbruck/), [Norma Driske](/en/spaces/leipzig/norma-driske/) and all [Hackerinnen](/en/tags/hackerinnen) on this page :-)
+<br><br>
 Norma Driske\
 Kutschbachweg 3\
 04177 Leipzig\
