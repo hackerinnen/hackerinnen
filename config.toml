@@ -11,7 +11,7 @@ DefaultContentLanguage = "de"
   [languages.en]
     languageName = "English"
     weight = 2
-    description = "Female hackers of all places, show yourselves! - An encouraging project."
+    description = "Hackerinnen of all places, show yourselves! - A project to provide encouragement and enhance visibility."
 
 [params]
   description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
