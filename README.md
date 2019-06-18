@@ -22,9 +22,10 @@ If you feel you belong here, please join and show yourself!
     If you experience trouble translating your profile in one of the languages, you could use [DeepL](https://www.deepl.com/translator) or Google Translate.
     If you do not want to add a pic of yourself, maybe you want to find a picture that is somehow connected to you? It would be wonderful if the profiles were individualized, but if you do not want that, it is also ok, we are happy that you are on board :-)
 4.  See `hackerinnen/content/spaces/a-test-city` folder and copy the content structure of all index files and add them to your own files.
-5.  Remove all `draft: true` settings in the head of your files. 
-6.  Add your answers. If you do not want to answer a certain question, just leave it out.
-7.  Create a PR
+5.  Remove all `draft: true` settings in the head of your files.
+6.  Check if you updated the `date` setting in the head of your files.
+7.  Add your answers. If you do not want to answer a certain question, just leave it out.
+8.  Create a PR
 
 ## Report a bug
 
@@ -38,6 +39,8 @@ You know someone who definitely needs to show themselves? Please, share the idea
 - [Bulma CSS Framework](https://bulma.io/)
 
 ## Setup
+
+If you want to run the the project locally, you need to install [Hugo](https://gohugo.io/getting-started/installing/).
 
 ### How to run the page locally
 
