@@ -2,7 +2,7 @@
 title: "Eli Flores"
 date: 2019-07-01T15:00:00+01:00
 tags: [hackerinnen]
-intro: Mensch. Ingenieurin. Buchliebhaber. Raumfahrer.
+intro: Mensch. Ingenieurin. Buchliebhaberin. Raumfahrerin.
 meetme: Women Who Code, PyBerlin, Django Girls.
 website: http://mignonnesaurus.com
 github: mignonnesaurus
@@ -21,7 +21,7 @@ Im Herzen bin ich eine Lehrerin. Ich helfe Studenten gerne, besser darauf vorber
 
 # Wie und wann hast du mit dem Programmieren begonnen?
 
-Ich bin seit meiner Kindheit ein Bücherliebhaber und ich habe gerne durch das Bücherregal im Haus meiner Eltern geblättert. Kurz vor meinem ersten Jahr an der Sekundarschule fand ich dort ein Buch über [BASIC](https://en.wikipedia.org/wiki/BASIC), das mein Vater für die Arbeit benutzte, und begann es durchzusehen. Ich fand es sehr interessant und war neugierig, mehr zu erfahren, also entschied ich mich, mich für die Option _Informatik_ an meiner Sekundarschule einzuschreiben.  
+Ich bin seit meiner Kindheit eine Bücherliebhaberin und ich habe gerne durch das Bücherregal im Haus meiner Eltern geblättert. Kurz vor meinem ersten Jahr an der Sekundarschule fand ich dort ein Buch über [BASIC](https://en.wikipedia.org/wiki/BASIC), das mein Vater für die Arbeit benutzte, und begann es durchzusehen. Ich fand es sehr interessant und war neugierig, mehr zu erfahren, also entschied ich mich, mich für die Option _Informatik_ an meiner Sekundarschule einzuschreiben.  
 
 Dort lernte ich [Logo](https://en.wikipedia.org/wiki/Logo_programming_language) und [Pascal](https://en.wikipedia.org/wiki/Pascal_programming_language). 
 
