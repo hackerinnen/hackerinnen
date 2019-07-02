@@ -31,7 +31,7 @@ Ich liebe es, dass Coden wie Schreiben eines intelligenten Buchs ist. Wie in ein
 
 # Was ist gerade dein Lieblingsprojekt?
 
-Ich habe derzeit Spaß daran, mehr über das Testen in Python zu erfahren und benutze ein Django Girls[project](https://github.com/mignonnesaurus/my-first-blog) zum Üben. 
+Ich habe derzeit Spaß daran, mehr über das Testen in Python zu erfahren und benutze ein Django Girls [project](https://github.com/mignonnesaurus/my-first-blog) zum Üben. 
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
