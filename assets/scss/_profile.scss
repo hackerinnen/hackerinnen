@@ -284,6 +284,10 @@
           right: -15px;
           top: -20px;
           border: none;
+
+          /* antialiasing */
+          outline: 1px solid transparent;
+          will-change: transform;
         }
       }
 
