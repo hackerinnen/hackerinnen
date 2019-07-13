@@ -82,7 +82,7 @@ We use the German word Hackerinnen in its original intent to describe people, wh
 
 ## Information for Recruiters
 
-We don't know if the Hackerinnen presented on this platform are looking for a job, a career change or a freelance gig. It this is the case, they're most probably already on the lookout on other platforms. This platform has no commercial purpose. We kindly ask you to refrain from recruiting activities via this network.
+We don't know if the Hackerinnen presented on this platform are looking for a job, a career change or a freelance gig. If this is the case, they're most probably already on the lookout on other platforms. This platform has no commercial purpose. We kindly ask you to refrain from recruiting activities via this network.
 
 ## Contact
 
