@@ -22,6 +22,9 @@ In this spirit - let's spread our colors and show ourselves!
 ## How to show yourself
 If you feel you belong here, please join and show yourself!
 
+There are 2 options to add a profile: Doing it locally by forking the repo or if you don't want to set up the repo you can also visit [https://submit.hackerinnen.space](https://submit.hackerinnen.space) to submit your profile. You will be able to review your submission in our staging environment.
+
+Local setup:
 1.  Fork the repository and clone it
 2.  Create a feature branch
 3.  Create a folder with your name in `hackerinnen/content/spaces/{your-city}/{firstname-lastname}`
@@ -40,8 +43,6 @@ If you feel you belong here, please join and show yourself!
 6.  Check if you updated the `date` setting in the head of your files.
 7.  Add your answers. If you do not want to answer a certain question, just leave it out.
 8.  Create a PR
-
-If you don't want to set up the repo locally you can also visit [https://submit.hackerinnen.space](https://submit.hackerinnen.space) to submit your profile. You will be able to review your submission in our staging environment.
 
 ## Technologies used to build this project
 
