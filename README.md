@@ -1,5 +1,5 @@
 # hackerinnen.space [![Netlify Status](https://api.netlify.com/api/v1/badges/52a6b589-d735-4956-890e-3c59760772a6/deploy-status)](https://app.netlify.com/sites/loving-noyce-189cc2/deploys)
-## A project to provide encouragement and enhance visibility 
+## A project to provide encouragement and enhance visibility
 
 hackerinnen.space originated from our personal experience that it is quite hard for non-male people in the Tech sector to spot other non-male people in the same field. Oftentimes you even think that there are no such people in your own city. But that is not the reality, we're here!
 
@@ -22,16 +22,19 @@ In this spirit - let's spread our colors and show ourselves!
 ## How to show yourself
 If you feel you belong here, please join and show yourself!
 
+There are 2 options to add a profile: Doing it locally by forking the repo or if you don't want to set up the repo you can also visit [https://submit.hackerinnen.space](https://submit.hackerinnen.space) to submit your profile. You will be able to review your submission in our staging environment.
+
+Local setup:
 1.  Fork the repository and clone it
 2.  Create a feature branch
 3.  Create a folder with your name in `hackerinnen/content/spaces/{your-city}/{firstname-lastname}`
-    
+
     If your city doesn't exist, create a folder `hackerinnen/content/spaces/{name-of-your-city}`, add an `_index.md` and `_index.en.md` file to the new folder. Then create your name folder.
-    
+
     A person's folder should contain 3 files:
     - index.md for the German translation
     - index.en.md for the English translation
-    - a picture (please name it with your name, e.g. `ada-lovelace.jpg`)
+    - a picture (please name it with your name, e.g. `ada-lovelace.jpg`, file extension has to be jpg)
 
     If you experience trouble translating your profile in one of the languages, you could use [DeepL](https://www.deepl.com/translator) or Google Translate.
     If you do not want to add a pic of yourself, maybe you want to find a picture that is somehow connected to you? It would be wonderful if the profiles were individualized, but if you do not want that, it is also ok, we are happy that you are on board :-)
@@ -40,7 +43,6 @@ If you feel you belong here, please join and show yourself!
 6.  Check if you updated the `date` setting in the head of your files.
 7.  Add your answers. If you do not want to answer a certain question, just leave it out.
 8.  Create a PR
-
 
 ## Technologies used to build this project
 
@@ -82,7 +84,7 @@ We use the German word Hackerinnen in its original intent to describe people, wh
 
 ## Information for Recruiters
 
-We don't know if the Hackerinnen presented on this platform are looking for a job, a career change or a freelance gig. It this is the case, they're most probably already on the lookout on other platforms. This platform has no commercial purpose. We kindly ask you to refrain from recruiting activities via this network.
+We don't know if the Hackerinnen presented on this platform are looking for a job, a career change or a freelance gig. If this is the case, they're most probably already on the lookout on other platforms. This platform has no commercial purpose. We kindly ask you to refrain from recruiting activities via this network.
 
 ## Contact
 

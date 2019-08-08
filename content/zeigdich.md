@@ -7,7 +7,9 @@ date: 2019-02-18T22:56:50+01:00
 
 <h1 class="is-size-4">Dein Profil online stellen</h1>
 
-<p>Das Projekt findest du auf <a href="https://github.com/normade/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> und alle Profile sind in Markdown geschrieben. Du kannst einfach das Repo auschecken und einen PR mit einem Feature-Branch, der dein Profil enthält, eröffnen. Eine Schritt-für-Schritt-Anleitung findest du in unserer <a href="https://github.com/normade/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a>.
+<p>Das Projekt findest du auf <a href="https://github.com/normade/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> und alle Profile sind in Markdown geschrieben. Du kannst einfach das Repo auschecken und einen PR mit einem Feature-Branch, der dein Profil enthält, eröffnen. Eine Schritt-für-Schritt-Anleitung findest du in unserer <a href="https://github.com/normade/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a>.</p>
+
+<p>Wenn du das Projekt lokal nicht aufsetzen möchtest, dann kannst du dein Profil auch auf dieser Seite <a target="_blank" href="https://submit.hackerinnen.space">https://submit.hackerinnen.space</a> hinzufügen. Wir erstellen dann automatisch einen Pull Request für dich und du kannst eine Vorschau deines Profils auf unserer Staging-Umgebung einsehen.</p>
 
 <p>Du kannst uns jeder Zeit kontaktieren, wenn du Hilfe brauchst, Fragen oder Kommentare hast, über Email (hello ät hackerinnen.space) oder auf Twitter und Instagram.</p>
 <br>
