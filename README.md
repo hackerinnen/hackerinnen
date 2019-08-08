@@ -39,7 +39,7 @@ Local setup:
     If you experience trouble translating your profile in one of the languages, you could use [DeepL](https://www.deepl.com/translator) or Google Translate.
     If you do not want to add a pic of yourself, maybe you want to find a picture that is somehow connected to you? It would be wonderful if the profiles were individualized, but if you do not want that, it is also ok, we are happy that you are on board :-)
 4.  See `hackerinnen/content/spaces/a-test-city` folder and copy the content structure of all index files and add them to your own files.
-5.  Remove all `draft: true` settings in the head of your files.
+5.  Remove all `draft: true` settings in the head of your files. If you don't have a translated version (either English or German you can keep the draft setting and your profile won't show in this language)
 6.  Check if you updated the `date` setting in the head of your files.
 7.  Add your answers. If you do not want to answer a certain question, just leave it out.
 8.  Create a PR
