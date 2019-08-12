@@ -58,7 +58,7 @@ If you want to run the the project locally, you need to install [Hugo](https://g
 
 Run the following commands in the terminal:
 
-`git clone git@github.com:normade/hackerinnen.git`
+`git clone git@github.com:hackerinnen/hackerinnen.git`
 
 `cd hackerinnen`
 
