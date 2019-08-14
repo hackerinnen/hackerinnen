@@ -1,35 +1,35 @@
 {{ define "main" }}
-  <section class="section">
-    <div class="container">
-      <h1 class="title teaser">{{.Title}}</h1>
-      {{.Content}}
-      <div class="columns is-multiline">
-        {{ range .Pages }}
-          <figure class="column is-one-third">
-            <a href="{{.Permalink}}">
-              <div class="image">
-                {{ range .Resources.Match "**.jpg" }}
-                  {{ $scaled := .Fill "800x600 Top" }}
-                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                {{ else }}
-                  <span class="image-placeholder">
-                    <img src="/images/astronaut.png">
-                  </span>
+<section class="section">
+  <div class="container">
+    <h1 class="title teaser">{{.Title}}</h1>
+    {{.Content}}
+    <div class="columns is-multiline">
+      {{ range.Pages }}
+      <figure class="column is-one-third">
+        <a href="{{.Permalink}}">
+          <div class="image">
+            {{ range .Resources.ByType "image" }}
+            {{ $scaled := .Fill "800x600 Top" }}
+            <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+            {{ else }}
+            <span class="image-placeholder">
+              <img src="/images/astronaut.png" />
+            </span>
+            {{ end }}
+            <figcaption class="is-overlay img-overlay">
+              <span class="img-tag">
+                {{ .Title }}
+                {{ i18n "from" }}
+                {{ if .Parent }}
+                {{ .Parent.Title }}
                 {{ end }}
-                <figcaption class="is-overlay img-overlay">
-                    <span class="img-tag">
-                        {{ .Title }}
-                        {{ i18n "from" }}
-                        {{ if .Parent }}
-                          {{ .Parent.Title }}
-                        {{ end }}
-                      </span>
-                </figcaption>
-              </div>
-            </a>
-          </figure>
-        {{ end }}
-      </div>
+              </span>
+            </figcaption>
+          </div>
+        </a>
+      </figure>
+      {{ end }}
     </div>
-  </section>
+  </div>
+</section>
 {{ end }}
