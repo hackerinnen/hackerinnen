@@ -9,7 +9,7 @@
   <article class="container">
     <h1 class="title teaser">{{ .Title }}</h1>
     <div class="image">
-      {{ range $.Page.Resources.Match "**.jpg" }}
+      {{ range $.Page.Resources.ByType "image" }}
       {{ $scaled := .Fill "300x400 Top" }}
       <img src="{{ $scaled.Permalink }}" />
       {{ end }}
