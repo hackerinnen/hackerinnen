@@ -2,7 +2,7 @@ baseURL = "https://www.hackerinnen.space/"
 languageCode = "en-us"
 title = "hackerinnen.space"
 
-DefaultContentLanguage = "de"
+DefaultContentLanguage = "en"
 
 [languages]
   [languages.de]
