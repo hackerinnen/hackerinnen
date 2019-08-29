@@ -5,16 +5,16 @@ title = "hackerinnen.space"
 DefaultContentLanguage = "en"
 
 [languages]
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 1
   [languages.en]
     languageName = "English"
+    weight = 1
+    description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
+  [languages.de]
+    languageName = "Deutsch"
     weight = 2
-    description = "Hackerinnen of all places, show yourselves! - A project to provide encouragement and enhance visibility."
 
 [params]
-  description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
+  description = "Hackerinnen of all places, show yourselves! - A project to provide encouragement and enhance visibility."
   twitter_handle = "@hackerinnen"
 
 [taxonomies]
