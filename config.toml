@@ -8,9 +8,9 @@ DefaultContentLanguage = "en"
   [languages.en]
     languageName = "English"
     weight = 1
-    description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
   [languages.de]
     languageName = "Deutsch"
+    description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
     weight = 2
 
 [params]
