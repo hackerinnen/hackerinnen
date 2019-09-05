@@ -29,10 +29,10 @@ Local setup:
 2.  Create a feature branch
 3.  Create a folder with your name in `hackerinnen/content/spaces/{your-city}/{firstname-lastname}`
 
-    If your city doesn't exist, create a folder `hackerinnen/content/spaces/{name-of-your-city}`, add an `_index.md` and `_index.en.md` file to the new folder. Then create your name folder.
+    If your city doesn't exist, create a folder `hackerinnen/content/spaces/{name-of-your-city}`, add an `_index.de.md` and `_index.en.md` file to the new folder. Then create your name folder.
 
     A person's folder should contain 3 files:
-    - index.md for the German translation
+    - index.de.md for the German translation
     - index.en.md for the English translation
     - a picture (please name it with your name, e.g. `ada-lovelace.jpg`, file extension has to be jpg)
 

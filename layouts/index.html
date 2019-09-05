@@ -20,7 +20,7 @@
         <a href="{{.Permalink}}">
           <figure class="column is-one-third">
             <div class="image">
-              {{ range .Resources.Match "**.jpg" }}
+              {{ range .Resources.ByType "image" }}
                 {{ $scaled := .Fill "800x600 Top" }}
                 <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
               {{ else }}

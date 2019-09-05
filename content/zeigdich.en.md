@@ -3,10 +3,10 @@ title: "Show yourself"
 date: 2019-02-18T22:56:50+01:00
 ---
 
-<p><i>We're excited to have you on board!</i></p><br>
+<p>If you are creative, problem solving or otherwise involved with computers, then share your experiences! You don't have to write software professionally, bring ten years of experience with you, or have a degree, because your very individual story can give others more courage and new impulses than you might think. We have noticed how exciting it is for us to think about our own experiences while answering the questions. Try it out. We are happy when you are there and show yourself!</p><br>
 
 <h1 class="is-size-4">How to put your profile online</h1>
-<p>You can find the project on <a href="https://github.com/normade/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> and the profile pages are written in Markdown. Simply checkout the repo and open a PR with a feature branch containing your profil. See the <a href="https://github.com/normade/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README file</a> for a step-by-step guide.</p>
+<p>You can find the project on <a href="https://github.com/hackerinnen/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> and the profile pages are written in Markdown. Simply checkout the repo and open a PR with a feature branch containing your profil. See the <a href="https://github.com/hackerinnen/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README file</a> for a step-by-step guide.</p>
 
 <p>If you don't want to set up the repo locally you can also submit your profile at <a target="_blank" href="https://submit.hackerinnen.space">https://submit.hackerinnen.space</a>. We will automatically create a pull request for you and you will be able to review your profile in our staging environment.</p>
 
