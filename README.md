@@ -34,7 +34,7 @@ Local setup:
     A person's folder should contain 3 files:
     - index.de.md for the German translation
     - index.en.md for the English translation
-    - a picture (please name it with your name, e.g. `ada-lovelace.jpg`, file extension has to be jpg)
+    - a picture (please name it with your name, e.g. `ada-lovelace.jpg`)
 
     If you experience trouble translating your profile in one of the languages, you could use [DeepL](https://www.deepl.com/translator) or Google Translate. You can also skip one of the translations by keeping the setting `draft: true`.
     
