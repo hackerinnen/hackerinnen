@@ -1,20 +1,20 @@
-baseURL = "https://www.hackerinnen.space/"
+baseURL = "https://hackerinnen.space"
 languageCode = "en-us"
 title = "hackerinnen.space"
 
-DefaultContentLanguage = "de"
+DefaultContentLanguage = "en"
 
 [languages]
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 1
   [languages.en]
     languageName = "English"
+    weight = 1
+  [languages.de]
+    languageName = "Deutsch"
+    description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
     weight = 2
-    description = "Hackerinnen of all places, show yourselves! - A project to provide encouragement and enhance visibility."
 
 [params]
-  description = "Hackerinnen aller Orte, zeigt euch! Ein Mutmach-Projekt."
+  description = "Hackerinnen of all places, show yourselves! - A project to provide encouragement and enhance visibility."
   twitter_handle = "@hackerinnen"
 
 [taxonomies]

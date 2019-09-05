@@ -5,8 +5,8 @@
   height: 40px;
   background: transparent;
   text-indent: -9999px;
-  border-top: 2px solid $blue;
-  border-left: 2px solid $blue;
+  border-top: 4px solid $blue;
+  border-left: 4px solid $blue;
   transition: all 250ms ease-in-out;
   text-decoration: none;
   color: transparent;
@@ -31,9 +31,18 @@
   }
 }
 
+@keyframes PULSE {
+  0% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+
 .logo {
   .arrow.arrow-down {
-    bottom: 100px;
+    animation: PULSE 2s infinite;
   }
 }
 
@@ -58,7 +67,7 @@
   }
 }
 
-@media only screen and (max-width: $mobile-breakpoint), (max-height: 800px) {
+@media only screen and (max-height: 750px) {
   .logo {
     .arrow.arrow-down {
       display: none;
