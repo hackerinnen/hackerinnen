@@ -28,19 +28,19 @@ Tatsächlich machen mir die Projekte bei der Arbeit am meisten Spaß 🤓, aber 
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
-I am proud of the [plugins](https://github.com/berlindiamonds) that we built for discourse during the summer of code, cause back then I was such a noob and still we managed to build something great and useful for an OS project.
+Ich bin stolz auf die [Plugins](https://github.com/berlindiamonds) für Discourse aus dem Summer of Code, weil ich damals echt noch grün hinter den Ohren war und trotzdem schon zu Open Source Code beitragen konnte.
 
 # Was würdest du gern zukünftig einmal probieren/lernen/können?
 
-I am really good in coding with Ruby, but I want to learn what is happening on a lower level, so currently I am reading "Ruby Under A Microscope". Also I love Elixir, Prolog and I want to learn Python as well.
+Ich hab das Gefühl, in Ruby schon richtig gut zu sein, würde aber gerne lernen, was auf einem tieferen Level darunter passiert, deshalb lese ich gerade "Ruby Under A Microscope". Außerdem mag ich Elixir, Prolog und würde gerne Python lernen.
 
 # Was war bisher deine größte Herausforderung als Programmierer\*in?
 
-Toxic masculinity in the field. I am actively fighting it.
+Toxische Männlichkeit in unserer Branche. Ich arbeite jeden Tag daran, das Patriarchat zu stürzen.
 
 # Hast du Vorbilder?
 
-Yes: Pippi Longstockings, Princess Mononoke.
+Ja: Pippi Langstrumpf, Prinzessin Mononoke.
 
 # Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
