@@ -11,19 +11,20 @@ twitter: AlizeNero
 
 # Ein paar Worte zu dir, wer bist du?
 
-Being born and raised as a half Croatian in west Berlin by a teenage mom gave me my Pippi Longstockings mindset. In university I studied philosophy and historical linguistics and my perspective on code is heavily influenced by these two subjects. Now (since 2017) I work at Absolventa in a team of 5 other cute quirky developers like me and in my freetime I go on demonstrations for social justice issues and play football (soccer) in a feminist [fooball club](http://www.discoverfootball.de/home/). Also I am a proud organizer of code curious (former Rails Girls Berlin). During the Rails Girls Summer of Code 2017 I contributed to [Discourse](https://www.discourse.org/) together with Jen who is now a beloved friend of mine. Also I am a huge fan of Nynne's @Rijks_bot on twitter, please check it out!
+Meine Mutter gebar mich zwei Jahre vor dem Mauerfall in Berlin Kreuzberg, als sie gerade für ihre Abi-Prüfungen lernen musste und von ihr habe ich eine "Pippi-Langstrumpf-Einstellung" dem Leben gegenüber. Wie fast alle in Berlin, habe ich einen Migrationshintergrund und bin zur Hälfte kroatisch. Nach der Schule habe ich Philosophie und historischer Linguistik studiert und dann aber das Programmieren auf eigene Faust gelernt, weil ich irgendwann doch einsehen musste, dass man arbeiten muss, wenn man nicht geerbt hat. Mein Studium hinterlässt allerdings seine Spuren in meiner Art zu programmieren und zu denken.
+Seit 2017 arbeite ich also (bei Absolventa) in einem 5-köpfigen Team mit anderen schrulligen Entwickler_innen wie mir. In meiner Freizeit gehe ich auf Demos für soziale Gerechtigkeit und spiele Fußball in einem feministischen [Verein](http://www.discoverfootball.de/home/). Außerdem bin ich stolzes Mitglied des code curious Orga-Teams (früher als Rails Girls Berlin bekannt). Während des Rails Girls Summer of Code 2017 hab ich an [Discourse](https://www.discourse.org/) mitgearbeitet zusammen mit Jen, die ich jetzt zu meinen Freunden zähle. Ich bin ein großer Fan von Nynne's @Rijks_bot auf Twitter, guckt euch den mal an!
 
 # Wie und wann hast du mit dem Programmieren begonnen?
 
-In 2016 my boyfriend asked me for help with his website. I didn't even know what HTML was back then, but he was convinced that I would manage to help him and I did. It was a huge discovery for me that I enjoyed spending my nights infront of my laptop searching for solutions for code problems and soon I realized that I want to join a community in order to learn with and from others. That's how I found the Rails Girls Berlin and attended their workshops.
+2016 brauchte mein Freund Hilfe mit seiner Webseite. Ich wusste zwar damals noch nicht mal, was HTML ist, aber er war überzeugt davon, dass ich ihm helfen kann (er hat wirklich kein Talent, was sowas angeht) und tatsächlich hatte er recht. Für mich war das eine krasse Überraschung, dass ich jemals Spaß daran haben könnte, mir die Nächte vor meinem Laptop um die Ohren zu schlagen, auf der Suche nach Lösungen für technische Probleme. Kurze Zeit später realisierte ich, dass ich Bock drauf habe, mehr zu lernen und eine Community zu finden, wo ich mich austauschen kann. So kam ich damals auf einen Workshop der Rails Girls Berlin, was letztendlich mein Sprungbrett ins Programmieren war.
 
 # Was magst du besonders am Programmieren?
 
-I love that it caters exactly to my joy of solving problems in a creative way. Also it is usually a mixture of looking at conventions and then also coming up with something totally new.
+Es passt genau zu meinem Bedürfnis, Probleme auf eine kreative Art und Weise zu lösen. Außerdem ist die Mischung aus festen Konventionen und neuen Wegen ganz cool.
 
 # Was ist gerade dein Lieblingsprojekt?
 
-Actually I really enjoy the projects that I am working on at my job 🤓, but I also like that I could delegate a pet project of mine to a study group that I sometimes coach: [A community calendar](https://github.com/ruby-stars/community-calendar)
+Tatsächlich machen mir die Projekte bei der Arbeit am meisten Spaß 🤓, aber darüber hinaus konnte ich ein Projekt an eine Study Group, die ich manchmal coache, delegieren: [AEin Community Kalender](https://github.com/ruby-stars/community-calendar)
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
