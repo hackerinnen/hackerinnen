@@ -68,14 +68,13 @@ To see drafts run
 
 `hugo server -D`
 
-
-## Report a bug
-
 ## Support the project
 
 If you know people who should definitely show themselves, please let them know about the project and invite them to add their profile!
 
 You can also help to spread the idea by referring us through your social media channels for example by linking or tagging us. We can be found on [Instagram](https://instagram.com/hackerinnen.space) and [Twitter](https://twitter.com/hackerinnen).
+
+And we have issues :-) If you want to help to improve the website and/or the submission form, please feel free to grab one open issue and work on it. Beginners are welcome and we are always ready to help! 
 
 ## Isn't hacking illegal?
 
