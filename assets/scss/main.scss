@@ -125,5 +125,11 @@
         font-size: 25px;
       }
     }
+
+    @media only screen and (max-width: $mobile-breakpoint) and (max-height: 620px) {
+      .teaser {
+        font-size: 20px;
+      }
+    }
   }
 }
