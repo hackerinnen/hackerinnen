@@ -1,6 +1,10 @@
 .pagination{
     margin: 60px 0;
 
+    .fa-caret-left, .fa-caret-right{
+        font-size: 24px;
+    }
+
     .pagination-link{
         color: $blue;
         border-radius: 1px;
