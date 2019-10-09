@@ -4,7 +4,7 @@
     <h1 class="title teaser">{{.Title}}</h1>
     {{.Content}}
     <div class="columns is-multiline">
-      {{ range.Pages }}
+      {{ range.Paginator.Pages }}
       <figure class="column is-one-third">
         <a href="{{.Permalink}}">
           <div class="image">
@@ -31,5 +31,6 @@
       {{ end }}
     </div>
   </div>
+  {{- partial "pagination.html" . -}}
 </section>
 {{ end }}
