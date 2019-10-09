@@ -1,4 +1,5 @@
 # hackerinnen.space [![Netlify Status](https://api.netlify.com/api/v1/badges/52a6b589-d735-4956-890e-3c59760772a6/deploy-status)](https://app.netlify.com/sites/loving-noyce-189cc2/deploys)
+
 ## A project to provide encouragement and enhance visibility
 
 hackerinnen.space originated from our personal experience that it is quite hard for non-male people in the Tech sector to spot other non-male people in the same field. Oftentimes you even think that there are no such people in your own city. But that is not the reality, we're here!
@@ -10,6 +11,7 @@ This initiative does not imply that we dislike men or want to distance ourselves
 In this spirit - let's spread our colors and show ourselves!
 
 ## Table of Contents
+
 **[How to show yourself](#how-to-show-yourself)**<br>
 **[Technologies used to build this project](#technologies-used-to-build-this-project)**<br>
 **[Setup](#setup)**<br>
@@ -20,11 +22,13 @@ In this spirit - let's spread our colors and show ourselves!
 **[Contact](#contact)**
 
 ## How to show yourself
+
 If you feel you belong here, please join and show yourself!
 
 There are 2 options to add a profile: Doing it locally by forking the repo or if you don't want to set up the repo you can also visit [https://submit.hackerinnen.space](https://submit.hackerinnen.space) to submit your profile. You will be able to review your submission in our staging environment.
 
 Local setup:
+
 1.  Fork the repository and clone it to your local machine
 2.  Create a feature branch
 3.  Create a folder with your name in `hackerinnen/content/spaces/{your-city}/{firstname-lastname}`
@@ -32,13 +36,15 @@ Local setup:
     If your city doesn't exist, create a folder `hackerinnen/content/spaces/{name-of-your-city}`, add an `_index.de.md` and `_index.en.md` file to the new folder. Then create your name folder.
 
     A person's folder should contain 3 files:
+
     - index.de.md for the German translation
     - index.en.md for the English translation
     - a picture (please name it with your name, e.g. `ada-lovelace.jpg`)
 
     If you experience trouble translating your profile in one of the languages, you could use [DeepL](https://www.deepl.com/translator) or Google Translate. You can also skip one of the translations by keeping the setting `draft: true`.
-    
+
     If you do not want to add a pic of yourself, maybe you want to find a picture that is somehow connected to you? It would be wonderful if the profiles were individualized, but if you do not want that, it is also ok, we are happy that you are on board :-)
+
 4.  See `hackerinnen/content/spaces/a-test-city` folder and copy the content structure of all index files and add them to your own files.
 5.  Remove all `draft: true` settings in the head of your files. If you don't have a translated version (either English or German you can keep the draft setting and your profile won't show in this language).
 6.  Check if you updated the `date` setting in the head of your files.
@@ -53,6 +59,7 @@ Local setup:
 ## Setup
 
 If you want to run the the project locally, you need to install [Hugo](https://gohugo.io/getting-started/installing/).
+Make sure to install the **extended version**, since it is requiered for compiling scss/sass file.
 
 ### How to run the page locally
 
@@ -74,7 +81,7 @@ If you know people who should definitely show themselves, please let them know a
 
 You can also help to spread the idea by referring us through your social media channels for example by linking or tagging us. We can be found on [Instagram](https://instagram.com/hackerinnen.space) and [Twitter](https://twitter.com/hackerinnen).
 
-And we have issues :-) If you want to help to improve the website and/or the submission form, please feel free to grab one open issue and work on it. Beginners are welcome and we are always ready to help! 
+And we have issues :-) If you want to help to improve the website and/or the submission form, please feel free to grab one open issue and work on it. Beginners are welcome and we are always ready to help!
 
 ## Isn't hacking illegal?
 
