@@ -1,0 +1,24 @@
+.pagination{
+    margin: 60px 0;
+
+    .fa-caret-left, .fa-caret-right{
+        font-size: 24px;
+    }
+
+    .pagination-link{
+        color: $blue;
+        border-radius: 1px;
+
+        &:hover{
+            border-color: $green;
+            i{
+                color: $green;
+            }
+        }
+        &.is-current{
+            color: white;
+            background-image: linear-gradient(200deg, $green 30%, $blue 100%);
+            border: rgba($green, 0.8)
+        }
+    }
+}

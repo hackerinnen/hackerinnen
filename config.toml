@@ -4,6 +4,8 @@ title = "hackerinnen.space"
 
 DefaultContentLanguage = "en"
 
+paginate = 3
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -19,3 +21,4 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
   tag = "tags"
+
