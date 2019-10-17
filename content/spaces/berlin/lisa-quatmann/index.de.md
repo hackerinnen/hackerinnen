@@ -21,7 +21,7 @@ In der Schule habe ich [Pascal](https://en.wikipedia.org/wiki/Pascal_programming
 
 # Was magst du besonders am Programmieren?
 
-Ich baue gerne Dinge. Es ist befriedigend, ein App oder Website zu benutzen, und zu wissen, dass Sie sie erstellt haben.
+Ich baue gerne Dinge. Es ist befriedigend, eine App oder Website zu benutzen, die du selbst erstellt hast.
 
 # Was ist gerade dein Lieblingsprojekt?
 
@@ -29,11 +29,11 @@ Django Girls, natürlich!
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
-Ja. Ich war mit dem [The CumEx Files](https://cumex-files.com/en/) Untersuchung beteiligt, während ich bei [Correctiv](https://correctiv.org/) gearbeitet.
+Ja. Ich war an den [The CumEx Files](https://cumex-files.com/en/) Nachforschungen beteiligt, während ich bei [Correctiv](https://correctiv.org/) gearbeitet habe.
 
 # Was würdest du gern zukünftig einmal probieren/lernen/können?
 
-Ich studiere Engineering-Management und Projekt-Management jetzt.
+Ich studiere jetzt Engineering- und Projekt-Management.
 
 # Was war bisher deine größte Herausforderung als Programmierer\*in?
 
@@ -45,6 +45,6 @@ Ich bin sehr sozial.
 
 # Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
-Das [Django Girls Tutorial](http://tutorial.djangogirls.org) ist gut, wenn Sie mit der Programmierung beginnen.
+Das [Django Girls Tutorial](http://tutorial.djangogirls.org) ist gut, wenn du mit der Programmierung beginnst.
 
 [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/) haben auch viele Anfänger-Workshops.
