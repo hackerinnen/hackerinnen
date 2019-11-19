@@ -13,13 +13,12 @@ meetmelink: https://www.meetup.com/members/32405292/
 
 # Ein paar Worte zu dir, wer bist du?
 
-Ich bin Alexa, selbständige Software-Entwicklerin aus Leipzig!
+Ich bin Alexa, selbständige Software-Entwicklerin und Künstlerin aus Leipzig!
 
 Ich baue vor allen Dingen Webanwendungen, Webseiten und Datenvisualisierungen. Spezialisiert habe ich mich dabei auf den Bereich Frontend und die Programmiersprache Javascript.
 
 In den den letzten Jahren hab ich mit einer ganzen Bandbreite an Kunden gearbeitet: Für die UNO in New York habe ich beispielsweise von 2015-2017 mehrere größere Webprojekte realisiert, mal vor Ort in in NY, mal von Leipzig aus gearbeitet. Ich habe auch an Projekten im Bereich Datenjournalismus mitgewirkt, beispielweise für Zeit Online in Berlin. Zur Zeit bin ich vermehrt in der lokalen Startupszene in Leipzig unterwegs.
 
-Außerdem bin ich im Orga-team der Open Tech School (OTS), einem offenen Meetup hier in Leipzig!
 
 # Wie und wann hast du mit dem Programmieren begonnen?
 
@@ -27,7 +26,7 @@ Das war vor ungefähr 10 Jahren als ich im Rahmen meines ersten Studiums, ein **
 
 Das Programmieren hat mich seit dem nicht mehr losgelassen und ich habe nach dem Kunststudium noch ein zweites Studium rangehängt: Einen Bachelor in **Künstliche Intelligenz** in den Niederlanden. Und ja, das war sogar noch _bevor_ es den gleichnamigen Sprachassistenten "Alexa" von Amazon zu Kaufen gab :-)
 
-Seit etwa 6 Jahren bin ich in dem Feld der Webentwicklung tätig. Fast alle von den Skills, die ich jetzt täglich anwende, habe ich nicht in meinem Studium gelernt. Das meiste Wissen habe ich mir selber draufgeschafft, über Online-Kurse und über learning-by-doing an vielen, vielen Projekten.
+Seit etwa 6 Jahren bin ich in dem Feld der Webentwicklung tätig. Da kann ich auf vielem aufbauen kann, was ich in meinen zwei Studien gelernt habe, vor allem visuelles und algorithmisches Denken. Trotzdem habe habe ich mir einen großen Teil meiner Webentwicklungs-Skills selber draufgeschafft, über Online-Kurse und über learning-by-doing an vielen, vielen Projekten.
 
 # Was magst du besonders am Programmieren?
 
@@ -103,7 +102,7 @@ für ihren Badass Humor mit dem sie die Tech Industry auf die Schippe nimmt.
 
 # Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
-Mich interessieren so viele Dinge, am besten ihr werft einen Blick auf meine [are.na](https://www.are.na/alexa-steinbruck) Seite, wo ich meine Netzfundstücke organisiere und teile.
+Am besten ihr werft einen Blick auf meine [are.na](https://www.are.na/alexa-steinbruck) Seite, wo ich meine Netzfundstücke organisiere und teile.
 
 Ich bin ein großer Fan von Mozilla (die Non Profit Organisation hinter dem Browser Firefox) und wie die sich für ein Internet einsetzen, was den Menschen im Zentrum sieht ist und an dem alle teilhaben können. Ihr jährlicher [Internet Health Report](https://blog.mozilla.org/blog/2019/04/23/its-complicated-mozillas-2019-internet-health-report/) ist für mich immer ein Augenöffner.
 
