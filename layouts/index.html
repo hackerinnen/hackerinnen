@@ -16,7 +16,7 @@
     <div class="container">
       <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
       <div class="columns is-multiline">
-      {{ range first 6 (where .Pages "Section" "spaces") }}
+      {{ range first 6 .Site.Taxonomies.tags.hackerinnen }}
         <a href="{{.Permalink}}">
           <figure class="column is-one-third">
             <div class="image">
@@ -29,7 +29,7 @@
                 </span>
               {{ end }}
               <figcaption class="is-overlay img-overlay">
-                <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
+                <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ humanize .Params.cities }}</span>
               </figcaption>
             </div>
           </a>

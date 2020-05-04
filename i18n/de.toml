@@ -40,9 +40,6 @@ other = "Zeig mir weitere Hackerinnen"
 [meet-me]
 other = "Triff mich"
 
-[more-hackerinnen-from]
-other = "Mehr Hackerinnen aus"
-
 [profile-image]
 other = "Profilbild"
 
@@ -63,3 +60,9 @@ other = "Zeig dich!"
 
 [website]
 other = "Webseite"
+
+[initiatives]
+other = "Initiativen"
+
+[projects]
+other = "Projekte"
