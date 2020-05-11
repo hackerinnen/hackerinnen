@@ -21,3 +21,9 @@ paginate = 9
 
 [taxonomies]
   tag = "tags"
+  cities = "cities"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

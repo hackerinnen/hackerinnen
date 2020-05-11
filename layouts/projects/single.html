@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div id="generated-bg"></div>
+<section class="section profile">
+  <div class="container">
+      {{- partial "breadcrumb.html" . -}}
+      {{- partial "arrownav.html" . -}}
+  </div>
+
+  <article class="container">
+    <h1 class="title teaser">{{ .Title }}</h1>
+
+  </article>
+</section>
+
+{{ end }}

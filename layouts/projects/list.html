@@ -1,10 +1,13 @@
 {{ define "main" }}
-<section class="section">
+<section class="section spaces">
+  {{- partial "breadcrumb.html" . -}}
   <div class="container">
-    <h1 class="title teaser">{{ humanize .Title}}</h1>
-    {{.Content}}
+    <h1 class="title teaser">{{.Title}}</h1>
+    <article>
+      {{.Content}}
+    </article>
     <div class="columns is-multiline">
-      {{ range.Paginator.Pages }}
+      {{ range.Pages }}
       <figure class="column is-one-third">
         <a href="{{.Permalink}}">
           <div class="image">
@@ -17,9 +20,7 @@
             </span>
             {{ end }}
             <figcaption class="is-overlay img-overlay">
-              <span class="img-tag">
-                {{ .Title }}
-              </span>
+              <span class="img-tag">{{ .Title }}</span>
             </figcaption>
           </div>
         </a>
@@ -27,6 +28,5 @@
       {{ end }}
     </div>
   </div>
-  {{- partial "pagination.html" . -}}
 </section>
 {{ end }}
