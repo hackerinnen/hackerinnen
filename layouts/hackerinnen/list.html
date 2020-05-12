@@ -8,23 +8,32 @@
     </article>
     <div class="columns is-multiline">
       {{ range.Pages }}
-      <figure class="column is-one-third">
-        <a href="{{.Permalink}}">
-          <div class="image">
-            {{ range .Resources.ByType "image" }}
-            {{ $scaled := .Fill "800x600 Top" }}
-            <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-            {{ else }}
-            <span class="image-placeholder">
-              <img src="/images/astronaut.png" />
-            </span>
-            {{ end }}
-            <figcaption class="is-overlay img-overlay">
-              <span class="img-tag">{{ .Title }}</span>
-            </figcaption>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure>
+              <a href="{{.Permalink}}">
+                <div class="image">
+                  {{ range .Resources.ByType "image" }}
+                  {{ $scaled := .Fill "800x600 Top" }}
+                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                  {{ else }}
+                  <span class="image-placeholder">
+                    <img src="/images/astronaut.png" />
+                  </span>
+                  {{ end }}
+                </div>
+              </a>
+            </figure>
           </div>
-        </a>
-      </figure>
+          <div class="card-content">
+            <p class="title is-4">{{ .Title }}</p>
+            <div class="content">
+              {{ .Params.Intro | truncate 100 }}
+            </div>
+          </div>
+        </div>
+      </div>
       {{ end }}
     </div>
   </div>
