@@ -22,3 +22,7 @@ paginate = 9
 [taxonomies]
   tag = "tags"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
