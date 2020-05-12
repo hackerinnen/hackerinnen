@@ -2,7 +2,7 @@
 title: "Lena Hierzi"
 date: 2020-05-12T13:51:45+01:00
 tags: [hackerinnen]
-intro: My dream is to own a place where I will be with faboulous make-up in a matching tracksuit, mix cocktails, play music by the greatest women of the last 50 years and code all day and night. With my girlfriends. And italian food.
+intro: My dream is to own a place where I will be with faboulous make-up, nails and in a matching tracksuit, mix cocktails, play music by the greatest women of the last 50 years and code all day and night. With my girlfriends. And italian food.
 
 skills: "HTML, CSS, JS, TS, Python"
 speaking: "English, French, Spanish, Italian, German"
@@ -17,7 +17,7 @@ I am Lena. I am currently writing my thesis in Digital Humanitites on ethics in 
 
 # When and how did you get interested in coding?
 
-I always found coding interesting and I always loved math. Also because it was the only thing I was good in in school. I anyways decided to go for languages. Even if I had the worst grades. And I studied roman languages. Which was great because I could study in Paris. Which I could have done with informativs too.. Anyways, my original plan was to study informatics in a women only study program in Berlin. But I couldn't leave Leipzig yet, so I startet studying Digital Humanities. That is a interdisciplinary study program, that brings together programming with social science. Unfortunatly for me the University was not a great study surrounding so I didn't really get into the whole coding thing. On therotical level yes but practical it didn't work at all. I was always very motivated but I got stuck super fast and I didn't know how to appraoch problems or even how to ask the right questions. And my last project in Univeristy was so interesting... we automated the [Bechdel Test](https://bechdeltest.com) with Python and it was the first time that I pulled through. After that I took part in the Code Camp Leipzig and it gave me the foundation and the confidence to be able to now approach every obstacle. 
+I always found coding interesting and I always loved math. Also because it was the only thing I was good in in school. I anyways decided to go for languages. Even if I had the worst grades. And I studied roman languages. Which was great because I could study in Paris. Which I could have done with informativs too.. Anyways, my original plan was to study informatics in a women only study program in Berlin. But I couldn't leave Leipzig yet, so I startet studying Digital Humanities. That is a interdisciplinary study program, that brings together programming with social science. Unfortunatly for me the University was not a great study surrounding so I didn't really get into the whole coding thing. On therotical level yes but practical it didn't work at all. I was always very motivated but I got stuck super fast and I didn't know how to appraoch problems or even how to ask the right questions. And my last project in Univeristy was so interesting... we automated the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test) with Python and it was the first time that I pulled through. After that I took part in the Code Camp Leipzig and it gave me the foundation and the confidence to be able to now approach every obstacle. 
 
 
 # What do you like about coding most?
@@ -51,6 +51,6 @@ That coding is boring. Or that you have to be good in Math. [Aya Jaff](https://w
 
 # Can you recommend a book / podcast / tutorial / film or event?
 
-Hackers from Angelina Jolie
+Hackers with Angelina Jolie
 
-this woman who works in silcion valley and has a very hilarious [Youtube](https://www.youtube.com/c/designalily) and [Instagram](https://www.instagram.com/designalily/) and tiktok
+this woman who works as an App Designer in Silcion Valley and has a very hilarious and intelligent [Youtube](https://www.youtube.com/c/designalily) and [Instagram](https://www.instagram.com/designalily/) and tiktok
