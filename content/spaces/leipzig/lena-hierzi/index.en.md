@@ -1,6 +1,6 @@
 ---
 title: "Lena Hierzi"
-date: 2019-02-28T22:15:23+01:00
+date: 2020-05-12T13:51:45+01:00
 tags: [hackerinnen]
 intro: My dream is to own a place where I will be with faboulous make-up in a matching tracksuit, mix cocktails, play music by the greatest women of the last 50 years and code all day and night. With my girlfriends. And italian food.
 

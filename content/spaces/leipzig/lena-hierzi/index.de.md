@@ -1,6 +1,6 @@
 ---
 title: "Lena Hierzi"
-date: 2019-02-28T22:15:23+01:00
+date: 2020-05-12T13:51:45+01:00
 tags: [hackerinnen]
 intro: Mein Traum ist es einen Ort zu schaffen, an dem ich mit ausergewöhnlich bunten Make-up und passendem Trainingsanzug sein werde, Cocktails mixend während ich Lieder der großartigsten Frauen der letzten 50 Jahre spiele und Tag und Nacht code. Mit meinen Freundinnen. Und italienischem Essen. 
 meetme: soon tba
