@@ -1,0 +1,37 @@
+/**
+* Shared across all screen sizes
+* See individual styles for mobile/tablet/desktop below
+*/
+.section.hackerinnen {
+  .hackerinnen-item {
+    font-size: 1.2rem;
+    color: $text-color;
+    border-bottom: 4px solid $blue;
+    margin-top: 80px;
+
+    a {
+      color: $text-color;
+    }
+
+    h2 {
+      font-family: "Quicksand", sans-serif;
+    }
+
+    .hackerinnen-text {
+      padding: 10px 0;
+
+      .hackerinnen-text-title {
+        text-align: right;
+      }
+    }
+  }
+}
+
+/**
+* mobile screens
+*/
+@media only screen and (max-width: $mobile-breakpoint) {
+  .section.hackerinnen {
+    font-size: 1rem;
+  }
+}

@@ -1,36 +1,35 @@
 {{ define "main" }}
-<section class="section spaces">
+<section class="section hackerinnen">
   {{- partial "breadcrumb.html" . -}}
   <div class="container">
     <h1 class="title teaser">{{.Title}}</h1>
     <article>
       {{.Content}}
     </article>
-    <div class="columns is-multiline">
+    <div class="columns is-8 is-variable is-multiline">
       {{ range.Pages }}
       <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
+        <a href="{{.Permalink}}">
+        <div class="hackerinnen-item">
+          <div class="hackerinnen-item-img">
             <figure>
-              <a href="{{.Permalink}}">
-                <div class="image">
-                  {{ range .Resources.ByType "image" }}
-                  {{ $scaled := .Fill "800x600 Top" }}
-                  <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                  {{ else }}
-                  <span class="image-placeholder">
-                    <img src="/images/astronaut.png" />
-                  </span>
-                  {{ end }}
-                </div>
-              </a>
+              <div class="image">
+                {{ range .Resources.ByType "image" }}
+                {{ $scaled := .Fit "800x600 Top" }}
+                <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ else }}
+                <span class="image-placeholder">
+                  <img src="/images/astronaut.png" />
+                </span>
+                {{ end }}
+              </div>
             </figure>
           </div>
-          <div class="card-content">
-            <p class="title is-4">{{ .Title }}</p>
-            <div class="content">
-              {{ .Params.Intro | truncate 100 }}
+          <div class="hackerinnen-text">
+            <div class="content has-text-weight-light	">
+              {{ .Params.Intro }}
             </div>
+            <h2 class="hackerinnen-text-title has-text-weight-semibold">{{ .Title }}</h2>
           </div>
         </div>
       </div>
