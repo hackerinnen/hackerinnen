@@ -1,13 +1,32 @@
 {{ define "main" }}
 <section class="section hackerinnen">
-  {{- partial "breadcrumb.html" . -}}
   <div class="container">
-    <h1 class="title teaser">{{.Title}}</h1>
-    <article>
-      {{.Content}}
-    </article>
+    <div class="hackerinnen-header">
+      <h1 class="title">{{.Title}}</h1>
+      <p>
+        {{.Content}}
+      </p>
+    </div>
+    <div class="featured">
+      <div class="columns is-gapless">
+        {{ range first 1 .Pages }}
+        <div class="column is-vcentered is-one-third">
+          {{ range .Resources.ByType "image" }}
+          {{ $scaled := .Fit "800x600 Top" }}
+          <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+          {{ end }}
+        </div>
+        <div class="column">
+          <div class="featured-text">
+            {{ .Params.Intro }}
+            <h1>{{ .Title }}</h1>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
     <div class="columns is-8 is-variable is-multiline">
-      {{ range.Pages }}
+      {{ range after 1 .Pages }}
       <div class="column is-one-third">
         <a href="{{.Permalink}}">
         <div class="hackerinnen-item">
@@ -26,7 +45,7 @@
             </figure>
           </div>
           <div class="hackerinnen-text">
-            <div class="content has-text-weight-light	">
+            <div class="has-text-weight-light	">
               {{ .Params.Intro }}
             </div>
             <h2 class="hackerinnen-text-title has-text-weight-semibold">{{ .Title }}</h2>

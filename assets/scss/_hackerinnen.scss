@@ -3,10 +3,38 @@
 * See individual styles for mobile/tablet/desktop below
 */
 .section.hackerinnen {
+  .hackerinnen-header {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .featured {
+    position: relative;
+    background-color: $green;
+    color: #fff;
+    font-size: 1.5rem;
+
+    .featured-text {
+      padding: 30px 50px;
+      h1 {
+        font-size: 2rem;
+        text-align: right;
+        margin-top: 20px;
+        position: absolute;
+        bottom: 30px;
+        right: 50px;
+      }
+    }
+
+    img {
+      display: block;
+    }
+  }
+
   .hackerinnen-item {
     font-size: 1.2rem;
     color: $text-color;
-    border-bottom: 4px solid $blue;
+    border-bottom: 4px solid $green;
     margin-top: 80px;
 
     a {
@@ -22,6 +50,7 @@
 
       .hackerinnen-text-title {
         text-align: right;
+        margin-top: 10px;
       }
     }
   }
@@ -33,5 +62,18 @@
 @media only screen and (max-width: $mobile-breakpoint) {
   .section.hackerinnen {
     font-size: 1rem;
+
+    .featured {
+      font-size: 1.2rem;
+
+      .featured-text {
+        padding: 20px 30px;
+
+        h1 {
+          font-size: 1.5rem;
+          position: initial;
+        }
+      }
+    }
   }
 }
