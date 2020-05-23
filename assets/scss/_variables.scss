@@ -1,4 +1,11 @@
 /**
+* Bulma overwrites
+*/
+$fullhd-enabled: false;
+
+@import "./vendor/bulma.sass";
+
+/**
 * Colors
 */
 $blue: #009efd;
