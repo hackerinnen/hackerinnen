@@ -1,6 +1,5 @@
 /**
-* Shared across all screen sizes
-* See individual styles for mobile/tablet/desktop below
+* Styles used on /hackerinnen
 */
 .section.hackerinnen-list {
   .header {
@@ -18,7 +17,7 @@
       width: 100%;
     }
 
-    .featured-text {
+    .description {
       color: #fff;
       padding: 30px 40px;
       font-size: 1.2rem;
@@ -62,7 +61,7 @@
   .hackerin {
     font-size: 1.2rem;
     color: $text-color;
-    border-bottom: 4px solid $green;
+    border-bottom: 5px solid $green;
     margin-top: 80px;
 
     .description {

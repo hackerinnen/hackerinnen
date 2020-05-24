@@ -11,16 +11,20 @@
       <div class="columns is-gapless">
         {{ range first 1 .Pages }}
         <div class="column is-one-third">
-          {{ range .Resources.ByType "image" }}
-          {{ $scaled := .Fit "800x600 Top" }}
-          <img src="{{ $scaled.Permalink }}">
-          {{ end }}
+          <a href="{{.Permalink}}">
+            {{ range .Resources.ByType "image" }}
+            {{ $scaled := .Fit "800x600 Top" }}
+            <img src="{{ $scaled.Permalink }}">
+            {{ end }}
+          </a>
         </div>
         <div class="column">
-          <div class="featured-text">
-            {{ .Params.Intro }}
-            <h1>{{ .Title }}</h1>
-          </div>
+          <a href="{{.Permalink}}">
+            <div class="description">
+              {{ .Params.Intro }}
+              <h1>{{ .Title }}</h1>
+            </div>
+          </a>
         </div>
         {{ end }}
       </div>
@@ -29,26 +33,27 @@
       {{ range after 1 .Pages }}
       <div class="column is-one-third">
         <a href="{{.Permalink}}">
-        <div class="hackerin">
-          <figure>
-            <div class="image">
-              {{ range .Resources.ByType "image" }}
-              {{ $scaled := .Fit "800x600 Top" }}
-              <img src="{{ $scaled.Permalink }}">
-              {{ else }}
-              <span class="image-placeholder">
-                <img src="/images/astronaut.png" />
-              </span>
-              {{ end }}
+          <div class="hackerin">
+            <figure>
+              <div class="image">
+                {{ range .Resources.ByType "image" }}
+                {{ $scaled := .Fit "800x600 Top" }}
+                  <img src="{{ $scaled.Permalink }}" />
+                {{ else }}
+                  <span class="image-placeholder">
+                    <img src="/images/astronaut.png" />
+                  </span>
+                {{ end }}
+              </div>
+            </figure>
+            <div class="description">
+              <div class="has-text-weight-light	">
+                {{ .Params.Intro }}
+              </div>
+              <h2 class="has-text-weight-semibold">{{ .Title }}</h2>
             </div>
-          </figure>
-          <div class="description">
-            <div class="has-text-weight-light	">
-              {{ .Params.Intro }}
-            </div>
-            <h2 class="has-text-weight-semibold">{{ .Title }}</h2>
           </div>
-        </div>
+        </a>
       </div>
       {{ end }}
     </div>
