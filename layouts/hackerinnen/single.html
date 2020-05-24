@@ -15,18 +15,20 @@
       {{ end }}
     </div>
     <div class="factsheet">
-      {{ if isset .Params "intro" }}<div><i>{{ .Params.intro }}</i></div><br/>{{ end }}
-      {{ if isset .Params "skills" }}<div><b>{{ i18n "skills" }}:</b> {{ .Params.skills }}</div>{{ end }}
-      {{ if isset .Params "speakinglink" }}
-        <div><b>{{ i18n "speaking" }}:</b> <a href="{{ .Params.speakinglink }}">{{ .Params.speaking }}</a></div>
-      {{ else if isset .Params "speaking" }}
-        <div><b>{{ i18n "speaking" }}:</b> {{ .Params.speaking }}</div>
-      {{ end }}
-      {{ if isset .Params "meetmelink" }}
-        <div><b>{{ i18n "meet-me" }}:</b> <a href="{{ .Params.meetmelink }}">{{ .Params.meetme }}</a></div>
-      {{ else if isset .Params "meetme" }}
-        <div><b>{{ i18n "meet-me" }}:</b> {{ .Params.meetme }}</div>
-      {{ end }}
+      {{ if isset .Params "intro" }}<div><i>{{ .Params.intro }}</i></div>{{ end }}
+      <div class="other">
+        {{ if isset .Params "skills" }}<div><b>{{ i18n "skills" }}:</b> {{ .Params.skills }}</div>{{ end }}
+        {{ if isset .Params "speakinglink" }}
+          <div><b>{{ i18n "speaking" }}:</b> <a href="{{ .Params.speakinglink }}">{{ .Params.speaking }}</a></div>
+        {{ else if isset .Params "speaking" }}
+          <div><b>{{ i18n "speaking" }}:</b> {{ .Params.speaking }}</div>
+        {{ end }}
+        {{ if isset .Params "meetmelink" }}
+          <div><b>{{ i18n "meet-me" }}:</b> <a href="{{ .Params.meetmelink }}">{{ .Params.meetme }}</a></div>
+        {{ else if isset .Params "meetme" }}
+          <div><b>{{ i18n "meet-me" }}:</b> {{ .Params.meetme }}</div>
+        {{ end }}
+      </div>
     </div>
     <div class="content">
       {{ .Content }}

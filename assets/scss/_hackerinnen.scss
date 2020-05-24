@@ -5,7 +5,6 @@
   .header {
     text-align: center;
     margin-bottom: 100px;
-    font-size: 1.2rem;
   }
 
   .featured {
@@ -20,11 +19,9 @@
     .description {
       color: #fff;
       padding: 30px 40px;
-      font-size: 1.2rem;
 
       @media only screen and (min-width: $tablet) {
         padding: 50px 40px;
-        font-size: 1.2rem;
       }
 
       @media only screen and (min-width: $desktop) {
@@ -69,7 +66,6 @@
       margin-top: 5px;
 
       h2 {
-        font-family: "Quicksand", sans-serif;
         font-size: 1.3rem;
         text-align: right;
         margin-top: 20px;

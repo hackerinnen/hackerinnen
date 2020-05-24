@@ -16,7 +16,7 @@
       letter-spacing: 0.1em;
       position: relative;
       display: inline;
-      color: #00d1b2;
+      color: $green;
     }
 
     .image {
@@ -26,8 +26,7 @@
     }
 
     .factsheet {
-      font-size: 0.9rem;
-      background: #00d1b2;
+      background: $green;
       color: white;
       padding: 20px;
 
@@ -48,6 +47,11 @@
 
       a:hover {
         text-decoration: underline;
+      }
+
+      .other {
+        margin-top: 20px;
+        font-size: 1.1rem;
       }
     }
 

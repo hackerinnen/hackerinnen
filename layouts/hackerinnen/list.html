@@ -34,23 +34,21 @@
       <div class="column is-one-third">
         <a href="{{.Permalink}}">
           <div class="hackerin">
-            <figure>
-              <div class="image">
-                {{ range .Resources.ByType "image" }}
-                {{ $scaled := .Fit "800x600 Top" }}
-                  <img src="{{ $scaled.Permalink }}" />
-                {{ else }}
-                  <span class="image-placeholder">
-                    <img src="/images/astronaut.png" />
-                  </span>
-                {{ end }}
-              </div>
-            </figure>
+            <div class="image">
+              {{ range .Resources.ByType "image" }}
+              {{ $scaled := .Fit "800x600 Top" }}
+                <img src="{{ $scaled.Permalink }}" />
+              {{ else }}
+                <span class="image-placeholder">
+                  <img src="/images/astronaut.png" />
+                </span>
+              {{ end }}
+            </div>
             <div class="description">
-              <div class="has-text-weight-light	">
+              <div class="has-text-weight-light">
                 {{ .Params.Intro }}
               </div>
-              <h2 class="has-text-weight-semibold">{{ .Title }}</h2>
+              <h2>{{ .Title }}</h2>
             </div>
           </div>
         </a>

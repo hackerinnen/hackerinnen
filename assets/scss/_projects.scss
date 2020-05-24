@@ -1,0 +1,45 @@
+/**
+* Styles used on /projects
+*/
+.section.projects-list {
+  .header {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .project {
+    font-size: 1.2rem;
+    min-height: 210px;
+
+    .is-one-third {
+      background-color: $green;
+    }
+
+    .description {
+      position: relative;
+      display: block;
+      padding: 30px 20px;
+      height: 100%;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 20px;
+        border-bottom: 5px solid $green;
+      }
+
+      .intro {
+        height: 80%;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        text-align: right;
+        margin-top: 20px;
+      }
+    }
+  }
+}

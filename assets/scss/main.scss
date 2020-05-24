@@ -8,11 +8,20 @@
 @import "./spaces";
 @import "./pagination";
 @import "./hackerinnen";
+@import "./initiatives";
+@import "./projects";
 
 .site-content {
+  font-size: 1.2rem;
+
   h1 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
+  }
+
+  h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
   }
 
   .title {
@@ -21,30 +30,19 @@
 
   a {
     color: $blue;
-  }
-  a:hover {
-    color: darken($blue, 10%);
+
+    &:hover {
+      color: darken($blue, 10%);
+    }
   }
 
   .breadcrumb a {
     color: $blue;
     text-decoration: none;
-  }
 
-  .breadcrumb a:hover {
-    color: darken($blue, 10%);
-  }
-
-  .accent-bg-green {
-    background-color: rgba(0, 209, 178, 0.1);
-  }
-
-  .accent-bg-blue {
-    background: linear-gradient(
-      30deg,
-      rgba(0, 209, 178, 0.4) 30%,
-      rgba(0, 158, 253, 0.8) 100%
-    );
+    &:hover {
+      color: darken($blue, 10%);
+    }
   }
 
   .add-padd-top-1 {
@@ -53,28 +51,6 @@
 
   .add-padd-3 {
     padding: 3rem;
-  }
-
-  .img-overlay {
-    top: auto;
-  }
-
-  .img-tag {
-    align-items: center;
-    background: linear-gradient(
-      30deg,
-      rgba(0, 158, 253, 0.4) 30%,
-      rgba(0, 209, 178, 0.8) 100%
-    );
-    color: #fff;
-    display: inline-flex;
-    font-size: 1.6rem;
-    height: 3.1em;
-    width: 100%;
-    justify-content: center;
-    line-height: 1;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
   }
 
   .image-placeholder {
@@ -131,6 +107,24 @@
     @media only screen and (max-width: $mobile-breakpoint) and (max-height: 620px) {
       .teaser {
         font-size: 20px;
+      }
+    }
+  }
+
+  .column.default-list {
+    margin-bottom: 40px;
+
+    .description {
+      background-color: #fff;
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 20px 10px;
+      color: #4a4a4a;
+      border-bottom: 5px solid #00d1b2;
+
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
       }
     }
   }

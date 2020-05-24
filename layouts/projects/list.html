@@ -1,32 +1,34 @@
 {{ define "main" }}
-<section class="section spaces">
-  {{- partial "breadcrumb.html" . -}}
+<section class="section projects-list">
   <div class="container">
-    <h1 class="title teaser">{{.Title}}</h1>
-    <article>
-      {{.Content}}
-    </article>
-    <div class="columns is-multiline">
-      {{ range.Pages }}
-      <figure class="column is-one-third">
-        <a href="{{.Permalink}}">
-          <div class="image">
-            {{ range .Resources.ByType "image" }}
-            {{ $scaled := .Fill "800x600 Top" }}
-            <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-            {{ else }}
-            <span class="image-placeholder">
-              <img src="/images/astronaut.png" />
-            </span>
-            {{ end }}
-            <figcaption class="is-overlay img-overlay">
-              <span class="img-tag">{{ .Title }}</span>
-            </figcaption>
-          </div>
-        </a>
-      </figure>
-      {{ end }}
+    <div class="header">
+      <h1 class="title">{{.Title}}</h1>
+      <p>
+        {{.Content}}
+      </p>
     </div>
+    {{ range.Pages }}
+      <div class="columns is-gapless project">
+        <div class="column is-one-third">
+          <a href="{{.Permalink}}">
+            <div class="image">
+              {{ range .Resources.ByType "image" }}
+              {{ $scaled := .Fill "800x600 Center" }}
+                <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+              {{ end }}
+            </div>
+          </a>
+        </div>
+        <div class="column is-half-widescreen">
+          <div class="description">
+            <div class="has-text-weight-light intro">
+              {{ .Params.Intro }}
+            </div>
+            <h2>{{ .Title }}</h2>
+          </div>
+        </div>
+      </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}
