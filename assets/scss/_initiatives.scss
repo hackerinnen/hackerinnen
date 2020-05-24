@@ -12,7 +12,7 @@
     min-height: 210px;
 
     .is-one-third {
-      background-color: $green;
+      background-color: $primary;
     }
 
     .description {
@@ -27,12 +27,12 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        left: 20px;
-        border-bottom: 5px solid $green;
+        left: 0px;
+        border-bottom: 30px solid $primary;
       }
 
       .intro {
-        height: 80%;
+        height: 60%;
       }
 
       h2 {
@@ -40,6 +40,31 @@
         text-align: right;
         margin-top: 20px;
       }
+    }
+  }
+
+  .details {
+    color: #fff;
+    background-color: $primary;
+    padding: 50px 40px;
+    margin-top: -1.5rem;
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 40px;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 500;
+
+      i {
+        margin-left: 10px;
+      }
+    }
+
+    .contact {
+      text-align: right;
     }
   }
 }

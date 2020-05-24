@@ -9,7 +9,7 @@
 
   .featured {
     position: relative;
-    background-color: $green;
+    background-color: $primary;
 
     img {
       display: block;
@@ -57,8 +57,8 @@
 
   .hackerin {
     font-size: 1.2rem;
-    color: $text-color;
-    border-bottom: 5px solid $green;
+    color: $text;
+    border-bottom: 5px solid $primary;
     margin-top: 80px;
 
     .description {

@@ -16,17 +16,17 @@
       letter-spacing: 0.1em;
       position: relative;
       display: inline;
-      color: $green;
+      color: $primary;
     }
 
     .image {
       img {
-        border: 10px solid $green;
+        border: 10px solid $primary;
       }
     }
 
     .factsheet {
-      background: $green;
+      background: $primary;
       color: white;
       padding: 20px;
 
@@ -278,7 +278,7 @@
       .image {
         text-align: right;
         overflow: hidden;
-        background-color: $green;
+        background-color: $primary;
         margin-bottom: -20px;
         img {
           width: 60%;

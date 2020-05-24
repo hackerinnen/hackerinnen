@@ -17,6 +17,9 @@ other = "Sind Hackerinnen illegal?"
 other = "Impressum"
 
 [index-hackerinnen-heading]
+other = "Worum geht's auf dieser Seite?"
+
+[index-hackerinnen-subtitle]
 other = "Ein Sichtbarkeits- und Mutmach-Projekt."
 
 [index-hackerinnen-text-1]
@@ -30,9 +33,6 @@ other = "Diese Initiative bedeutet nicht, dass wir Männer nicht mögen oder mit
 
 [index-hackerinnen-text-4]
 other = "In diesem Sinne - mach bunt - zeig dich!"
-
-[latest-hacker]
-other = "Neu auf hackerinnen.space"
 
 [more-hacker]
 other = "Zeig mir weitere Hackerinnen"
@@ -66,3 +66,6 @@ other = "Initiativen"
 
 [projects]
 other = "Projekte"
+
+[get-in-touch]
+other = "Mehr Infos"

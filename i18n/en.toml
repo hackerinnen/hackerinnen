@@ -17,6 +17,9 @@ other = "Isn't hacking illegal?"
 other = "imprint"
 
 [index-hackerinnen-heading]
+other = "What is this site about?"
+
+[index-hackerinnen-subtitle]
 other = "A project to provide encouragement and enhance visibility"
 
 [index-hackerinnen-text-1]
@@ -42,9 +45,6 @@ other = ""
 
 [index-follow-us-text]
 other = ""
-
-[latest-hacker]
-other = "New on hackerinnen.space"
 
 [more-hacker]
 other = "Show me more hackerinnen"
@@ -78,3 +78,6 @@ other = "Initiatives"
 
 [projects]
 other = "Projects"
+
+[get-in-touch]
+other = "Get in touch"
