@@ -1,7 +1,7 @@
 {{ define "main" }}
-<section class="section hackerinnen">
+<section class="section hackerinnen-list">
   <div class="container">
-    <div class="hackerinnen-header">
+    <div class="header">
       <h1 class="title">{{.Title}}</h1>
       <p>
         {{.Content}}
@@ -10,10 +10,10 @@
     <div class="featured">
       <div class="columns is-gapless">
         {{ range first 1 .Pages }}
-        <div class="column is-vcentered is-one-third">
+        <div class="column is-one-third">
           {{ range .Resources.ByType "image" }}
           {{ $scaled := .Fit "800x600 Top" }}
-          <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+          <img src="{{ $scaled.Permalink }}">
           {{ end }}
         </div>
         <div class="column">
@@ -29,26 +29,24 @@
       {{ range after 1 .Pages }}
       <div class="column is-one-third">
         <a href="{{.Permalink}}">
-        <div class="hackerinnen-item">
-          <div class="hackerinnen-item-img">
-            <figure>
-              <div class="image">
-                {{ range .Resources.ByType "image" }}
-                {{ $scaled := .Fit "800x600 Top" }}
-                <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
-                {{ else }}
-                <span class="image-placeholder">
-                  <img src="/images/astronaut.png" />
-                </span>
-                {{ end }}
-              </div>
-            </figure>
-          </div>
-          <div class="hackerinnen-text">
+        <div class="hackerin">
+          <figure>
+            <div class="image">
+              {{ range .Resources.ByType "image" }}
+              {{ $scaled := .Fit "800x600 Top" }}
+              <img src="{{ $scaled.Permalink }}">
+              {{ else }}
+              <span class="image-placeholder">
+                <img src="/images/astronaut.png" />
+              </span>
+              {{ end }}
+            </div>
+          </figure>
+          <div class="description">
             <div class="has-text-weight-light	">
               {{ .Params.Intro }}
             </div>
-            <h2 class="hackerinnen-text-title has-text-weight-semibold">{{ .Title }}</h2>
+            <h2 class="has-text-weight-semibold">{{ .Title }}</h2>
           </div>
         </div>
       </div>

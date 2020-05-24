@@ -2,77 +2,78 @@
 * Shared across all screen sizes
 * See individual styles for mobile/tablet/desktop below
 */
-.section.hackerinnen {
-  .hackerinnen-header {
+.section.hackerinnen-list {
+  .header {
     text-align: center;
     margin-bottom: 100px;
+    font-size: 1.2rem;
   }
 
   .featured {
     position: relative;
     background-color: $green;
-    color: #fff;
-    font-size: 1.5rem;
-
-    .featured-text {
-      padding: 30px 50px;
-      h1 {
-        font-size: 2rem;
-        text-align: right;
-        margin-top: 20px;
-        position: absolute;
-        bottom: 30px;
-        right: 50px;
-      }
-    }
 
     img {
       display: block;
+      width: 100%;
+    }
+
+    .featured-text {
+      color: #fff;
+      padding: 30px 40px;
+      font-size: 1.2rem;
+
+      @media only screen and (min-width: $tablet) {
+        padding: 50px 40px;
+        font-size: 1.2rem;
+      }
+
+      @media only screen and (min-width: $desktop) {
+        padding: 90px 70px;
+        font-size: 1.4rem;
+      }
+
+      @media only screen and (min-width: $widescreen) {
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        text-align: right;
+        margin-top: 20px;
+
+        @media only screen and (min-width: $tablet) {
+          position: absolute;
+          bottom: 30px;
+          right: 50px;
+        }
+
+        @media only screen and (min-width: $desktop) {
+          font-size: 1.7rem;
+        }
+
+        @media only screen and (min-width: $widescreen) {
+          font-size: 2rem;
+        }
+      }
     }
   }
 
-  .hackerinnen-item {
+  .hackerin {
     font-size: 1.2rem;
     color: $text-color;
     border-bottom: 4px solid $green;
     margin-top: 80px;
 
-    a {
-      color: $text-color;
-    }
+    .description {
+      padding: 10px 0 5px 0;
+      margin-top: 5px;
 
-    h2 {
-      font-family: "Quicksand", sans-serif;
-    }
-
-    .hackerinnen-text {
-      padding: 10px 0;
-
-      .hackerinnen-text-title {
+      h2 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.3rem;
         text-align: right;
-        margin-top: 10px;
-      }
-    }
-  }
-}
-
-/**
-* mobile screens
-*/
-@media only screen and (max-width: $mobile-breakpoint) {
-  .section.hackerinnen {
-    font-size: 1rem;
-
-    .featured {
-      font-size: 1.2rem;
-
-      .featured-text {
-        padding: 20px 30px;
-
-        h1 {
-          font-size: 1.5rem;
-          position: initial;
-        }
+        margin-top: 20px;
       }
     }
   }
