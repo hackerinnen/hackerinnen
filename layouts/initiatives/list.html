@@ -19,14 +19,16 @@
         </div>
         <div class="column">
           <div class="description">
+            <h2>{{ .Title }}</h2>
             <div class="has-text-weight-light intro">
               {{ .Params.Intro }}
             </div>
-            <h2>{{ .Title }}</h2>
+            <a href="#" class="read-more" data-target="{{ .Params.Slug }}"><span class="tag is-primary is-medium">
+              <span class="show-less">{{ i18n "show-less" }}</span><span class="show-more">{{ i18n "show-more" }}</span></span></a>
           </div>
         </div>
       </div>
-      <div class="columns is-gapless details">
+      <div id="{{ .Params.Slug }}" class="columns is-gapless details">
         <div class="column">
           {{ .Content }}
         </div>

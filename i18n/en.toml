@@ -81,3 +81,9 @@ other = "Projects"
 
 [get-in-touch]
 other = "Get in touch"
+
+[show-more]
+other = "Show more"
+
+[show-less]
+other = "Show less"

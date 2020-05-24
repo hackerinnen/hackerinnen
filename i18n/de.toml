@@ -69,3 +69,9 @@ other = "Projekte"
 
 [get-in-touch]
 other = "Mehr Infos"
+
+[show-more]
+other = "Mehr zeigen"
+
+[show-less]
+other = "Weniger zeigen"

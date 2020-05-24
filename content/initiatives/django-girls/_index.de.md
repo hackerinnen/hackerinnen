@@ -9,6 +9,7 @@ twitter: djangogirls
 instagram: djangogirls
 facebook: djangogirls
 website: https://djangogirls.org
+slug: django-girls
 ---
 
 Das ist eine Django Girls page
