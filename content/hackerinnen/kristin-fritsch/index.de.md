@@ -1,6 +1,6 @@
 ---
 title: "Kristin Fritsch"
-date: 2019-06-09T10:00:00+00:00
+date: 2019-01-09T10:00:00+00:00
 tags: hackerinnen
 cities: leipzig
 intro: Tech-lover, Maker, Frontend Entwicklerin und überzeugte Radfahrerin

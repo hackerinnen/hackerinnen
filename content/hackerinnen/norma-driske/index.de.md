@@ -1,6 +1,6 @@
 ---
 title: "Norma Driske"
-date: 2019-02-28T22:15:23+01:00
+date: 2019-02-22T22:15:23+01:00
 tags: hackerinnen
 cities: leipzig
 intro: Eine Geisteswissenschaftlerin, die programmiert

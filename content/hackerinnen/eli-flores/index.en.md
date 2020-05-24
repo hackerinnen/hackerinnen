@@ -1,6 +1,6 @@
 ---
 title: "Eli Flores"
-date: 2019-07-01T15:00:00+01:00
+date: 2019-06-20T15:00:00+01:00
 tags: hackerinnen
 cities: berlin
 intro: Human. Engineer. Book lover. Space traveler.
