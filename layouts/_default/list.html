@@ -1,11 +1,12 @@
 {{ define "main" }}
 <section class="section">
+  {{- partial "breadcrumb.html" . -}}
   <div class="container">
     <h1 class="title teaser">{{ humanize .Title}}</h1>
     {{.Content}}
     <div class="columns is-multiline">
       {{ range.Paginator.Pages }}
-      <figure class="column is-one-third">
+      <figure class="column is-one-third default-list">
         <a href="{{.Permalink}}">
           <div class="image">
             {{ range .Resources.ByType "image" }}
@@ -16,11 +17,9 @@
               <img src="/images/astronaut.png" />
             </span>
             {{ end }}
-            <figcaption class="is-overlay img-overlay">
-              <span class="img-tag">
-                {{ .Title }}
-              </span>
-            </figcaption>
+            <div class="description">
+              <h2>{{ .Title }}</h2>
+            </div>
           </div>
         </a>
       </figure>
