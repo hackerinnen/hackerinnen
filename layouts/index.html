@@ -14,7 +14,11 @@
 
   <section id="latest" class="section">
     <div class="container">
-      <a href={{ "hackerinnen/" | relLangURL }}><h2 class="tag is-primary is-medium is-pulled-right is-size-5">Hackerinnen</h2></a>
+      <div class="columns">
+        <div class="column">
+          <a href={{ "hackerinnen/" | relLangURL }}><h2 class="tag is-primary is-medium is-pulled-right is-size-5">Hackerinnen</h2></a>
+        </div>
+      </div>
       <div class="columns is-multiline">
       {{ range first 6 .Site.Taxonomies.tags.hackerinnen }}
         <figure class="column is-one-third default-list">
@@ -41,9 +45,13 @@
       </div>
     </div>
 
-    <div class="container">
-      <a href={{ "initiatives/" | relLangURL }}><h2 class="tag is-primary is-medium is-pulled-right is-size-5">{{ i18n "initiatives" }}</h2></a>
-      <div class="columns is-multiline">
+    <div class="container is-clearfix">
+      <div class="columns">
+        <div class="column">
+          <a href={{ "initiatives/" | relLangURL }}><h2 class="tag is-primary is-medium is-pulled-right is-size-5">{{ i18n "initiatives" }}</h2></a>
+        </div>
+      </div>
+      <div class="columns">
       {{ range first 3 .Site.Taxonomies.tags.initiatives }}
         <figure class="column is-one-third default-list">
           <a href="{{.Permalink}}">
