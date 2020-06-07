@@ -1,4 +1,6 @@
 {{ define "main" }}
+<div id="generated-bg"></div>
+
 <section class="section">
   {{- partial "breadcrumb.html" . -}}
   <div class="container">
@@ -32,4 +34,8 @@
   </div>
   {{- partial "pagination.html" . -}}
 </section>
+
+<script>window.inputString = "Spaces"</script>
+{{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 {{ end }}
