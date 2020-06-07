@@ -2,7 +2,7 @@
 title: "Lina Peters"
 date: 2019-06-26T0:00:00+00:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: Computer Science Student and always traveling
 skills: "Python, C++, robotics, machine learning"
 website: https://leenahere.github.io

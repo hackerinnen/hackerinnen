@@ -2,7 +2,7 @@
 title: "Lisa Quatmann"
 date: 2019-10-12T15:00:00+01:00
 tags: hackerinnen
-cities: berlin
+spaces: berlin
 skills: Python, Django, JavaScript, React, Java, CSS, HTML, Documentation
 meetme: Django Girls, PyLadies, Papers We Love, ReactJS Girls.
 website: http://lisaquatmann.com

@@ -2,7 +2,7 @@
 title: "Ana Schwendler"
 date: 2019-09-21T10:06:23.438Z
 tags: hackerinnen
-cities: berlin
+spaces: berlin
 intro: Diversity, Programming, Mentoring, Data Science, Unicorns and Pop Music.
 skills: "Ruby, Rails, Python, Django, Diversity, HTML, CSS, JS"
 speaking: "Ruby, Rails, Python, Django, Diversity"

@@ -2,7 +2,7 @@
 title: "Norma Driske"
 date: 2019-02-22T22:15:23+01:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: Eine Geisteswissenschaftlerin, die programmiert
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.meetup.com/de-DE/opentechschool-leipzig/

@@ -2,7 +2,7 @@
 title: "Natascha Fadeeva"
 date: 2019-11-20T22:15:23+01:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: Her co-programmer Paul likes to help her out.
 skills: "iOS Development"
 website: https://www.tanaschita.com

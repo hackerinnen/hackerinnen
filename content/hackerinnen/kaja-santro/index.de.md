@@ -2,7 +2,7 @@
 title: "Kaja Santro"
 date: 2019-08-14T10:28:10+02:00
 tags: hackerinnen
-cities: berlin
+spaces: berlin
 intro: Philosopher. Football Player. Dancer. Activist.
 meetme: code curious.
 website: https://kaja.netlify.com/

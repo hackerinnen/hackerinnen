@@ -2,7 +2,7 @@
 title: "Eli Flores"
 date: 2019-06-20T15:00:00+01:00
 tags: hackerinnen
-cities: berlin
+spaces: berlin
 intro: Mensch. Ingenieurin. Buchliebhaberin. Raumfahrerin.
 meetme: Women Who Code, PyBerlin, Django Girls.
 website: http://mignonnesaurus.com

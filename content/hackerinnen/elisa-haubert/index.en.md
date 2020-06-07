@@ -2,7 +2,7 @@
 title: "Elisa Haubert"
 date: 2019-02-28T22:15:23+01:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: In a polyamorous relationship with code and design.
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.opentechschool.org/leipzig/

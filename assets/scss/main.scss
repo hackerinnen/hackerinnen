@@ -37,17 +37,17 @@
   }
 
   .tag {
-    &.is-hackerin {
+    &.is-hackerinnen {
       color: #fff;
       background-color: $green;
     }
 
-    &.is-initiative {
+    &.is-initiatives {
       color: #fff;
       background-color: $blue;
     }
 
-    &.is-project {
+    &.is-projects {
       color: #fff;
       background-color: $greenBlue;
     }
@@ -84,10 +84,6 @@
       vertical-align: top;
       padding-top: 20px;
     }
-  }
-
-  .columns > figure:nth-child(3n) > a > .image > .image-placeholder {
-    background-color: $blue;
   }
 
   section.logo {
@@ -133,6 +129,11 @@
     overflow: hidden;
   }
 
+  .header {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
   .default-list {
     margin-bottom: 40px;
 
@@ -159,19 +160,19 @@
       }
     }
 
-    &.is-hackerin {
+    &.is-hackerinnen {
       .description {
         border-bottom: 5px solid $green;
       }
     }
 
-    &.is-initiative {
+    &.is-initiatives {
       .description {
         border-bottom: 5px solid $blue;
       }
     }
 
-    &.is-project {
+    &.is-projects {
       .description {
         border-bottom: 5px solid $greenBlue;
       }

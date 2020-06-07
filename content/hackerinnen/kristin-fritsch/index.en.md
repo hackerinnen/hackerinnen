@@ -2,7 +2,7 @@
 title: "Kristin Fritsch"
 date: 2019-01-09T10:00:00+00:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: tech-lover, maker, frontend dev and convinced cyclist
 skills: JS, HTML+CSS, web technologies
 twitter: twissi

@@ -2,7 +2,7 @@
 title: "Alexa Steinbrück"
 date: 2019-02-24T22:15:23+01:00
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: Frontend Developer & Creative Technologist
 twitter: alexabruck
 website: https://www.alexasteinbruck.com

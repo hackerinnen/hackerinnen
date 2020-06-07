@@ -3,7 +3,7 @@ title: "Ada Lovelace"
 date: 2019-02-28T22:15:23+01:00
 draft: true
 tags: hackerinnen
-cities: leipzig
+spaces: leipzig
 intro: Cat lover and color nerd.
 meetme: Lovelace Meetup
 meetmelink: https://www.meetme.de

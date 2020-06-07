@@ -21,7 +21,7 @@ paginate = 9
 
 [taxonomies]
   tag = "tags"
-  cities = "cities"
+  spaces = "spaces"
 
 [markup]
   [markup.goldmark]
