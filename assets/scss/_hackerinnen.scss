@@ -10,6 +10,7 @@
   .featured {
     position: relative;
     background-color: $primary;
+    margin-bottom: 80px;
 
     img {
       display: block;
@@ -55,15 +56,12 @@
     }
   }
 
-  .hackerin {
-    font-size: 1.2rem;
-    color: $text;
-    border-bottom: 5px solid $primary;
-    margin-top: 80px;
-
+  .default-list {
     .description {
-      padding: 10px 0 5px 0;
+      padding: 10px 15px 0 15px;
       margin-top: 5px;
+      text-align: left;
+      border-bottom: 5px solid $green;
 
       h2 {
         font-size: 1.3rem;

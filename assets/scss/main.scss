@@ -36,6 +36,23 @@
     }
   }
 
+  .tag {
+    &.is-hackerin {
+      color: #fff;
+      background-color: $green;
+    }
+
+    &.is-initiative {
+      color: #fff;
+      background-color: $blue;
+    }
+
+    &.is-project {
+      color: #fff;
+      background-color: $greenBlue;
+    }
+  }
+
   .breadcrumb a {
     color: $blue;
     text-decoration: none;
@@ -86,7 +103,7 @@
     }
 
     .teaser {
-      background: linear-gradient(30deg, #00d1b2 30%, #009efd 100%);
+      background: linear-gradient(30deg, $green 30%, $blue 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 34px;
@@ -111,8 +128,23 @@
     }
   }
 
-  .column.default-list {
+  .box {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .default-list {
     margin-bottom: 40px;
+
+    a.box {
+      transition: all 0.2s ease-in-out;
+    }
+
+    a.box:hover,
+    a.box:active {
+      box-shadow: $box-shadow;
+      transform: scale(1.1);
+    }
 
     .description {
       background-color: #fff;
@@ -120,11 +152,28 @@
       text-align: center;
       padding: 20px 10px;
       color: #4a4a4a;
-      border-bottom: 5px solid #00d1b2;
 
       h2 {
         font-size: 1.3rem;
         margin-bottom: 10px;
+      }
+    }
+
+    &.is-hackerin {
+      .description {
+        border-bottom: 5px solid $green;
+      }
+    }
+
+    &.is-initiative {
+      .description {
+        border-bottom: 5px solid $blue;
+      }
+    }
+
+    &.is-project {
+      .description {
+        border-bottom: 5px solid $greenBlue;
       }
     }
   }

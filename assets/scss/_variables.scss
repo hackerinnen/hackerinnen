@@ -1,16 +1,18 @@
 /**
-* Bulma overwrites
-*/
-$fullhd-enabled: false;
-$primary: #00d1b2;
-$text: #4a4a4a;
-
-@import "./vendor/bulma.sass";
-
-/**
 * Colors
 */
 $blue: #009efd;
+$green: #00d1b2;
+$greenBlue: #00bcbf;
+
+/**
+* Bulma overwrites
+*/
+$fullhd-enabled: false;
+$primary: $green;
+$text: #4a4a4a;
+
+@import "./vendor/bulma.sass";
 
 /**
 * Media queries

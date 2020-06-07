@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+<div id="generated-bg"></div>
+
 <section class="section hackerinnen-list">
   <div class="container">
     <div class="header">
@@ -7,7 +10,7 @@
         {{.Content}}
       </p>
     </div>
-    <div class="featured">
+    <div class="featured box">
       <div class="columns is-gapless">
         {{ range first 1 .Pages }}
         <div class="column is-one-third">
@@ -31,25 +34,23 @@
     </div>
     <div class="columns is-8 is-variable is-multiline">
       {{ range after 1 .Pages }}
-      <div class="column is-one-third">
-        <a href="{{.Permalink}}">
-          <div class="hackerin">
-            <div class="image">
-              {{ range .Resources.ByType "image" }}
-              {{ $scaled := .Fit "800x600 Top" }}
-                <img src="{{ $scaled.Permalink }}" />
-              {{ else }}
-                <span class="image-placeholder">
-                  <img src="/images/astronaut.png" />
-                </span>
-              {{ end }}
+      <div class="column is-one-third default-list is-hackerin">
+        <a href="{{.Permalink}}" class="box">
+          <div class="image">
+            {{ range .Resources.ByType "image" }}
+            {{ $scaled := .Fit "800x600 Top" }}
+              <img src="{{ $scaled.Permalink }}" />
+            {{ else }}
+              <span class="image-placeholder">
+                <img src="/images/astronaut.png" />
+              </span>
+            {{ end }}
+          </div>
+          <div class="description">
+            <div class="has-text-weight-light">
+              {{ .Params.Intro }}
             </div>
-            <div class="description">
-              <div class="has-text-weight-light">
-                {{ .Params.Intro }}
-              </div>
-              <h2>{{ .Title }}</h2>
-            </div>
+            <h2>{{ .Title }}</h2>
           </div>
         </a>
       </div>
@@ -57,4 +58,8 @@
     </div>
   </div>
 </section>
+
+<script>window.inputString = "Love"</script>
+{{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 {{ end }}
