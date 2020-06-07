@@ -9,34 +9,41 @@
 
   .initiative {
     font-size: 1.2rem;
-    min-height: 210px;
     position: relative;
     z-index: 10;
-
-    .is-one-third {
-      background-color: $primary;
-    }
+    margin-bottom: 0;
 
     .description {
-      position: relative;
-      display: block;
-      padding: 0 20px 30px 20px;
-      height: 100%;
+      padding: 20px 30px;
+      min-height: 300px;
 
       .intro {
-        height: 60%;
+        width: 60%;
+      }
+
+      .contact {
+        text-align: right;
+        margin-top: 40px;
       }
 
       h2 {
-        font-size: 1.4rem;
-        text-align: right;
+        font-size: 1.6rem;
+        margin-top: 30px;
         margin-bottom: 20px;
+      }
+
+      a {
+        font-size: 1rem;
+        i {
+          margin-left: 5px;
+        }
       }
 
       a.read-more {
         position: absolute;
-        right: 20px;
-        bottom: 0px;
+        right: 30px;
+        bottom: 10px;
+        font-weight: 700;
 
         .show-less {
           display: none;
@@ -58,9 +65,8 @@
     display: none;
     position: relative;
     color: #fff;
-    background-color: $primary;
-    padding: 70px 40px;
-    margin-top: -4rem;
+    background-color: $blue;
+    padding: 50px 30px;
 
     h2 {
       font-size: 1.3rem;
@@ -69,19 +75,11 @@
 
     a {
       color: #fff;
-      font-weight: 500;
-
-      i {
-        margin-left: 10px;
-      }
+      font-weight: 700;
     }
 
     &.is-open {
       display: flex;
-    }
-
-    .contact {
-      text-align: right;
     }
   }
 }

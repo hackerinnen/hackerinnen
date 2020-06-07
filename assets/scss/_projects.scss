@@ -9,37 +9,79 @@
 
   .project {
     font-size: 1.2rem;
-    min-height: 210px;
-
-    .is-one-third {
-      background-color: $primary;
-    }
+    position: relative;
+    z-index: 10;
+    margin-bottom: 0;
 
     .description {
-      position: relative;
-      display: block;
-      padding: 30px 20px;
-      height: 100%;
-
-      &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 20px;
-        border-bottom: 5px solid $primary;
-      }
+      padding: 20px 30px;
+      min-height: 300px;
 
       .intro {
-        height: 80%;
+        width: 60%;
+      }
+
+      .contact {
+        text-align: right;
+        margin-top: 40px;
       }
 
       h2 {
-        font-size: 1.3rem;
-        text-align: right;
-        margin-top: 20px;
+        font-size: 1.6rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
       }
+
+      a {
+        color: $greenBlue;
+        font-size: 1rem;
+        i {
+          margin-left: 5px;
+        }
+      }
+
+      a.read-more {
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
+        font-weight: 700;
+        color: $greenBlue;
+
+        .show-less {
+          display: none;
+        }
+
+        &.is-open {
+          .show-more {
+            display: none;
+          }
+          .show-less {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .details {
+    display: none;
+    position: relative;
+    color: #fff;
+    background-color: $greenBlue;
+    padding: 50px 30px;
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 40px;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    &.is-open {
+      display: flex;
     }
   }
 }

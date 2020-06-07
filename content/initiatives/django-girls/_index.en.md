@@ -1,5 +1,6 @@
 ---
 title: "Django Girls"
+slug: django-girls
 date: 2020-05-05T22:15:23+01:00
 tags: initiatives
 cities: [leipzig, berlin]
@@ -9,7 +10,6 @@ twitter: djangogirls
 instagram: djangogirls
 facebook: djangogirls
 website: https://djangogirls.org
-slug: django-girls
 ---
 
 Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support. It is a volunteer run organization with hundreds of people contributing to bring more amazing women into the world of technology. They technology more approachable by creating resources designed with empathy.
