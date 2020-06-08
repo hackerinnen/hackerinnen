@@ -55,7 +55,7 @@
     {{ end }}
   </div>
 </section>
-{{ $script := resources.Get "js/initiatives.js" | minify | fingerprint}}
+{{ $script := resources.Get "js/initiative_project.js" | minify | fingerprint}}
 <script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 <script>window.inputString = "Initiatives"</script>
 {{ $script := resources.Get "js/background.js" | minify | fingerprint}}

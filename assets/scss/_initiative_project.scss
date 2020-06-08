@@ -1,8 +1,10 @@
 /**
-* Styles used on /initiatives
+* Styles used on /initiatives and /projects
 */
-.section.initiatives-list {
-  .initiative {
+.section.initiatives-list,
+.section.projects-list {
+  .initiative,
+  .project {
     font-size: 1.2rem;
     position: relative;
     z-index: 10;
@@ -76,4 +78,13 @@
       display: flex;
     }
   }
+
+  .project .contact a,
+  .project a.read-more {
+    color: $greenBlue;
+  }
+}
+
+.section.projects-list .details {
+  background-color: $greenBlue;
 }
