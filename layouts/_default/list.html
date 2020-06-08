@@ -16,7 +16,7 @@
         <a href="{{.Permalink}}" class="box">
           <div class="image">
             {{ range .Resources.ByType "image" }}
-            {{ $scaled := .Fill "800x600 Top" }}
+            {{ $scaled := .Fit "800x600 Top" }}
             <img src="{{ $scaled.Permalink }}">
             {{ else }}
             <span class="image-placeholder">

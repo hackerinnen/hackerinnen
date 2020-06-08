@@ -17,6 +17,10 @@
               {{ range .Resources.ByType "image" }}
               {{ $scaled := .Fit "800x600 Center" }}
                 <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+              {{ else }}
+                <span class="image-placeholder">
+                  <img src="/images/astronaut.png" />
+                </span>
               {{ end }}
             </a>
           </div>
