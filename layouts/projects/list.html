@@ -39,7 +39,7 @@
                 {{ if isset .Params "instagram" }} <a href="https://www.instagram.com/{{ .Params.instagram }}" target="_blank" rel="noopener noreferrer">@{{ .Params.instagram }}<i class="fab fa-instagram social-icon"></i></a><br/> {{ end }}
                 {{ if isset .Params "facebook" }} <a href="https://www.facebook.com/{{ .Params.facebook }}" target="_blank" rel="noopener noreferrer">@{{ .Params.facebook }}<i class="fab fa-facebook social-icon"></i></a><br/> {{ end }}
               </div>
-              <a href="#" class="read-more" data-target="{{ .Params.Slug }}">
+              <a class="read-more" data-target="{{ .Params.Slug }}">
                 <span class="show-less">{{ i18n "show-less" }}</span>
                 <span class="show-more">{{ i18n "show-more" }}</span>
               </a>
