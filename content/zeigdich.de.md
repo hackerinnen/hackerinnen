@@ -7,13 +7,16 @@ date: 2019-02-18T22:56:50+01:00
 
 <h1 class="is-size-4">Dein Profil, eine Initiative oder ein Projekt online stellen</h1>
 
-<p>Das Projekt findest du auf <a href="https://github.com/hackerinnen/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> und alle Profile sind in Markdown geschrieben. Du kannst einfach das Repo auschecken und einen PR mit einem Feature-Branch, der dein Profil enthält, eröffnen. Du kannst dich auf Deutsch oder Englisch oder in beiden Sprachen vorstellen, alle oder nur einzelne Fragen beantworten. Ein Bild macht dein Profil persönlicher, ist aber nicht zwingend nötig. Eine Schritt-für-Schritt-Anleitung findest du in unserer <a href="https://github.com/hackerinnen/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a>.</p><br>
-
+<p>Das Projekt findest du auf <a href="https://github.com/hackerinnen/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> und alle Profile sind in Markdown geschrieben. Du kannst einfach das Repo auschecken und einen PR mit einem Feature-Branch, der dein Profil enthält, eröffnen. Du kannst dich auf Deutsch oder Englisch oder in beiden Sprachen vorstellen, alle oder nur einzelne Fragen beantworten. Ein Bild macht dein Profil persönlicher, ist aber nicht zwingend nötig. Eine Schritt-für-Schritt-Anleitung findest du in unserer <a href="https://github.com/hackerinnen/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README</a>.</p>
+<br>
 <p>Du kannst uns jeder Zeit kontaktieren, wenn du Hilfe brauchst, Fragen oder Kommentare hast, über Email (hello ät hackerinnen.space) oder auf Twitter und Instagram.</p>
 <br>
 
 <h1 class="is-size-4">Mithelfen</h1>
 <p>Wenn du Menschen kennst, die sich auch zeigen sollten, erzähl ihnen unbedingt von diesem Projekt und lad sie ein, sich ein eigenes Profil zu erstellen!</p>
+<br>
+<p>Wenn du eine Initative auf der Seite vermisst oder ein tolles Projekt kennst, lass es uns gerne per Email (hello ät hackerinnen.space) wissen.</p>
+<br>
 <p>Du kannst auch helfen, das Projekt bekannter zu machen, indem du auf deinen Social-Media-Kanälen über uns berichtest, uns verlinkst und tagst. Wir sind auf <a href="https://instagram.com/hackerinnen.space" target="_blank" rel="noopener noreferrer">Instagram</a> und <a href="https://twitter.com/hackerinnen" target="_blank" rel="noopener noreferrer">Twitter</a> zu finden.</p>
 <br>
 
