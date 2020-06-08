@@ -5,10 +5,8 @@ date: 2019-02-18T22:56:50+01:00
 
 <p>If you are creative, problem solving, or otherwise involved with computers, then share your experiences! You don't have to write software professionally, bring ten years of experience with you, or have a degree, because your very individual story can give others more courage and new impulses than you might think. We have noticed how exciting it is for us to think about our own experiences while answering the questions. Try it out. We are happy when you are there and show yourself!</p><br>
 
-<h1 class="is-size-4">How to put your profile online</h1>
+<h1 class="is-size-4">How to put your profile, initiative or project online</h1>
 <p>You can find the project on <a href="https://github.com/hackerinnen/hackerinnen" target="_blank" rel="noopener noreferrer">GitHub</a> and the profile pages are written in Markdown. Simply checkout the repo and open a PR with a feature branch containing your profile. See the <a href="https://github.com/hackerinnen/hackerinnen/blob/master/README.md" target="_blank" rel="noopener noreferrer">README file</a> for a step-by-step guide.</p>
-
-<p>If you don't want to set up the repository locally, you can also submit your profile at <a target="_blank" href="https://submit.hackerinnen.space">https://submit.hackerinnen.space</a>. We will automatically create a pull request for you and you will be able to review your profile in our staging environment.</p>
 
 <p>You can contact us at any time if you need help, have questions, or comments via email (hello at hackerinnen.space) or on Twitter and Instagram.</p>
 <br>

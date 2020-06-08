@@ -30,10 +30,9 @@ There are 2 options to add a profile: Doing it locally by forking the repo or if
 Local setup:
 
 1.  Fork the repository and clone it to your local machine
-2.  Create a feature branch
-3.  Create a folder with your name in `hackerinnen/content/spaces/{your-city}/{firstname-lastname}`
-
-    If your city doesn't exist, create a folder `hackerinnen/content/spaces/{name-of-your-city}`, add an `_index.de.md` and `_index.en.md` file to the new folder. Then create your name folder.
+2.  Switch into `hackerinnen` directory
+3.  Create a feature branch
+4.  Create a folder with your name in `/content/hackerinnen/{firstname-lastname}`
 
     A person's folder should contain 3 files:
 
@@ -45,11 +44,16 @@ Local setup:
 
     If you do not want to add a pic of yourself, maybe you want to find a picture that is somehow connected to you? It would be wonderful if the profiles were individualized, but if you do not want that, it is also ok, we are happy that you are on board :-)
 
-4.  See `hackerinnen/content/spaces/a-test-city` folder and copy the content structure of all index files and add them to your own files.
-5.  Remove all `draft: true` settings in the head of your files. If you don't have a translated version (either English or German you can keep the draft setting and your profile won't show in this language).
-6.  Check if you updated the `date` setting in the head of your files.
-7.  Add your answers. If you do not want to answer a certain question, just leave it out.
-8.  Create a PR
+5.  See `/content/hackerinnen/ada-lovelace` folder and copy the content structure of all index files and add them to your own files.
+6.  Remove all `draft: true` settings in the head of your files. If you don't have a translated version (either English or German you can keep the draft setting and your profile won't show in this language).
+7.  Check if you updated the `date` setting in the head of your files.
+8.  If you like to be found when browsing `spaces` (hackerinnen.space/spaces) you need to update the `spaces` setting in the head of your files.
+
+    Spaces can be a city or an area you can be met "offline".
+    If your space doesn't exist, create a folder `/content/spaces/{name-of-your-space}`, add an `_index.de.md` and `_index.en.md` file to the new folder. Add an picture of that space.
+
+9.  Add your answers. If you do not want to answer a certain question, just leave it out.
+10. Create a PR
 
 ## Technologies used to build this project
 
