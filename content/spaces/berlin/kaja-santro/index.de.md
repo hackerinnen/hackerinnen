@@ -12,7 +12,7 @@ twitter: AlizeNero
 # Ein paar Worte zu dir, wer bist du?
 
 Meine Mutter gebar mich zwei Jahre vor dem Mauerfall in Berlin Kreuzberg, als sie gerade für ihre Abi-Prüfungen lernen musste und von ihr habe ich eine "Pippi-Langstrumpf-Einstellung" dem Leben gegenüber. Wie fast alle in Berlin, habe ich einen Migrationshintergrund und bin zur Hälfte kroatisch. Nach der Schule habe ich Philosophie und historischer Linguistik studiert und dann aber das Programmieren auf eigene Faust gelernt, weil ich irgendwann doch einsehen musste, dass man arbeiten muss, wenn man nicht geerbt hat. Mein Studium hinterlässt allerdings seine Spuren in meiner Art zu programmieren und zu denken.
-Seit 2017 arbeite ich also (bei Absolventa) in einem 5-köpfigen Team mit anderen schrulligen Entwickler_innen wie mir. In meiner Freizeit gehe ich auf Demos für soziale Gerechtigkeit und spiele Fußball in einem feministischen [Verein](http://www.discoverfootball.de/home/). Außerdem bin ich stolzes Mitglied des code curious Orga-Teams (früher als Rails Girls Berlin bekannt). Während des Rails Girls Summer of Code 2017 hab ich an [Discourse](https://www.discourse.org/) mitgearbeitet zusammen mit Jen, die ich jetzt zu meinen Freunden zähle. Ich bin ein großer Fan von Nynne's @Rijks_bot auf Twitter, guckt euch den mal an!
+Ab 2017 habe ich also angefangen (bei Absolventa) in einem 5-köpfigen Team mit anderen schrulligen Entwickler_innen wie mir zu arbeiten. Inzwischen bin ich bei Liefery und in einem größeren Team, mit sehr vielen lieben Menschen. In meiner Freizeit gehe ich auf Demos für soziale Gerechtigkeit und spiele Fußball in einem feministischen [Verein](http://www.discoverfootball.de/home/). Außerdem bin ich stolzes Mitglied des code curious Orga-Teams (früher als Rails Girls Berlin bekannt). Während des Rails Girls Summer of Code 2017 hab ich an [Discourse](https://www.discourse.org/) mitgearbeitet zusammen mit Jen, die ich jetzt zu meinen Freunden zähle. Ich bin ein großer Fan von Nynne's @Rijks_bot auf Twitter, guckt euch den mal an!
 
 # Wie und wann hast du mit dem Programmieren begonnen?
 
@@ -36,7 +36,7 @@ Ich hab das Gefühl, in Ruby schon richtig gut zu sein, würde aber gerne lernen
 
 # Was war bisher deine größte Herausforderung als Programmierer\*in?
 
-Toxische Männlichkeit in unserer Branche. Ich arbeite jeden Tag daran, das Patriarchat zu stürzen.
+Toxische Männlichkeit in unserer Branche. Ich arbeite jeden Tag daran, das Patriarchat zu stürzen. Zum Beispiel [hier](https://www.dritter-gleichstellungsbericht.de/de/article/221.unternehmenskultur-neue-arbeitskonzepte-und-stereotype-in-der-digitalwirtschaft.html).
 
 # Hast du Vorbilder?
 
