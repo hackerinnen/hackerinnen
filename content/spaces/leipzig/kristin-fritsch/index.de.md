@@ -9,6 +9,7 @@ website: https://kristin-fritsch.de
 github: twissi
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.meetup.com/OpenTechSchool-Leipzig/
+email: dev@kristin-fritsch.de
 ---
 
 # Ein paar Worte zu dir, wer bist du?
