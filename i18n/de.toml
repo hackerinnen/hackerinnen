@@ -63,3 +63,6 @@ other = "Zeig dich!"
 
 [website]
 other = "Webseite"
+
+[email]
+other = "E-Mail"
