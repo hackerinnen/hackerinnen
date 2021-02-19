@@ -18,7 +18,11 @@
       a {
         font-size: 3rem;
         color: #ffffff;
-        background: linear-gradient(30deg, rgba(0, 209, 178, 0.8) 30%, rgba(0, 158, 253, 0.8) 100%);
+        background: linear-gradient(
+          30deg,
+          rgba(0, 209, 178, 0.8) 30%,
+          rgba(0, 158, 253, 0.8) 100%
+        );
         width: 80%;
         display: inline-block;
         padding: 30px 10px;
@@ -27,7 +31,7 @@
     }
 
     a:hover {
-      background-color: lighten($green, 2%);
+      background-color: lighten($primary, 2%);
     }
   }
 }

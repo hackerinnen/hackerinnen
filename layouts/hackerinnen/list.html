@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<div id="generated-bg"></div>
+
+<section class="section hackerinnen-list">
+  <div class="container">
+    <div class="header">
+      <h1 class="title">{{.Title}}</h1>
+      <p>
+        {{.Content}}
+      </p>
+    </div>
+    <div class="featured box">
+      <div class="columns is-gapless">
+        {{ range first 1 .Pages }}
+        <div class="column is-one-third">
+          <a href="{{.Permalink}}">
+            {{ range .Resources.ByType "image" }}
+            {{ $scaled := .Fit "800x600 Top" }}
+            <img src="{{ $scaled.Permalink }}">
+            {{ end }}
+          </a>
+        </div>
+        <div class="column">
+          <a href="{{.Permalink}}">
+            <div class="description">
+              {{ .Params.Intro }}
+              <h1>{{ .Title }}</h1>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="columns is-8 is-variable is-multiline">
+      {{ range after 1 .Pages }}
+      <div class="column is-one-third default-list is-hackerinnen">
+        <a href="{{.Permalink}}" class="box">
+          <div class="image">
+            {{ range .Resources.ByType "image" }}
+            {{ $scaled := .Fit "800x600 Top" }}
+              <img src="{{ $scaled.Permalink }}" />
+            {{ else }}
+              <span class="image-placeholder">
+                <img src="/images/astronaut.png" />
+              </span>
+            {{ end }}
+          </div>
+          <div class="description">
+            <div class="has-text-weight-light">
+              {{ .Params.Intro }}
+            </div>
+            <h2>{{ .Title }}</h2>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<script>window.inputString = "Love"</script>
+{{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
+{{ end }}

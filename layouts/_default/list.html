@@ -1,36 +1,41 @@
 {{ define "main" }}
+<div id="generated-bg"></div>
+
 <section class="section">
+  {{- partial "breadcrumb.html" . -}}
   <div class="container">
-    <h1 class="title teaser">{{.Title}}</h1>
-    {{.Content}}
-    <div class="columns is-multiline">
+    <div class="header">
+      <h1 class="title">{{.Title}}</h1>
+      <p>
+        {{.Content}}
+      </p>
+    </div>
+    <div class="columns is-8 is-variable is-multiline">
       {{ range.Paginator.Pages }}
-      <figure class="column is-one-third">
-        <a href="{{.Permalink}}">
+      <div class="column is-one-third default-list is-{{.Section}}">
+        <a href="{{.Permalink}}" class="box">
           <div class="image">
             {{ range .Resources.ByType "image" }}
-            {{ $scaled := .Fill "800x600 Top" }}
-            <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+            {{ $scaled := .Fit "800x600 Top" }}
+            <img src="{{ $scaled.Permalink }}">
             {{ else }}
             <span class="image-placeholder">
               <img src="/images/astronaut.png" />
             </span>
             {{ end }}
-            <figcaption class="is-overlay img-overlay">
-              <span class="img-tag">
-                {{ .Title }}
-                {{ i18n "from" }}
-                {{ if .Parent }}
-                {{ .Parent.Title }}
-                {{ end }}
-              </span>
-            </figcaption>
+            <div class="description">
+              <h2>{{ .Title }}</h2>
+            </div>
           </div>
         </a>
-      </figure>
+      </div>
       {{ end }}
     </div>
   </div>
   {{- partial "pagination.html" . -}}
 </section>
+
+<script>window.inputString = "Spaces"</script>
+{{ $script := resources.Get "js/background.js" | minify | fingerprint}}
+<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 {{ end }}

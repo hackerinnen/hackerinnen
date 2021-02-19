@@ -17,6 +17,9 @@ other = "Sind Hackerinnen illegal?"
 other = "Impressum"
 
 [index-hackerinnen-heading]
+other = "Worum geht's auf dieser Seite?"
+
+[index-hackerinnen-subtitle]
 other = "Ein Sichtbarkeits- und Mutmach-Projekt."
 
 [index-hackerinnen-text-1]
@@ -34,14 +37,11 @@ other = "In diesem Sinne - mach bunt - zeig dich!"
 [latest-hacker]
 other = "Neu auf hackerinnen.space"
 
-[more-hacker]
-other = "Zeig mir weitere Hackerinnen"
+[all-hacker]
+other = "Zeig mir alle Hackerinnen"
 
 [meet-me]
 other = "Triff mich"
-
-[more-hackerinnen-from]
-other = "Mehr Hackerinnen aus"
 
 [profile-image]
 other = "Profilbild"

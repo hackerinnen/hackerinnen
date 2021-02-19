@@ -14,38 +14,49 @@
 
   <section id="latest" class="section">
     <div class="container">
-      <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
-      <div class="columns is-multiline">
-
-        {{ range first 6 .Site.Taxonomies.tags.hackerinnen }}
-        <a href="{{.Permalink}}">
-          <figure class="column is-one-third">
+      <div class="columns">
+        <div class="column">
+          <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
+        </div>
+      </div>
+      <div class="columns is-8 is-variable is-multiline">
+      {{ range first 6 .Site.Taxonomies.tags.hackerinnen }}
+        <div class="column is-one-third default-list is-hackerinnen">
+          <a href="{{.Permalink}}" class="box">
             <div class="image">
               {{ range .Resources.ByType "image" }}
-                {{ $scaled := .Fill "800x600 Top" }}
-                <img src="{{ $scaled.Permalink }}" alt="{{ i18n "profile-image" }}">
+                {{ $scaled := .Fit "800x600 Top" }}
+                <img src="{{ $scaled.Permalink }}" alt="profile-image">
               {{ else }}
                 <span class="image-placeholder">
                   <img src="/images/astronaut.png">
                 </span>
               {{ end }}
-              <figcaption class="is-overlay img-overlay">
-                <span class="img-tag">{{ .Title }} {{ i18n "from" }} {{ .Parent.Title }}</span>
-              </figcaption>
+            </div>
+            <div class="description has-text-weight-light">
+              <h2>{{ .Title }}</h2>
+              {{ humanize .Params.spaces }}
             </div>
           </a>
-        </figure>
+        </div>
       {{ end }}
       </div>
-      <a href={{ "/tags/hackerinnen/" }}><b>{{ i18n "more-hacker" }}</b></a>
+
+      <div class="has-text-centered">
+        <a href={{ "hackerinnen" | relLangURL }} class="button is-primary">
+          {{ i18n "all-hacker" }}
+        </a>
+      </div>
     </div>
   </section>
+
   <section class="section">
     <div class="container">
       <div class="columns">
         <div class="column is-four-fifths-widescreen">
           <h1 class="title is-size-3">{{ i18n "index-hackerinnen-heading" }}</h1>
-          <p>{{ i18n "index-hackerinnen-text-1" }}</p>
+          <h2 class="is-size-4">{{ i18n "index-hackerinnen-subtitle" }}</h2>
+          <p class="add-padd-top-1">{{ i18n "index-hackerinnen-text-1" }}</p>
           <p class="add-padd-top-1">{{ i18n "index-hackerinnen-text-2" }}</p>
           <p class="add-padd-top-1">{{ i18n "index-hackerinnen-text-3" }}</p>
           <p class="add-padd-top-1"><a href={{ "zeigdich/" }}><b>{{ i18n "index-hackerinnen-text-4" }}</b></a></p>
@@ -54,7 +65,7 @@
     </div>
     <div class="container has-text-right">
       <br/><br/>
-      <p class="is-size-7">*{{ i18n "hackerinnen-explained" }}</p>
+      <p class="is-size-6">*{{ i18n "hackerinnen-explained" }}</p>
     </div>
   </section>
 

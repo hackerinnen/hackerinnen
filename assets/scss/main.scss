@@ -7,43 +7,43 @@
 @import "./profile";
 @import "./spaces";
 @import "./pagination";
+@import "./hackerinnen";
 
+/**
+* Styles shared between pages
+*/
 .site-content {
+  font-size: 1.2rem;
+
   h1 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
   }
 
+  h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+
   .title {
-    color: $text-color;
+    color: $text;
   }
 
   a {
     color: $blue;
-  }
-  a:hover {
-    color: darken($blue, 10%);
+
+    &:hover {
+      color: darken($blue, 10%);
+    }
   }
 
   .breadcrumb a {
     color: $blue;
     text-decoration: none;
-  }
 
-  .breadcrumb a:hover {
-    color: darken($blue, 10%);
-  }
-
-  .accent-bg-green {
-    background-color: rgba(0, 209, 178, 0.1);
-  }
-
-  .accent-bg-blue {
-    background: linear-gradient(
-      30deg,
-      rgba(0, 209, 178, 0.4) 30%,
-      rgba(0, 158, 253, 0.8) 100%
-    );
+    &:hover {
+      color: darken($blue, 10%);
+    }
   }
 
   .add-padd-top-1 {
@@ -54,28 +54,6 @@
     padding: 3rem;
   }
 
-  .img-overlay {
-    top: auto;
-  }
-
-  .img-tag {
-    align-items: center;
-    background: linear-gradient(
-      30deg,
-      rgba(0, 158, 253, 0.4) 30%,
-      rgba(0, 209, 178, 0.8) 100%
-    );
-    color: #fff;
-    display: inline-flex;
-    font-size: 1.6rem;
-    height: 3.1em;
-    width: 100%;
-    justify-content: center;
-    line-height: 1;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-  }
-
   .image-placeholder {
     width: 100%;
     height: auto;
@@ -83,7 +61,7 @@
     text-align: center;
     font-size: 210px;
     overflow: hidden;
-    background-color: $green;
+    background-color: $primary;
     color: #ffffff;
 
     i {
@@ -92,24 +70,21 @@
     }
   }
 
-  .columns > figure:nth-child(3n) > a > .image > .image-placeholder {
-    background-color: $blue;
-  }
-
   section.logo {
     padding: 20vh 20px 0 20px;
     height: calc(100vh - 52px);
     text-align: center;
 
     svg {
-      fill: $green;
+      fill: $primary;
       margin: 0 auto 140px auto;
       display: block;
-      transform: scale(1.5);
+      width: 440px;
+      height: auto;
     }
 
     .teaser {
-      background: linear-gradient(30deg, #00d1b2 30%, #009efd 100%);
+      background: linear-gradient(30deg, $green 30%, $blue 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 34px;
@@ -130,6 +105,49 @@
     @media only screen and (max-width: $mobile-breakpoint) and (max-height: 620px) {
       .teaser {
         font-size: 20px;
+      }
+    }
+  }
+
+  .box {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .default-list {
+    margin-bottom: 40px;
+
+    a.box {
+      transition: all 0.2s ease-in-out;
+    }
+
+    a.box:hover,
+    a.box:active {
+      box-shadow: $box-shadow;
+      transform: scale(1.1);
+    }
+
+    .description {
+      background-color: #fff;
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 20px 10px;
+      color: #4a4a4a;
+
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+      }
+    }
+
+    &.is-hackerinnen {
+      .description {
+        border-bottom: 5px solid $green;
       }
     }
   }

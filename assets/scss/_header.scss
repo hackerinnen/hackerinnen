@@ -1,27 +1,41 @@
 nav {
   &.hero-bg {
-    background-image: linear-gradient(200deg, $green 30%, $blue 100%);
+    background-image: linear-gradient(200deg, $primary 30%, $blue 100%);
     background-size: 100% 52px;
   }
 
-  a, a.navbar-item {
+  a,
+  a.navbar-item {
     color: white;
   }
 
-  a:hover, a.navbar-item:hover {
+  a:hover,
+  a.navbar-item:hover {
     background-color: transparent;
     color: darken(white, 10%);
   }
 
+  .navbar-burger.burger span {
+    background-color: white;
+  }
+
   .navbar-menu.is-active {
-    a, a.navbar-item {
-      color: $text-color;
+    a,
+    a.navbar-item {
+      color: $text;
     }
 
-    a:hover, a.navbar-item:hover {
+    a:hover,
+    a.navbar-item:hover {
       background-color: transparent;
-      color: darken($text-color, 5%);
+      color: darken($text, 5%);
     }
   }
-}
 
+  .navbar-brand .navbar-item svg {
+    fill: $white;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+}

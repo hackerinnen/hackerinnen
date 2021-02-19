@@ -1,0 +1,68 @@
+/**
+* Styles used on /hackerinnen
+*/
+.section.hackerinnen-list {
+  .featured {
+    position: relative;
+    background-color: $primary;
+    margin-bottom: 80px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .description {
+      color: #fff;
+      padding: 30px 40px;
+
+      @media only screen and (min-width: $tablet) {
+        padding: 50px 40px;
+      }
+
+      @media only screen and (min-width: $desktop) {
+        padding: 90px 70px;
+        font-size: 1.4rem;
+      }
+
+      @media only screen and (min-width: $widescreen) {
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        text-align: right;
+        margin-top: 20px;
+
+        @media only screen and (min-width: $tablet) {
+          position: absolute;
+          bottom: 30px;
+          right: 50px;
+        }
+
+        @media only screen and (min-width: $desktop) {
+          font-size: 1.7rem;
+        }
+
+        @media only screen and (min-width: $widescreen) {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  .default-list {
+    .description {
+      padding: 10px 15px 0 15px;
+      margin-top: 5px;
+      text-align: left;
+      border-bottom: 5px solid $green;
+
+      h2 {
+        font-size: 1.3rem;
+        text-align: right;
+        margin-top: 20px;
+      }
+    }
+  }
+}
