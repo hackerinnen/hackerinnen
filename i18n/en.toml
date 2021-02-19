@@ -78,3 +78,6 @@ other = "Show more"
 
 [show-less]
 other = "Show less"
+
+[email]
+other = "Email"

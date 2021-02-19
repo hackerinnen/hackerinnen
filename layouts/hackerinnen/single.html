@@ -39,6 +39,7 @@
       {{ if isset .Params "twitter" }} <a href="https://www.twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener noreferrer">@{{ .Params.twitter }}<i class="fab fa-twitter social-icon"></i></a> {{ end }}
       {{ if isset .Params "instagram" }} <a href="https://www.instagram.com/{{ .Params.instagram }}" target="_blank" rel="noopener noreferrer">@{{ .Params.instagram }}<i class="fab fa-instagram social-icon"></i></a> {{ end }}
       {{ if isset .Params "facebook" }} <a href="https://www.facebook.com/{{ .Params.facebook }}" target="_blank" rel="noopener noreferrer">@{{ .Params.facebook }}<i class="fab fa-facebook social-icon"></i></a> {{ end }}
+      {{ if isset .Params "email" }} {{- partial "obfuscated-email.html" (dict "email" .Params.email) -}} {{ end }}
     </div>
     <div class="footer-nav">
       {{ with.PrevInSection }}

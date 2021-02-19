@@ -66,3 +66,6 @@ other = "Mehr zeigen"
 
 [show-less]
 other = "Weniger zeigen"
+
+[email]
+other = "E-Mail"

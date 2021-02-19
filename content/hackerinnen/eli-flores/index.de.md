@@ -6,7 +6,7 @@ spaces: berlin
 intro: Mensch. Ingenieurin. Buchliebhaberin. Raumfahrerin.
 meetme: Women Who Code, PyBerlin, Django Girls.
 website: http://mignonnesaurus.com
-github: mignonnesaurus
+github: eliflores
 twitter: mignonnesaurus
 ---
 
@@ -32,11 +32,11 @@ Ich liebe es, dass Coden wie Schreiben eines intelligenten Buchs ist. Wie in ein
 
 # Was ist gerade dein Lieblingsprojekt?
 
-Ich habe derzeit Spaß daran, mehr über das Testen in Python zu erfahren und benutze ein Django Girls [project](https://github.com/mignonnesaurus/my-first-blog) zum Üben.
+Ich habe derzeit Spaß daran, mehr über das Testen in Python zu erfahren und benutze ein Django Girls [project](https://github.com/eliflores/my-first-blog) zum Üben.
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
-Ich bin stolz darauf, mit meiner kleinen Schwester eine [Loteria Espacial](https://github.com/mignonnesaurus/loteria-espacial) für die NASA Space Apps [Challenge 2019](https://2019.spaceappschallenge.org/) gebaut zu haben. Sie ist neu in der Programmierung und meine JavaScript / React Fähigkeiten sind nicht gut entwickelt, und ich bin stolz auf das, was wir gemeinsam erreicht haben. Es war eine großartige Erfahrung für uns beide.
+Ich bin stolz darauf, mit meiner kleinen Schwester eine [Loteria Espacial](https://github.com/eliflores/loteria-espacial) für die NASA Space Apps [Challenge 2019](https://2019.spaceappschallenge.org/) gebaut zu haben. Sie ist neu in der Programmierung und meine JavaScript / React Fähigkeiten sind nicht gut entwickelt, und ich bin stolz auf das, was wir gemeinsam erreicht haben. Es war eine großartige Erfahrung für uns beide.
 
 # Was würdest du gern zukünftig einmal probieren/lernen/können?
 

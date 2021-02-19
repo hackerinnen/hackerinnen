@@ -1,0 +1,25 @@
+<!-- https://www.blackcap.site/posts/obfuscate/ -->
+
+{{ $encoded := (.email | htmlEscape | markdownify | base64Encode) }}
+{{ $halfLength := div (len $encoded) 2 }}
+
+{{ $part1 := substr $encoded 0 $halfLength }}
+{{ $part2 := substr $encoded $halfLength }}
+
+<div id="mangled_{{ md5 $encoded }}" class="email">
+  <span>{{ i18n "email" }}</span>
+  <i class="fas fa-envelope social-icon"></i>
+</div>
+<script>
+  (() => {
+    var base64ToUnicode = str => decodeURIComponent(atob(str).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join(""));
+    document.addEventListener("DOMContentLoaded", () => {
+      var element = document.getElementById("mangled_{{ md5 $encoded }}");
+      element.addEventListener("click", (e) => {
+        var email = base64ToUnicode({{ $part1 }} + {{ $part2 }});
+        element.querySelector("span").innerHTML = email;
+      });
+    });
+  })();
+</script>
+

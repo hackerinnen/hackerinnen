@@ -6,7 +6,7 @@ spaces: berlin
 intro: Human. Engineer. Book lover. Space traveler.
 meetme: Women Who Code, PyBerlin, Django Girls.
 website: http://mignonnesaurus.com
-github: mignonnesaurus
+github: eliflores
 twitter: mignonnesaurus
 ---
 
@@ -32,11 +32,11 @@ I love that coding is like writing a book that is smart. Like in a good written 
 
 # What is currently your favourite project?
 
-I am currently having fun learning more about testing in Python and I am using a Django Girls [project](https://github.com/mignonnesaurus/my-first-blog) to practice.
+I am currently having fun learning more about testing in Python and I am using a Django Girls [project](https://github.com/eliflores/mignonnesaurus-blog) to practice.
 
 # Is there a project you're particularly proud of?
 
-I am proud to have built a [Loteria Espacial](https://github.com/mignonnesaurus/loteria-espacial) with my little sister for the NASA Space Apps [Challenge 2019](https://2019.spaceappschallenge.org/). She is new to programming and my JavaScript / React skills are not well developed, and I am proud of what we accomplished together. It was a great experience to both of us.
+I am proud to have built a [Loteria Espacial](https://github.com/eliflores/loteria-espacial) with my little sister for the NASA Space Apps [Challenge 2019](https://2019.spaceappschallenge.org/). She is new to programming and my JavaScript / React skills are not well developed, and I am proud of what we accomplished together. It was a great experience to both of us.
 
 # What do you like to try/learn/know?
 
