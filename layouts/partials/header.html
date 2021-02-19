@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar hero-bg" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href={{ "/" | relLangURL }}>hackerinnen.space</a>
+      <a class="navbar-item" href={{ "/" | relLangURL }}>{{ readFile "static/images/logo-nofill.svg" | safeHTML }}</a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -11,8 +11,8 @@
 
     <div id="navMenu" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href={{ "spaces" | relLangURL }}>Spaces</a>
         <a class="navbar-item" href={{ "hackerinnen" | relLangURL }}>Hackerinnen</a>
+        <a class="navbar-item" href={{ "spaces" | relLangURL }}>Spaces</a>
         <a class="navbar-item" href="https://list.hackerinnen.space" target="_blank">Links</a>
       </div>
       <div class="navbar-end">

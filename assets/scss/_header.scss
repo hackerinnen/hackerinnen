@@ -15,6 +15,10 @@ nav {
     color: darken(white, 10%);
   }
 
+  .navbar-burger.burger span {
+    background-color: white;
+  }
+
   .navbar-menu.is-active {
     a,
     a.navbar-item {
@@ -26,5 +30,12 @@ nav {
       background-color: transparent;
       color: darken($text, 5%);
     }
+  }
+
+  .navbar-brand .navbar-item svg {
+    fill: $white;
+    display: block;
+    width: 30px;
+    height: 30px;
   }
 }
