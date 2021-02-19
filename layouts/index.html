@@ -46,74 +46,7 @@
       {{ end }}
       </div>
     </div>
-
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <a href={{ "initiatives/" | relLangURL }}>
-            <h2 class="tag is-initiatives is-medium is-pulled-right is-size-5">
-              {{ i18n "initiatives" }}
-            </h2>
-          </a>
-        </div>
-      </div>
-      <div class="columns is-8 is-variable is-multiline">
-      {{ range first 3 .Site.Taxonomies.tags.initiatives }}
-        <div class="column is-one-third default-list is-initiatives">
-          <a href="{{.Permalink}}" class="box">
-            <div class="image">
-              {{ range .Resources.ByType "image" }}
-                {{ $scaled := .Fit "800x600 Center" }}
-                <img src="{{ $scaled.Permalink }}" alt="initiative-logo">
-              {{ else }}
-                <span class="image-placeholder">
-                  <img src="/images/astronaut.png">
-                </span>
-              {{ end }}
-            </div>
-            <div class="description has-text-weight-light">
-              <h2>{{ .Title }}</h2>
-            </div>
-          </a>
-        </div>
-      {{ end }}
-      </div>
-    </div>
   </section>
-
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <a href={{ "projects/" | relLangURL }}>
-          <h2 class="tag is-projects is-medium is-pulled-right is-size-5">
-            {{ i18n "projects" }}
-          </h2>
-        </a>
-      </div>
-    </div>
-    <div class="columns is-8 is-variable is-multiline">
-    {{ range first 3 .Site.Taxonomies.tags.projects }}
-      <div class="column is-one-third default-list is-projects">
-        <a href="{{.Permalink}}" class="box">
-          <div class="image">
-            {{ range .Resources.ByType "image" }}
-              {{ $scaled := .Fit "800x600 Center" }}
-              <img src="{{ $scaled.Permalink }}" alt="project-logo">
-            {{ else }}
-              <span class="image-placeholder">
-                <img src="/images/astronaut.png">
-              </span>
-            {{ end }}
-          </div>
-          <div class="description has-text-weight-light">
-            <h2>{{ .Title }}</h2>
-          </div>
-        </a>
-      </div>
-    {{ end }}
-    </div>
-  </div>
-</section>
 
   <section class="section">
     <div class="container">

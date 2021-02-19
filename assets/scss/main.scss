@@ -8,7 +8,6 @@
 @import "./spaces";
 @import "./pagination";
 @import "./hackerinnen";
-@import "./initiative_project.scss";
 
 /**
 * Styles shared between pages
@@ -42,16 +41,6 @@
     &.is-hackerinnen {
       color: #fff;
       background-color: $green;
-    }
-
-    &.is-initiatives {
-      color: #fff;
-      background-color: $blue;
-    }
-
-    &.is-projects {
-      color: #fff;
-      background-color: $greenBlue;
     }
   }
 
@@ -165,18 +154,6 @@
     &.is-hackerinnen {
       .description {
         border-bottom: 5px solid $green;
-      }
-    }
-
-    &.is-initiatives {
-      .description {
-        border-bottom: 5px solid $blue;
-      }
-    }
-
-    &.is-projects {
-      .description {
-        border-bottom: 5px solid $greenBlue;
       }
     }
   }
