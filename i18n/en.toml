@@ -34,20 +34,11 @@ other = "This initiative does not imply that we dislike men or want to distance 
 [index-hackerinnen-text-4]
 other = "In this spirit - let's spread our colors and show ourselves!"
 
-[index-be-active-heading]
-other = ""
+[latest-hacker]
+other = "New on hackerinnen.space"
 
-[index-be-active-text]
-other = ""
-
-[index-follow-us-heading]
-other = ""
-
-[index-follow-us-text]
-other = ""
-
-[more-hacker]
-other = "Show me more hackerinnen"
+[all-hacker]
+other = "Show me all hackerinnen"
 
 [meet-me]
 other = "Meet me at"
@@ -73,11 +64,6 @@ other = "Website"
 [zeigdich]
 other = "Show yourself!"
 
-[show-more]
-other = "Show more"
-
-[show-less]
-other = "Show less"
-
 [email]
 other = "Email"
+

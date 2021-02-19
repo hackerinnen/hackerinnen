@@ -16,11 +16,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <a href={{ "hackerinnen/" | relLangURL }}>
-            <h2 class="tag is-hackerinnen is-medium is-pulled-right is-size-5">
-              Hackerinnen
-            </h2>
-          </a>
+          <h1 class="title is-size-4" style="font-size: 1.6rem">{{ i18n "latest-hacker" }}</h1>
         </div>
       </div>
       <div class="columns is-8 is-variable is-multiline">
@@ -44,6 +40,12 @@
           </a>
         </div>
       {{ end }}
+      </div>
+
+      <div class="has-text-centered">
+        <a href={{ "hackerinnen" | relLangURL }} class="button is-primary">
+          {{ i18n "all-hacker" }}
+        </a>
       </div>
     </div>
   </section>

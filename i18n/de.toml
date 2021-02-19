@@ -34,8 +34,11 @@ other = "Diese Initiative bedeutet nicht, dass wir Männer nicht mögen oder mit
 [index-hackerinnen-text-4]
 other = "In diesem Sinne - mach bunt - zeig dich!"
 
-[more-hacker]
-other = "Zeig mir weitere Hackerinnen"
+[latest-hacker]
+other = "Neu auf hackerinnen.space"
+
+[all-hacker]
+other = "Zeig mir alle Hackerinnen"
 
 [meet-me]
 other = "Triff mich"
@@ -60,12 +63,6 @@ other = "Zeig dich!"
 
 [website]
 other = "Webseite"
-
-[show-more]
-other = "Mehr zeigen"
-
-[show-less]
-other = "Weniger zeigen"
 
 [email]
 other = "E-Mail"
