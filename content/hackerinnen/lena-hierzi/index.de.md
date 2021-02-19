@@ -1,13 +1,12 @@
 ---
 title: "Lena Hierzi"
 date: 2020-05-12T13:51:45+01:00
-tags: [hackerinnen]
+tags: hackerinnen
 spaces: leipzig
 intro: Mein Traum ist es, einen Ort zu schaffen, an dem ich mit buntem Make-up, passenden Nägeln und Trainingsanzug sein werde, Cocktails mixend, während ich Lieder der großartigsten Frauen der letzten 50 Jahre spiele und Tag und Nacht code. Mit meinen Freundinnen. Und italienischem Essen.
-skills: HTML, CSS, JS, TS, Python
-instagram: lenin_the_empress
-website: tba
+skills: "HTML, CSS, JS, TS, Python"
 github: GigaHierz
+instagram: lenin_the_empress
 ---
 
 # Ein paar Worte zu dir, wer bist du?
