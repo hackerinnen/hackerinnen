@@ -3,13 +3,13 @@ title: "Elisa Haubert"
 date: 2019-02-28T22:15:23+01:00
 tags: hackerinnen
 spaces: leipzig
-intro: In einer Dreiecksbeziehung zusammen mit Design und Code.
+intro: Designer with a heart of code.
 meetme: OpenTechSchool Leipzig
 meetmelink: https://www.opentechschool.org/leipzig/
 skills: "HTML, CSS, JS, P5, Processing, UX/UI, Design"
 website: https://www.hau-rock.de/elisa
-github: JaneDoe774
-instagram: janedoe_fts
+github: HTMeLli
+instagram: htmelli
 ---
 
 # Ein paar Worte zu dir, wer bist du?
@@ -26,11 +26,7 @@ Es ist eine völlig andere Art, sich auszudrücken. Da ich aus der Design-Ecke k
 
 # Gibt es ein Projekt, worauf du besonders stolz bist?
 
-Meine Masterthesis. Ich habe das Konzept für eine Browser Extension entworfen, die beim Onlineshopping auch an nachhaltigere Alternativen erinnert. Zum Beispiel Gebrauchtes kaufen oder Sachen selber basteln. Dank der Hilfe einer lieben Freundin mit großartigen Programmierkünsten hat am Ende sogar schon ein Teil der Extension funktioniert.
-
-# Was würdest du gern zukünftig einmal probieren/lernen/können?
-
-Ich wär gern so eine abgebrühte Hackerin wie die Schwester von Mr. Robot.
+Selbstständig zu sein ist anfangs eine wirkliche Herausforderung. Dass ich mittlerweile so weit bin, dass ich mir Kund/innen und Projekte aussuchen kann, weil ich sie spannend finde, das macht mich wirklich stolz.
 
 # Hast du Vorbilder?
 
@@ -42,4 +38,5 @@ Das Programmierer/innen keine Ahnung von Gestaltung haben. ;-)
 
 # Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
-Wer sich für generative Gestaltung interessiert, dem kann ich absolut "The Nature Of Code" von Daniel Shiffman empfehlen. Er macht auf Youtube auch die besten P5 / Processing Tutorials der Welt.
+"Creative Coding im Web – Generative Gestaltung" gibt einen tollen Einblick in die Welt des generativen Designs mit p5.
+Jane McGonigals "Reality is Broken" ist eine entspannte Lektüre zu User Interfaces und Motivation.
