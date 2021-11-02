@@ -19,7 +19,7 @@ Was nun? Ich hatte Lust auf was neues, aber keine Ahnung wo ich anfangen sollte.
 
 In der Schule hatte ich Informatik, allerdings konnte ich damals noch so gar nichts damit anfangen. Im Nachhinein finde ich das sehr schade, denn hätte ich damals schon angefangen mich damit zu beschäftigen, hätte ich jetzt schon so viele coole Dinge lernen können.
 
-Ich bin also vor 3 Jahren auf die Seite der Code Girls (https://codegirls.de/) und deren Workshops gestoßen - und hatte Blut geleckt. Über Umwege kam ich dann auf einen Django-Workshop im Basislager (https://www.basislager.co/) und merkte, dass mir Programmieren ziemlich viel Spaß macht. Ein drittes Studium wollte ich nicht abbrechen, deshalb dachte ich mir, dass ich es mit einer Ausbildung versuche. Seit 2019 bin ich nun Auszubildene für Fachinformatik (Richtung Anwendungsentwicklung) und 2022 fertig (aufregend!!!).
+Ich bin also vor 3 Jahren auf die Seite der [Code Girls](https://codegirls.de/) und deren Workshops gestoßen - und hatte Blut geleckt. Über Umwege kam ich dann auf einen Django-Workshop im [Basislager](https://www.basislager.co/) und merkte, dass mir Programmieren ziemlich viel Spaß macht. Ein drittes Studium wollte ich nicht abbrechen, deshalb dachte ich mir, dass ich es mit einer Ausbildung versuche. Seit 2019 bin ich nun Auszubildene für Fachinformatik (Richtung Anwendungsentwicklung) und 2022 fertig (aufregend!!!).
 
 
 # Was magst du besonders am Programmieren?
@@ -49,4 +49,4 @@ Es sind nicht nur Einsen und Nullen, du musst nicht auf 50 LAN-Partys gewesen se
 
 # Hast du eine Buch / Podcast / Tutorial / Film oder Event-Empfehlung?
 
-Ich liebe die Serie Mr. Robot, die Stimmung der Serie und den Fokus auf das Hacking finde ich spannend. Den Haecksen-Podcast (https://www.haecksen.org/podcast/)möchte ich empfehlen und natürlich das Jahresendevent des CCC und der Haecksen (https://events.haecksen.org/index.html#about).
+Ich liebe die Serie Mr. Robot, die Stimmung der Serie und den Fokus auf das Hacking finde ich spannend. Den [Haecksen-Podcast](https://www.haecksen.org/podcast/)möchte ich empfehlen und natürlich das Jahresendevent des CCC und der [Haecksen](https://events.haecksen.org/index.html#about).

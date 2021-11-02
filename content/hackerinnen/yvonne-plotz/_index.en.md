@@ -18,7 +18,7 @@ What now? I was in the mood for something new, but had no idea where to start.
 
 I had computer science at school, but at that time I couldn't do anything with it. In retrospect, I think that's a pity, because if I would have started to deal with it back then, I could have learned so many cool things by now.
 
-So 3 years ago I came across the site of the Code Girls (https://codegirls.de/) and their workshops - and I had tasted blood. Via detours I then came across a Django workshop at the base camp (https://www.basislager.co/) and realized that I enjoy programming quite a bit. I didn't want to drop a third degree, so I thought I'd try an apprenticeship. Since 2019, I'm now an apprentice for IT (direction application development) and will finish in 2022 (exciting!!!).
+So 3 years ago I came across the site of the [Code Girls](https://codegirls.de/) and their workshops - and I had tasted blood. Via detours I then came across a Django workshop at the [Basislager](https://www.basislager.co/) and realized that I enjoy programming quite a bit. I didn't want to drop a third degree, so I thought I'd try an apprenticeship. Since 2019, I'm now an apprentice for IT (direction application development) and will finish in 2022 (exciting!!!).
 
 # What do you particularly like about programming?
 
@@ -46,6 +46,6 @@ It's not all ones and zeros, you don't have to have been to 50 LAN parties or bu
 
 # Do you have a book / podcast / tutorial / movie or event recommendation?
 
-I love the series Mr. Robot, the mood of the series and the focus on hacking I find exciting. I would like to recommend the Haecksen podcast (https://www.haecksen.org/podcast/)and of course the end of year event of the CCC and the Haecksen (https://events.haecksen.org/index.html#about).
+I love the series Mr. Robot, the mood of the series and the focus on hacking I find exciting. I would like to recommend the [Haecksen podcast](https://www.haecksen.org/podcast/) and of course the end of year event of the CCC and the [Haecksen](https://events.haecksen.org/index.html#about).
 
 
