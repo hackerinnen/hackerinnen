@@ -9,11 +9,6 @@ meetmelink: https://www.meetup.com/de-DE/OpenTechSchool-Leipzig/
 skills: "HTML, CSS, JS"
 speaking: "Open Tech School Leipzig"
 speakinglink: https://www.opentechschool.org/cities/leipzig
-website: 
-github: 
-twitter: 
-instagram: 
-facebook: 
 email: christina.friede5@gmail.com
 ---
 
@@ -22,12 +17,12 @@ Hi, ich bin Christina. In meinem früheren Leben war ich Diplom-Verkehrsingenieu
 
 # Wie und wann hast du mit dem Programmieren begonnen?
 Hmm.. das ist gar nicht so einfach zu sagen, weil ich ziemlich laaaaaaaaaannnge dafür brauchte.
-Station 1: Schule - hmm.. nein.. da war nix. 
-Station 2: Studium - hmm.. ein Semester Turbo Pascal. Das war eher abschreckend. Lag aber nicht an Pascal.. sondern an der Vermittlung.. daher kann ich sagen, zu diesem Zeitpunkt hatte ich definitiv noch kein Blut geleckt. Und beim Schreiben meiner Diplomarbeit, in dem mir damals unbekannten Latex unter Zeitnot, war auch keine wirklich Freude. 
+Station 1: Schule - hmm.. nein.. da war nix.
+Station 2: Studium - hmm.. ein Semester Turbo Pascal. Das war eher abschreckend. Lag aber nicht an Pascal.. sondern an der Vermittlung.. daher kann ich sagen, zu diesem Zeitpunkt hatte ich definitiv noch kein Blut geleckt. Und beim Schreiben meiner Diplomarbeit, in dem mir damals unbekannten Latex unter Zeitnot, war auch keine wirklich Freude.
 Station 3: DjangoGirls Workshop - meine Freundin Norma (Profil findet Ihr auch hier bei Hackerinnen.space) kam von Berlin zurück, mit einer ansteckenden Begeisterung und der Idee, dass wir für Leipzig einen ersten DjangoGirls Workshop organisieren. Das taten wir dann auch, wobei auch hier mein Fokus eher mit bei der Unterstützung der Organisation war und nicht beim selber programmieren. Der Workshop an sich war super... diese Energie in dem Raum.. da mussten weitere Workshops folgen. Und erst da, guckte ich mir auch mal den Code dazu an.
 Station 4: OTS - Open Tech School. Nachdem wir merkten, dass ein Workshop-Wochenende zwar schön und gut ist, aber irgendwie so was regelmäßiges als Anlaufstelle noch besser wäre, fanden wir ganz schnell andere Leute, denen es auch so ging und letztendlich gründete sich dann daraus gemeinsam die OTS Leipzig. Mit super coolen, ganz verschiedenen Leuten, die ich nicht mehr missen möchte. Und by the way.. mein Interesse wuchs.
 Station 5: CodeCampLeipzig - ich wollte unbedingt für mich wissen, ob das mit dem Programmieren und mir was werden könnte. Für den damals 3 monatigen Kurs nahm ich unbezahlten Urlaub und bereue keinen einzigen Tag davon. Es war einfach super! So viel Input hatte ich gefühlt die letzten 10 Jahre nicht mehr. - Doch es war Corona, der Arbeitsmarkt unsicher, und ich Schisser blieb erst einmal im sicheren Hafen.
-Station 6: nun bin ich bei Thinkport GmbH gelandet - zwar im Business Development Bereich, aber mit dem Deal, dass ich weiter coden lerne. Und nun beschäftige ich mich mit Cloud-Zeug, mit Terraform und Kafka und was soll ich sagen, es macht mir viel Spaß. 
+Station 6: nun bin ich bei Thinkport GmbH gelandet - zwar im Business Development Bereich, aber mit dem Deal, dass ich weiter coden lerne. Und nun beschäftige ich mich mit Cloud-Zeug, mit Terraform und Kafka und was soll ich sagen, es macht mir viel Spaß.
 
 # Was magst du besonders am Programmieren?
 Es ist ein bisschen wie zaubern, finde ich. Auch wenn es viel eher die Logik und das Baukastenprinzip dahinter ist. Das mag ich. Ist so ein bisschen wie mit fliegen. Ich weiß, warum Flugzeuge fliegen können, rein physikalisch, aber fasziniert bin ich trotzdem immer wieder davon wie ein Kind.

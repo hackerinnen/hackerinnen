@@ -9,11 +9,6 @@ meetmelink: https://www.meetup.com/de-DE/OpenTechSchool-Leipzig/
 skills: "HTML, CSS, JS"
 speaking: "Open Tech School Leipzig"
 speakinglink: https://www.opentechschool.org/cities/leipzig
-website: 
-github: 
-twitter: 
-instagram: 
-facebook: 
 email: christina.friede5@gmail.com
 ---
 
@@ -22,12 +17,12 @@ Hi, I'm Christina. In my former life I was a graduate traffic engineer for aviat
 
 # When and how did you get interested in coding?
 Hmm... that's not so easy to say, because I needed quite looooooooonnng for it.
-Station 1: School - hmm... no... there was nothing. 
-Station 2: Study - hmm... one semester Turbo Pascal. That was rather deterrent. But that was not because of Pascal... but because of the mediation... so I can say, at that time I definitely had not yet tasted blood. And writing my diploma thesis in Latex, which was unknown to me at that time, under time constraints, was no real joy either. 
+Station 1: School - hmm... no... there was nothing.
+Station 2: Study - hmm... one semester Turbo Pascal. That was rather deterrent. But that was not because of Pascal... but because of the mediation... so I can say, at that time I definitely had not yet tasted blood. And writing my diploma thesis in Latex, which was unknown to me at that time, under time constraints, was no real joy either.
 Station 3: DjangoGirls Workshop - my girlfriend Norma (profile can also be found here at Hackerinnen.space) came back from Berlin with an infectious enthusiasm and the idea that we organize a first DjangoGirls workshop for Leipzig. That's what we did, although my focus was more on supporting the organization and not on programming. The workshop itself was great... the energy in the room... more workshops followed. And only then, I also took a look at the code.
 Station 4: OTS - Open Tech School. After we realized that a workshop weekend is all well and good, but somehow something regular as a contact point would be even better. We quickly found other people who felt the same way and finally the OTS Leipzig was founded together. With super cool, very different people, who I would not want to miss anymore. And by the way... my interest in programming grew.
 Station 5: CodeCampLeipzig (now Devhaus Leipzig)- I really wanted to find out for myself whether programming and I could become something. For a 3 month course I took unpaid leave and don't regret a single day of it. It was just great! I had not had so much input in the last 10 years. - But it was Corona, the job market was uncertain, and I stayed in the safe harbor for the time being.
-Station 6: now I've landed at Thinkport GmbH - in the business development area, but with the deal that I'll continue learning to code. And now I'm dealing with cloud stuff, with Terraform and Kafka and what can I say, it's a lot of fun. 
+Station 6: now I've landed at Thinkport GmbH - in the business development area, but with the deal that I'll continue learning to code. And now I'm dealing with cloud stuff, with Terraform and Kafka and what can I say, it's a lot of fun.
 
 # What do you like about coding most?
 It's a bit like magic, I think. Even though it's much more the logic and the modular principle behind it. I like that. It's a bit like flying. I know why airplanes can fly, purely physically, but I'm still fascinated by it like a child.
