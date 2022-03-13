@@ -7,8 +7,7 @@ intro: On the way..
 meetme: OpenTechSchool Meetup
 meetmelink: https://www.meetup.com/de-DE/OpenTechSchool-Leipzig/
 skills: "HTML, CSS, JS"
-speaking: "Open Tech School Leipzig"
-speakinglink: https://www.opentechschool.org/cities/leipzig
+meetmelink: https://www.opentechschool.org/cities/leipzig
 email: christina.friede5@gmail.com
 ---
 
