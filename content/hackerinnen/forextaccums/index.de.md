@@ -1,0 +1,1 @@
+Успешни стратегии за тргување со девизен курс. https://mk.forex-stock-bitcoin-brokers.com
