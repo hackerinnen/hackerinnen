@@ -12,6 +12,8 @@ date: 2019-02-18T22:56:50+01:00
 <p>Du kannst uns jeder Zeit kontaktieren, wenn du Hilfe brauchst, Fragen oder Kommentare hast, über Email (hello ät hackerinnen.space) oder auf Twitter und Instagram.</p>
 <br>
 
+Oder du benutzt unser <a href="http://submit.hackerinnen.space/" target="_blank">Formular</a> um dein Profil hinzuzufügen (Formular derzeit nur auf Englisch verfügbar).
+
 <h1 class="is-size-4">Mithelfen</h1>
 <p>Wenn du Menschen kennst, die sich auch zeigen sollten, erzähl ihnen unbedingt von diesem Projekt und lad sie ein, sich ein eigenes Profil zu erstellen!</p>
 <br>
