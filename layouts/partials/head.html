@@ -9,6 +9,10 @@
 <meta property="og:title" content="Hackerinnen.space">
 <meta property="og:description" content="{{ .Param "description" }}">
 
+{{- with .OutputFormats.Get "RSS" -}}
+  {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+{{- end -}}
+
 {{ if .IsTranslated }}
 {{ range.AllTranslations }}
 <link

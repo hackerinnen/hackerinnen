@@ -4,6 +4,9 @@ title = "hackerinnen.space"
 
 DefaultContentLanguage = "en"
 
+[outputs]
+  home = ["HTML", "RSS"]
+
 paginate = 9
 
 [languages]
