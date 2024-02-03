@@ -25,8 +25,6 @@ In this spirit - let's spread our colors and show ourselves!
 
 If you feel you belong here, please join and show yourself!
 
-There are 2 options to add a profile: Doing it locally by forking the repo or if you don't want to set up the repo you can also visit [https://submit.hackerinnen.space](https://submit.hackerinnen.space) to submit your profile. You will be able to review your submission in our staging environment.
-
 Local setup:
 
 1.  Fork the repository and clone it to your local machine

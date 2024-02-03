@@ -10,7 +10,6 @@ date: 2019-02-18T22:56:50+01:00
 <br>
 <p>You can contact us at any time if you need help, have questions, or comments via email (hello at hackerinnen.space) or on Twitter and Instagram.</p>
 <br>
-Or <a href="http://submit.hackerinnen.space/" target="_blank">submit your profile</a>
 
 <h1 class="is-size-4">How to support us</h1>
 <p>If you know people who should definitely show themselves, please let them know about the project and invite them to add their profile!</p>
